@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu-left{
+    align-items: center;
+    padding: 70px;
+    margin-left: 30px;
+}
+.logoim2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.menu-right{
+   margin-right: 50px;
+}
+.menu-right a {
+    padding-left: 70px;
+    text-decoration: none;
+    color: #86262B;
+}
