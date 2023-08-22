@@ -1,0 +1,105 @@
+.tarifbl1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,;
+}
+.tarifparticulier{
+    color: #871116;
+    border-bottom: #871116 1px solid;
+   
+
+}
+.tarifparticulier h3{ 
+    font-size: 40px;
+    
+}
+.particuliernametarif{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.particulierprice{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+   
+}
+.tarifpro{
+    color: #871116;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tarifpro h3{ 
+    font-size: 40px;
+    
+}
+
+.pronametarif{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.proprice{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.tarifbl2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 270px;
+    margin-left: 120px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    color: #871116;
+}
+.tarifbl2 h3{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #871116;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 50px 50px 70px;
+}
+.footerb1 {
+    color: white;
+}
+.footerb2 {
+    color: white;
+
+}
+.footerb2b1 {
+    display: flex;
+    flex-direction: column;
+}
+.footerb2b2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.footerb3 {
+    color: white;
+}
+.footerb3b2 {
+    margin-top: 110px;
+}
+.footerb4 {
+    color: white;
+}
+.socialfooter img {
+    margin-right: 20px;
+
+}

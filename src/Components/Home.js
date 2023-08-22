@@ -1,16 +1,11 @@
 import '../Styles/Home.css';
 import React, {useRef, useState} from 'react';
-// Import Swiper React components
-import {Swiper, SwiperSlide} from 'swiper/react';
 
-// Import Swiper styles
+import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
-// import required modules
 import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper/modules';
-
 import Menu from './Menu';
 //import soundFile from './path-to-your-sound-file.mp3';
 
@@ -20,41 +15,25 @@ function Home() {
     // audio.play(); };
     return (
         <div className="homepage">
-            <Menu/>
-
-            <div className='henriMichaux'>
-                <p>« J’écris pour me parcourir »</p>
-                <p className='namehenri'>Henri Michaux</p>
-            </div>
 
             <div className='block1'>
 
-                <p>
-                    Bienvenue à vous,</p>
-                <p>Auteure, formatrice et animatrice, je propose des ateliers d’écriture
-                    créative en présentiel, aux
-                    <br/>
-                    particuliers, associations et professionnels situés en Alsace ainsi que dans
-                    toute la France et tous les pays
-                    <br/>
-                    francophones. Ouvert.es à tous.tes, mes ateliers d’écriture créative sont un
-                    lieu d’expression privilégiée
-                    <br/>
-                    où chacun.e, aiguillé.e par les pistes spécialement créées pour l’occasion, est
-                    invité.e à écrire.</p>
+                <h3>« Écrire et se réinventer »</h3>
 
-                <p>A l’écoute du groupe comme de chaque participant.e, mon rôle est autant de
-                    guider, soutenir, stimuler
-                    <br/>
-                    que de garantir un cadre respectueux et engageant, favorisant la créativité.
-                    Pour écrire en atelier, nul
-                    <br/>
-                    besoin de savoir ni de don particulier, le désir, accompagné d'une pointe
-                    d'audace, suffit.</p>
+                <p>Vous aimez écrire ? Vous ne savez pas par quoi ni comment commencer ? <br></br>
+                    Rejoignez-moi dans mes ateliers d’écriture. 
+
+                    </p>
+                <p>Vous y trouverez un espace de créativité unique, un lieu préservé, dédié au partage et aux mots.<br></br> Guidé.es par les pistes d’écriture spécialement conçues pour l’occasion, vous serez accompagné.es <br></br>
+                 tout au long du processus. Votre créativité se déploiera hors des sentiers connus, pour votre  <br></br>
+                  comme celui de vos pairs. Les échanges en groupe comme la lecture des textes vous donneront <br></br> 
+                  l’opportunité d’avoir de précieux retours sur vos écrits. En toute bienveillance. </p>
                 <p>
-                    Alors sautez le pas et rejoignez-moi dans mes ateliers où respect, partage,
-                    <br/>
-                    écoute et créativité sont au rendez-vous.
+                Vous hésitez ? Un seul conseil : essayez !  Et si vous hésitez encore, laissez-vous porter par ces mots <br></br>
+                de Christian Bobin « La vie est la maîtresse, j’essaie juste d’être au rendez-vous.» 
+                </p>
+                <p>
+                A très bientôt, 
                 </p>
                 <div className='b1-sect1'>
                     <img src='/images/imageportrait.png'/>
@@ -74,9 +53,7 @@ function Home() {
 
             <div className='block2'>
                 <div className="image-container">
-                    <img className='imagebook' src="/images/book001.png" // onClick={playSound
-               // }} //     style={{} //     cursor: 'pointer'
-                        // }}
+                    <img className='imagebook' src="/images/book001.png" // onClick={playSound} // }} //     style={{} //     cursor: 'pointer'} // }}
                         alt="Image"/>
                     <h1 className='textimagebl2'>Cliquez sur
                         <br/>
@@ -84,23 +61,23 @@ function Home() {
                     <p className='textbl2'>Des surprises vous attendent à chaque page</p>
                 </div>
                 <div className="text-container">
-                    <h1 className='titrec2'>Ateliers d’écriture</h1>
+                    <h1 className='titrec2'>Ateliers <br></br> d’écriture</h1>
                     <p className='parac2'>
-                        Les ateliers que je propose se construisent
-                        <br/>
-                        différemment s’ils s’adressent à des particuliers ou
-                        <br/>
-                        à des groupes de professionnels. Dans les deux cas,
-                        <br/>
-                        il s’agit d’atelier d’écriture créative...
+                    C’est avant tout une expérience à vivre. Pour vous <br></br> donner une image, je compare souvent les ateliers <br></br>
+                    d’écriture aux recettes de cuisine ou aux <br></br> entraînements sportifs. Avant d’écrire, on se <br></br> prépare.
                     </p>
                     <div className='lienbl2'>
+
                         <a href='#'>Découvrir</a>
+                        <a href='atelier'>Textes d'ateliers</a>
                         <a href='#'>Tarifs</a>
 
                     </div>
                 </div>
             </div>
+            <div className='homefisrtcarousel'>
+
+            
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
@@ -113,7 +90,7 @@ function Home() {
                 className="mySwiper">
                 <SwiperSlide>
                     <div className='car1slide1'>
-                        <h3>« Pour tous.tes ceux/celles qui veulent écrire et se réinventer »</h3>
+                        <h3>« Pour tous.tes ceux/celles qui veulent écrire <br></br> et se réinventer »</h3>
                         <p>Félix
                         </p>
                     </div>
@@ -132,9 +109,11 @@ function Home() {
                 </SwiperSlide>
 
             </Swiper>
+            </div>
             <div className='block3'>
                 <img className='imgbl3' src='/images/homebl3.png'/>
                 <h1 className='textbl3'>Ils me font confiance</h1>
+                <div className='homesecondcarousel'>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -146,26 +125,60 @@ function Home() {
                     modules={[Pagination, Navigation]}
                     className="mySwiper">
                     <SwiperSlide>
-                        <div className='car1slide1'>
-                            <h3>« Pour tous.tes ceux/celles qui veulent écrire et se réinventer »</h3>
-                            <p>Félix
+                        <div className='car1slide2'>
+                            <img className='car2imgsize' src='/images/car2im1.png'/>
+                            <p>Dans le cadre du dispositif national “La classe, l'œuvre”, le Labo des <br></br>
+                                Histoires- Grand Est a organisé le cycle d’ateliers d’écriture “Sur les <br></br> traces
+                                de Théodore Deck” en partenariat avec le Musée consacré <br></br> au céramiste et le
+                                collège Mathias Grünewald de Guebwiller.</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car1slide2'>
+                            <img className='car2imgsize' src='/images/car2im2.png'/>
+                            <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre <br></br> auprès
+                                d’assistantes maternelles. L’occasion pour ces <br></br> professionnelles de faire récit
+                                de leurs expériences et de leurs <br></br> parcours. “L'atelier de Beevy, c'est le moment
+                                du lâcher prise” <br></br> Anne Lamothe, Professionnelle du Relais Petite Enfance
+                                d'Ingwiller</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car1slide2'>
+                            <img className='car2imgsize' src='/images/car2im3.png'/>
+                            <p>En collaboration avec Actemo Théâtre et Le Centre Hospitalier <br></br> d’Erstein. «
+                                Une série d'ateliers d'écriture tout en émotions, poésie <br></br> et sensibilité » Céline
+                                Modéré Adam, responsable du relais culturel
                             </p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='car1slide1'>
-                            <h3>« De beaux moments de partage et d'émotions »</h3>
-                            <p>Judith</p>
+                        <div className='car1slide2'>
+                            <img className='car2imgsize' src='/images/car2im4.png'/>
+                            <p>Depuis mars 2020, un atelier d'écriture créative par mois est <br></br> proposé aux
+                                soignantes de l'EHPAD ABRAPA.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='car1slide1'>
-                            <h3>« Merci à Beevy pour son écoute et sa douceur »</h3>
-                            <p>Justine</p>
+                        <div className='car1slide2'>
+                            <img className='car2imgsize' src='/images/car2im5.png'/>
+                            <p>« Cet atelier à permis aux participants de renouer avec les autres,<br></br> de
+                                retrouver confiance » Sabrina Helbling, co-administratice
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car1slide2'>
+                            <img className='car2imgsize' src='/images/car2im6.png'/>
+                            <p>Des ateliers d'écriture proposés à un public de migrants du centre <br></br> de
+                                Ferrette. L’occasion d’aborder les thèmes de l'égalité, de la  <br></br>liberté, de la
+                                justice avec des hommes et des <br></br> femmes venus des quatre coins du monde.
+                            </p>
                         </div>
                     </SwiperSlide>
 
                 </Swiper>
+                </div>
             </div>
 
             <div className='block4'>
@@ -184,18 +197,24 @@ function Home() {
                     <img src="/images/imgbl5-02.png"/>
                     <img src="/images/imgbl5-03.png"/>
                 </div>
-                <a className='cparici' href='#'>C’est par ici</a>
+                <div className='reseausocaiuxhome'>
+                <a className='cparici' href='https://www.instagram.com/ecriturecreative_beevy/'>Instagram &gt;</a>
+                <a className='cparici' href='https://www.facebook.com/latelierdebeevy'>Facebook &gt;</a>
+                </div>
+                
             </div>
             <div className='footer'>
                 <div className='footerb1'>
                     <img src='/images/logofooter.png'/>
                 </div>
                 <div className='footerb2'>
-                    <h3>Ateliers d'écriture</h3>
+                    <h3>Menu</h3>
                     <div className='footerb2b1'>
-                        <a>Découvrir</a>
-                        <a>Agenda</a>
+                        <a>Bio</a>
+                        <a>Ateliers</a>
                         <a>Tarifs</a>
+                        <a>Presse</a>
+                        <a>Contact</a>
                     </div>
 
                     <div className='footerb2b2'>
@@ -205,10 +224,13 @@ function Home() {
                 </div>
                 <div className='footerb3'>
                     <div className='footerb3b1'>
-                        <h3>Extraits</h3>
-                        <div>
-                            <a>Textes d’Atelier</a>
-                            <a>Médias</a>
+                        <h3>Contact</h3>
+                        <p>Email</p>
+                            <div className='socialfooter'>
+                            <img src='/images/linkedin.png'/>
+                            <img src='/images/facebook.png'/>
+                            <img src='/images/instagram.png'/>
+                            <img src='/images/youtube.png'/>
                         </div>
 
                     </div>
@@ -223,27 +245,12 @@ function Home() {
                     </div>
 
                 </div>
-                <div className='footerb4'>
-                    <h3>Contact</h3>
-                    <p>Email</p>
-                    <div className='socialfooter'>
-                        <img src='/images/linkedin.png'/>
-                        <img src='/images/facebook.png'/>
-                        <img src='/images/instagram.png'/>
-                        <img src='/images/youtube.png'/>
-                    </div>
-
-                </div>
-                <div className='footerb5'>
-
-                    <img src='/images/logofooterresp.png'/>
-
-                </div>
+                
 
             </div>
         </div>
-
-    );
-}
-
-export default Home;
+            );
+        }
+        
+        export default Home;
+        

@@ -2,23 +2,11 @@
     background-color: #FFF8F0;
 
 }
-.henriMichaux {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    color: #871116;
-    margin-right: 30vh;
-    margin-bottom: 50px;
-}
-.namehenri {
-    margin-top: -10px;
-
-}
 
 .block1 {
     background-color: #871116;
     width: 1048px;
-    height: 750px;
+    height: 900px;
     display: flex;
     margin-left: 35vh;
     flex-direction: column;
@@ -27,10 +15,18 @@
     z-index: 3;
 
 }
+.block1 h3 {
+    font-family: Crimson EXTRA LIGHT ITALIC;
+    margin-top: 90px;
+    margin-left: 70px;
+    color: white;
+    font-size: 30px;
+}
 .block1 p {
     font-family: Crimson EXTRA LIGHT ITALIC;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 70px;
+    font-size: 20px;
     color: white;
 
 }
@@ -39,6 +35,8 @@
     justify-content: flex-end;
     align-items: center;
     margin-top: 40px;
+
+    margin-right: -80px;
 }
 .beevylien {
     color: white;
@@ -59,8 +57,7 @@
     margin-top: -50px;
     z-index: 2;
 }
-.image-container {
-    }
+.image-container {}
 .imagebook {
     width: 90vh;
 }
@@ -80,60 +77,95 @@
 .text-container {
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
+    margin-left: 130px;
+    margin-bottom: 220px;
 }
 .titrec2 {
     color: #871116;
     font-family: made 'Lucida Sans Regular';
-    font-size: 36px;
+    font-size: 60px;
 }
 .parac2 {
     color: #871116;
-    font-size: 18px;
+    font-size: 20px;
 
 }
-.lienbl2 {}
+.lienbl2 {
+    margin-top: 60px;
+
+}
 .lienbl2 a {
     color: #871116;
-    margin-right: 30px;
+    margin-right: 100px;
+
 }
 .swiper {
     width: 100%;
     height: 100%;
+
 }
 
 .swiper-slide {
-    text-align: center;
+
     font-size: 18px;
     background: #FFF8F0;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
+
     height: 100%;
     object-fit: cover;
 
 }
+
+.homefisrtcarousel {
+    margin-bottom: 80px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+.homesecondcarousel{
+    margin-bottom: 80px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
 .car1slide1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 115px;
+    text-align: center;
+    background-color: #FFF8F0;
 
 }
 .car1slide1 h3 {
     color: #871116;
-    }
-    .car1slide1 p{
-        color: #871116;
-        }
-.block3 {}
+    font-size: 25px;
+}
+.car1slide1 p {
+    color: #871116;
+}
+.car1slide2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFF8F0;
+    padding: 100px;
+    
+
+}
+.car1slide2 p {
+    color: #871116;
+    margin-left: 30px;
+    
+
+}
+
 .imgbl3 {
     width: 100%;
 }
@@ -141,7 +173,7 @@
     display: flex;
     justify-content: center;
     color: #871116;
-    padding: 50px;
+    margin-top: 90px;
 }
 .carousel-containedeux {
     display: flex;
@@ -168,20 +200,26 @@
     align-items: center;
     margin-bottom: 70px;
 }
-.titrebl5 {
+.titrebl5{
     color: #871116;
     padding: 20px;
     margin-top: 60px;
+    font-size: 49px;
 }
 .textbl5 {
     color: #871116;
 }
 .imgbl5 img {
-    padding: 20px;
+    padding: 30px;
+    margin-top: 30px;
 }
-.cparici{
+.reseausocaiuxhome{
+    margin-top: 40px;
+}
+.cparici {
     color: #871116;
-    padding: 15px;
+    padding: 45px;
+    font-size: 18px;
 }
 .footer {
     background-color: #871116;
@@ -209,7 +247,7 @@
 .footerb3 {
     color: white;
 }
-.footerb3b2{
+.footerb3b2 {
     margin-top: 110px;
 }
 .footerb4 {
@@ -217,11 +255,5 @@
 }
 .socialfooter img {
     margin-right: 20px;
-
-}
-.footerb5 {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
 
 }

@@ -1,74 +1,187 @@
 import Menu from './Menu';
 import '../Styles/Bio.css';
 import React, {useRef, useState} from 'react';
-// Import Swiper React components
 import {Swiper, SwiperSlide} from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
-// import required modules
 import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper/modules';
-function Home() {
+
+function Bio() {
     return (
-        <div className=''>
-            <Menu/>
-            <div className=''>
+        <div className='biobody'>
+            <div className='henriMichaux'>
                 <p>« J’écris pour me parcourir »</p>
-                <p className=''>Henri Michaux</p>
+                <p className='namehenri'>Henri Michaux</p>
             </div>
-            <div className='block1'>
+            <div className='section1bio'>
 
-                <div className='bl1-s1'>
-                    <h2>2011</h2>
-                    <div></div>
-                    <h2>2023</h2>
+                <div className='sect1bio-s1'>
+                    <h2>Saïgon</h2>
+                    <div className='linesect1bio'></div>
+                    <h2>Strasbourg</h2>
 
                 </div>
-                <div className='bl1-s2'>
-                    <p>
-                        A la naissance de mes enfants, j’invente des histoires pour eux. Certaines sont
-                        contées, d'autres écrites. Énoncés à l'oral ou noircis sur une feuille blanche,
-                        ces récits développent mon imaginaire. Ma vie s’intensifie. A partir de 2012, je
-                        participe à de nombreux ateliers d’écriture notamment chez Aleph. 2019 marque un
-                        tournant pour moi : je commence à animer des ateliers d’écriture. Parallèlement,
-                        je me forme à l’animation d’ateliers auprès d’Isabelle Foreau, animatrice
-                        d’ateliers confirmée. A compter d’avril 2020, j’interviens auprès de
-                        professionnels d’Ehpad. Nous participons au concours « journal de bord de
-                        confinement » organisé par la maison d’auto-édition Librinova. Nous remportons
-                        le titre de lauréat. En septembre 2020, je quitte mon poste d’éducatrice
-                        spécialisée pour me consacrer pleinement à l’écriture. Depuis, j’écris et « je
-                        fais écrire ». Les ateliers d’écriture auprès de professionnels soignants en
-                        Ehpad se poursuivent et à ce jour, j’interviens également au sein de
-                        collectivités territoriales, d’écoles, - ESEIS - et d’associations (voir "Ils me
-                        font confiance"). Je collabore aussi avec des acteurs de la scène théâtrale,
-                        comme la Compagnie ACTEMO Théâtre ou encore le « Théâtre des mots » des Ateliers
-                        des Malteries, dont les projets artistiques intègrent mes ateliers d'écriture
-                        comme support à la création. En janvier 2021, j’intègre la formation « écriture
-                        théâtrale » chez Aleph, animée par Catherine Benhamou ( lauréate du grand prix
-                        ARTCENA 2020 ). En 2022, je renoue avec l'écriture et le jeu théâtral par le
-                        biais d'ateliers et de stages à l'Espace K, au TAPS- Théâtre Actuel et Public de
-                        Strasbourg, chez « Artists in Action » (Paris) ou encore lors de l’Université
-                        d’Été Européenne (Pont à Mousson). Parallèlement, je continue de participer à
-                        différents ateliers d’écriture, notamment à l’école « Les Mots » (David Thomas,
-                        Elsa Flageul ) , ainsi qu’à « la clinique philosophique du burn-out des
-                        soignants » dispositif animé par Valérie Gateau, philosophe et formatrice en
-                        éthique à la Chaire de Philosophie de l’Hôpital de Paris (GHU). Ces temps
-                        d’écriture, de réflexion et de narration partagée me sont très précieux et
-                        participent à ma formation continue. En dix ans, j’ai participé à plus de 200
-                        ateliers d’écriture et masterclasses. Être à cette place de participante me
-                        permet d’éprouver ce que vit un participant d’atelier mais aussi, d’affiner mes
-                        interventions et d’ajuster au mieux ma posture d’animatrice, choix relevant
-                        d’une déontologie qui m’habite et que je me suis fixée. Différents projets
-                        d’écriture (pièce de théâtre, micro-fictions) sont en cours dont un recueil de
-                        nouvelles alsaciennes avec un groupe d’écrivants de Strasbourg réunis sous ma
-                        direction. Pour moi, écrire est un acte d’amour et permet, comme le dit André
-                        Comte-Sponville, de « vivre davantage».
-
-                    </p>
+                <div className='sect1bio-s2'>
+                    <h3>« Qui ne connaît pas de langues étrangères ne connaît rien de la <br></br> sienne »</h3>
+                    <p>Née d’un père indien et d’une mère vietnamienne, j’ai vu le jour à Saïgon. Le
+                        mythe familial raconte <br></br> qu’à l’âge d’un an, je parlais déjà et que ma première
+                        phrase fut une question.</p>
+                    <h3>« Écrire c’est se mettre en danger »</h3>
+                    <p>Mes premiers souvenirs d’écriture remontent à l’école primaire. J’étais en
+                        classe de CE2, j’avais huit ans,<br></br> je jouais à l’élastique, je mangeais des
+                        sandwichs au porc laqué à la récréation, Nicolas était <br></br> amoureux de moi et ma
+                        meilleure amie s’appelait Audrey. Cette année-là, l’enseignante nous a <br></br> demandé
+                        d’écrire un poème pour la fête des pères. Quelques jours plus tard, j’ai lu mon
+                        poème à voix <br></br> haute, devant toute la classe. Je suis restée assise et je me
+                        souviens avoir eu peur qu’on me demande <br></br> ce qu’en avait pensé mon père. Mon père
+                        n’a jamais entendu ce poème. Ce jour-là, sous le regard <br></br> approbateur de mon
+                        enseignante et les applaudissements de mes camarades, j’ai fait la découverte <br></br> du
+                        feu: les mots, frottés les uns contre les autres, pouvaient produire des
+                        étincelles.</p>
+                    <h3>« Écrire c’est aussi se taire, hurler sans bruit »</h3>
+                    <p>En 2009, j’intègre un service d’investigation éducative. Pendant des années,
+                        je retrace le parcours <br></br> d’hommes et de femmes aux vies cabossées. Des enfances
+                        disparues, des camisoles de secrets, des <br></br> corps maltraités... Des milliers de
+                        mots pour tenter de mettre en ordre le chaos de ces existences <br></br> morcelées.</p>
+                    <h3>« L’écriture est le seul espace de liberté absolue »</h3>
+                    <p>À la naissance de mes enfants, j’invente des histoires pour eux. Certaines
+                        sont contées, d'autres <br></br> écrites. Au même moment, je découvre les ateliers
+                        d’écriture.</p>
+                    <h3>« Écrire c’est se jeter dans le vide »</h3>
+                    <p>Durant le premier confinement, j’envoie des cartes à mes proches. Ma tante
+                        vietnamienne me <br></br> téléphone pour me remercier. Au bout du fil, elle se réjouit de
+                        ma situation « Tu as de la chance de <br></br> pouvoir travailler à la maison. Et en plus,
+                        tu as la sécurité de l’emploi ! » Et là, dans ma langue <br></br> maternelle, une réponse
+                        surgit, « Je vais arrêter Tata ». «Ah bon? Mais pour faire quoi ? » Écrire.</p>
+                    <p>En septembre 2020, je quitte mon poste d’éducatrice au service
+                        d’investigation pour me consacrer <br></br> pleinement à l’écriture. Depuis, j’écris et «
+                        je fais écrire ».</p>
                 </div>
+
+            </div>
+            <div className='section3bio'>
+                <h1 className='textbiosect3'>Ils me font confiance</h1>
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                    clickable: true
+                }}
+                    navigation={true}
+                    modules={[ Navigation]}
+                    className="mySwiper">
+                    <SwiperSlide>
+                        <div className='car3slide2'>
+                            <img className='car2imgsize' src='/images/car2im1.png'/>
+                            <p>Dans le cadre du dispositif national “La classe, l'œuvre”, le Labo des <br></br>
+                                Histoires- Grand Est a organisé le cycle d’ateliers d’écriture “Sur les <br></br> traces
+                                de Théodore Deck” en partenariat avec le Musée consacré <br></br> au céramiste et le
+                                collège Mathias Grünewald de Guebwiller.</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car3slide2'>
+                            <img className='car2imgsize' src='/images/car2im2.png'/>
+                            <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre <br></br> auprès
+                                d’assistantes maternelles. L’occasion pour ces <br></br> professionnelles de faire récit
+                                de leurs expériences et de leurs <br></br> parcours. “L'atelier de Beevy, c'est le moment
+                                du lâcher prise” <br></br> Anne Lamothe, Professionnelle du Relais Petite Enfance
+                                d'Ingwiller</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car3slide2'>
+                            <img className='car2imgsize' src='/images/car2im3.png'/>
+                            <p>En collaboration avec Actemo Théâtre et Le Centre Hospitalier <br></br> d’Erstein. «
+                                Une série d'ateliers d'écriture tout en émotions, poésie <br></br> et sensibilité » Céline
+                                Modéré Adam, responsable du relais culturel
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car3slide2'>
+                            <img className='car2imgsize' src='/images/car2im4.png'/>
+                            <p>Depuis mars 2020, un atelier d'écriture créative par mois est <br></br> proposé aux
+                                soignantes de l'EHPAD ABRAPA.</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car3slide2'>
+                            <img className='car2imgsize' src='/images/car2im5.png'/>
+                            <p>« Cet atelier à permis aux participants de renouer avec les autres,<br></br> de
+                                retrouver confiance » Sabrina Helbling, co-administratice
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='car3slide2'>
+                            <img className='car2imgsize' src='/images/car2im6.png'/>
+                            <p>Des ateliers d'écriture proposés à un public de migrants du centre <br></br> de
+                                Ferrette. L’occasion d’aborder les thèmes de l'égalité, de la  <br></br>liberté, de la
+                                justice avec des hommes et des <br></br> femmes venus des quatre coins du monde.
+                            </p>
+                        </div>
+                    </SwiperSlide>
+
+                </Swiper>
+                <a>Voir plus</a>
+            </div>
+            <div className='block5'>
+                <h1 className='titrebl5'>Suivez-moi sur Instagram</h1>
+                <p className='textbl5'>Pour être au courant de toute mon actu et des ateliers d’écriture à venir</p>
+                <div className='imgbl5'>
+                    <img src="/images/imgbl5-01.png"/>
+                    <img src="/images/imgbl5-02.png"/>
+                    <img src="/images/imgbl5-03.png"/>
+                </div>
+                <a className='cparici' href='#'>C’est par ici &gt;</a>
+            </div>
+            
+            <div className='footer'>
+                <div className='footerb1'>
+                    <img src='/images/logofooter.png'/>
+                </div>
+                <div className='footerb2'>
+                    <h3>Menu</h3>
+                    <div className='footerb2b1'>
+                        <a>Bio</a>
+                        <a>Ateliers</a>
+                        <a>Tarifs</a>
+                        <a>Presse</a>
+                        <a>Contact</a>
+                    </div>
+
+                    <div className='footerb2b2'>
+                        <a>Mentions légales</a>
+                        <a>CGV</a>
+                    </div>
+                </div>
+                <div className='footerb3'>
+                    <div className='footerb3b1'>
+                        <h3>Contact</h3>
+                        <p>Email</p>
+                            <div className='socialfooter'>
+                            <img src='/images/linkedin.png'/>
+                            <img src='/images/facebook.png'/>
+                            <img src='/images/instagram.png'/>
+                            <img src='/images/youtube.png'/>
+                        </div>
+
+                    </div>
+                    <div className='footerb3b2'>
+                        <h3>Crédits</h3>
+
+                        <p>Webdesign : Hélène Le Gal
+                        </p>
+                        <p>Web developper : Léon Le Gal</p>
+                        <p>Photos : Beevy Jalma, Abdesslam Mirdass</p>
+
+                    </div>
+
+                </div>
+                
 
             </div>
 
@@ -76,4 +189,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Bio;

@@ -1,23 +1,175 @@
 .swiper {
     width: 100%;
     height: 334px;
-  }
+}
+
+.swiper-slide {
   
-  .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .swiper-slide img {
+}
+
+.swiper-slide img {
     display: block;
-    width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
+}
+.car3slide2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-top: 90px;
+
+   
+}
+
+.car3slide2 p {
+    color: #871116;
+    margin-left: 30px;
+    
+}
+
+body {
+    background-color: #FFF8F0;
+}
+.henriMichaux {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #871116;
+    margin-right: 20vh;
+    margin-bottom: 50px;
+}
+.namehenri {
+    margin-top: -10px;
+    margin-left: 30px;
+
+}
+.section1bio {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+}
+.sect1bio-s1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.sect1bio-s1 h2 {
+    color: #871116;
+    font-size: 40px;
+}
+.linesect1bio {
+    height: 96vh;
+    background-color: #871116;
+    width: 2px;
+}
+.sect1bio-s2 {
+    margin-left: 130px;
+    margin-right: 80px;
+    }
+.sect1bio-s2 h3{
+    color: #871116;
+    font-size: 40px;
+}
+.sect1bio-s2 p{
+    color: #871116;
+    font-size: 18px;
+}
+.section3bio {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 330px;
+    padding-right: 330px;
+    
+}
+.section3bio a{
+    color: #871116;
+    margin-bottom: 90px;
+}
+.textbiosect3{
+    color: #871116;
+    margin-top: 80px;
+    
+}
+.block5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.titrebl5 {
+    color: #871116;
+    padding: 20px;
+    margin-top: 60px;
+}
+.textbl5 {
+    color: #871116;
+}
+.imgbl5 img {
+    padding: 30px;
+}
+.cparici {
+    color: #871116;
+    padding: 15px;
+}
+.footer {
+    background-color: #871116;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 50px 50px 70px;
+}
+.footerb1 {
+    color: white;
+    margin-top: 30px;
+}
+.footerb2 {
+    color: white;
+
+}
+.footerb2 h3 {
+    font-size: 30px;
+}
+.footerb2b1 {
+    display: flex;
+    flex-direction: column;
+}
+.footerb2b2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.footerb3 {
+    color: white;
+}
+.footerb3 h3{
+    font-size: 30px;
+}
+.footerb3b2 {
+    margin-top: 110px;
+}
+.footerb4 {
+    color: white;
+}
+.socialfooter img {
+    margin-right: 20px;
+
+}
+.footerb5 {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+
+}

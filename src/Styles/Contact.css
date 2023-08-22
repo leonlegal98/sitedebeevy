@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #871116;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 50px 50px 70px;
+}
+.footerb1 {
+    color: white;
+}
+.footerb2 {
+    color: white;
+
+}
+.footerb2b1 {
+    display: flex;
+    flex-direction: column;
+}
+.footerb2b2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.footerb3 {
+    color: white;
+}
+.footerb3b2 {
+    margin-top: 110px;
+}
+.footerb4 {
+    color: white;
+}
+.socialfooter img {
+    margin-right: 20px;
+
+}
