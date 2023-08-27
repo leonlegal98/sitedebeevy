@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/Tarif.css'
+import Footer from './Footer';
 
 function Tarifs() {
     return (
@@ -59,61 +60,19 @@ function Tarifs() {
                     <p>Mariage, anniversaire, départ à la retraite... je propose <br></br>des ateliers créés
                         sur-mesure pour la personne de <br></br>votre choix.
                     </p>
-                    <p>Demander un devis gratuit</p>
+                   <a className='lientarif' href='contact'>Demander un devis gratuit</a>
                 </div>
                 <div>
                     <h3>Bon cadeau</h3>
                     <p>Envie d'offrir une séance d'atelier d'écriture créative à <br></br> vos proches ? 
                     </p>
-                    <p>Contactez-moi.</p>
+                    <a className='lientarif' href='contact'>Contactez-moi.</a>
                 </div>
 
             </div>
 
-            <div className='footer'>
-                <div className='footerb1'>
-                    <img src='/images/logofooter.png'/>
-                </div>
-                <div className='footerb2'>
-                    <h3>Menu</h3>
-                    <div className='footerb2b1'>
-                        <a>Bio</a>
-                        <a>Ateliers</a>
-                        <a>Tarifs</a>
-                        <a>Presse</a>
-                        <a>Contact</a>
-                    </div>
-
-                    <div className='footerb2b2'>
-                        <a>Mentions légales</a>
-                        <a>CGV</a>
-                    </div>
-                </div>
-                <div className='footerb3'>
-                    <div className='footerb3b1'>
-                        <h3>Contact</h3>
-                        <p>Email</p>
-                        <div className='socialfooter'>
-                            <img src='/images/linkedin.png'/>
-                            <img src='/images/facebook.png'/>
-                            <img src='/images/instagram.png'/>
-                            <img src='/images/youtube.png'/>
-                        </div>
-
-                    </div>
-                    <div className='footerb3b2'>
-                        <h3>Crédits</h3>
-
-                        <p>Webdesign : Hélène Le Gal
-                        </p>
-                        <p>Web developper : Léon Le Gal</p>
-                        <p>Photos : Beevy Jalma, Abdesslam Mirdass</p>
-
-                    </div>
-
-                </div>
-
-            </div>
+           
+            <Footer/>
         </div>
     );
 }

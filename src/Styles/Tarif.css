@@ -1,6 +1,6 @@
 .tarifbl1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-left: 120px;
     margin-right: 120px;
@@ -50,7 +50,7 @@
 }
 .tarifbl2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 270px;
     margin-left: 120px;
     margin-top: 90px;
@@ -60,7 +60,10 @@
 .tarifbl2 h3{
     font-size: 40px;
 }
-
+.lientarif{
+    
+    color: #871116;
+}
 
 
 
@@ -84,6 +87,11 @@
 .footerb2b1 {
     display: flex;
     flex-direction: column;
+}
+.footerb2b1 a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
 }
 .footerb2b2 {
     display: flex;

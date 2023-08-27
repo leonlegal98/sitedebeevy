@@ -1,0 +1,46 @@
+.titrecreative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #871116;
+}
+.containercreative{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.creativearticle{
+    color: #871116;
+    border-bottom: #871116 1px solid;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.article1{
+    grid-row-end: span 1; 
+}
+.article2{
+    grid-row-end: span 2; 
+}
+.article3{
+    grid-row-end: span 1; 
+}
+.article4{
+    grid-row-end: span 1; 
+}
+.article5{
+    grid-row-end: span 2; 
+}
+.article6{
+    grid-row-end: span 1; 
+}
+.article7{
+    grid-row-end: span 2; 
+}
+.article8{
+    grid-row-end: span 2; 
+}

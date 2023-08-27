@@ -2,11 +2,13 @@ import '../Styles/Home.css';
 import React, {useRef, useState} from 'react';
 
 import {Swiper, SwiperSlide} from 'swiper/react';
+import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper/modules';
 import Menu from './Menu';
+import Footer from './Footer';
 //import soundFile from './path-to-your-sound-file.mp3';
 
 function Home() {
@@ -40,10 +42,22 @@ function Home() {
                     <div className='liensect1img'>
                         <a className='beevylien' href='#'>Beevy Jalma</a>
                         <div>
+                            <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/">
                             <img src='/images/linkedin.png'/>
+                            </Link>
+                            <Link to="https://www.facebook.com/latelierdebeevy">
                             <img src='/images/facebook.png'/>
+                            </Link>
+                            <Link to="https://www.instagram.com/ecriturecreative_beevy/">
                             <img src='/images/instagram.png'/>
+                            </Link>
+                            <Link to="/">
                             <img src='/images/youtube.png'/>
+                            </Link>
+                            
+                            
+                           
+                          
 
                         </div>
                     </div>
@@ -68,9 +82,9 @@ function Home() {
                     </p>
                     <div className='lienbl2'>
 
-                        <a href='#'>Découvrir</a>
-                        <a href='atelier'>Textes d'ateliers</a>
-                        <a href='#'>Tarifs</a>
+                        <a href='/bio'>Découvrir</a>
+                        <a href='/texteatelier'>Textes d'ateliers</a>
+                        <a href='/tarif'>Tarifs</a>
 
                     </div>
                 </div>
@@ -122,7 +136,7 @@ function Home() {
                     clickable: true
                 }}
                     navigation={true}
-                    modules={[Pagination, Navigation]}
+                    modules={[Navigation]}
                     className="mySwiper">
                     <SwiperSlide>
                         <div className='car1slide2'>
@@ -178,6 +192,7 @@ function Home() {
                     </SwiperSlide>
 
                 </Swiper>
+                <a href='confiance'>Voir plus</a>
                 </div>
             </div>
 
@@ -203,51 +218,7 @@ function Home() {
                 </div>
                 
             </div>
-            <div className='footer'>
-                <div className='footerb1'>
-                    <img src='/images/logofooter.png'/>
-                </div>
-                <div className='footerb2'>
-                    <h3>Menu</h3>
-                    <div className='footerb2b1'>
-                        <a>Bio</a>
-                        <a>Ateliers</a>
-                        <a>Tarifs</a>
-                        <a>Presse</a>
-                        <a>Contact</a>
-                    </div>
-
-                    <div className='footerb2b2'>
-                        <a>Mentions légales</a>
-                        <a>CGV</a>
-                    </div>
-                </div>
-                <div className='footerb3'>
-                    <div className='footerb3b1'>
-                        <h3>Contact</h3>
-                        <p>Email</p>
-                            <div className='socialfooter'>
-                            <img src='/images/linkedin.png'/>
-                            <img src='/images/facebook.png'/>
-                            <img src='/images/instagram.png'/>
-                            <img src='/images/youtube.png'/>
-                        </div>
-
-                    </div>
-                    <div className='footerb3b2'>
-                        <h3>Crédits</h3>
-
-                        <p>Webdesign : Hélène Le Gal
-                        </p>
-                        <p>Web developper : Léon Le Gal</p>
-                        <p>Photos : Beevy Jalma, Abdesslam Mirdass</p>
-
-                    </div>
-
-                </div>
-                
-
-            </div>
+           <Footer/>
         </div>
             );
         }

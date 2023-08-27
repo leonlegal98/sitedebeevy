@@ -11,8 +11,9 @@ function Menu() {
 
         <div className="menu">
             <div className="menu-left">
-                <img className='logoim1' src="/images/logoimage.png" alt="Image 1"/>
-                <img className='logoim2' src="/images/atelierbeevy.png" alt="Image 2"/>
+            <Link to="/">
+                <img className='logoim1' src="/images/imagegroupbee.png" alt="Image 1"/>
+                </Link>
             </div>
             <div className="menu-right">
                 <Link to="bio">Bio</Link>

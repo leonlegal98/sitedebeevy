@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper/modules';
+import Footer from './Footer';
 
 function Bio() {
     return (
@@ -126,7 +127,7 @@ function Bio() {
                     </SwiperSlide>
 
                 </Swiper>
-                <a>Voir plus</a>
+                <a href='confiance'>Voir plus</a>
             </div>
             <div className='block5'>
                 <h1 className='titrebl5'>Suivez-moi sur Instagram</h1>
@@ -136,54 +137,13 @@ function Bio() {
                     <img src="/images/imgbl5-02.png"/>
                     <img src="/images/imgbl5-03.png"/>
                 </div>
-                <a className='cparici' href='#'>C’est par ici &gt;</a>
+                <div className='reseausocaiuxhome'>
+                <a className='cparici' href='https://www.instagram.com/ecriturecreative_beevy/'>Instagram &gt;</a>
+                <a className='cparici' href='https://www.facebook.com/latelierdebeevy'>Facebook &gt;</a>
+                </div>
             </div>
             
-            <div className='footer'>
-                <div className='footerb1'>
-                    <img src='/images/logofooter.png'/>
-                </div>
-                <div className='footerb2'>
-                    <h3>Menu</h3>
-                    <div className='footerb2b1'>
-                        <a>Bio</a>
-                        <a>Ateliers</a>
-                        <a>Tarifs</a>
-                        <a>Presse</a>
-                        <a>Contact</a>
-                    </div>
-
-                    <div className='footerb2b2'>
-                        <a>Mentions légales</a>
-                        <a>CGV</a>
-                    </div>
-                </div>
-                <div className='footerb3'>
-                    <div className='footerb3b1'>
-                        <h3>Contact</h3>
-                        <p>Email</p>
-                            <div className='socialfooter'>
-                            <img src='/images/linkedin.png'/>
-                            <img src='/images/facebook.png'/>
-                            <img src='/images/instagram.png'/>
-                            <img src='/images/youtube.png'/>
-                        </div>
-
-                    </div>
-                    <div className='footerb3b2'>
-                        <h3>Crédits</h3>
-
-                        <p>Webdesign : Hélène Le Gal
-                        </p>
-                        <p>Web developper : Léon Le Gal</p>
-                        <p>Photos : Beevy Jalma, Abdesslam Mirdass</p>
-
-                    </div>
-
-                </div>
-                
-
-            </div>
+            <Footer/>
 
         </div>
     );

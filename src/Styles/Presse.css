@@ -100,6 +100,11 @@
     display: flex;
     flex-direction: column;
 }
+.footerb2b1 a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
 .footerb2b2 {
     display: flex;
     flex-direction: column;

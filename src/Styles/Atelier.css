@@ -112,6 +112,11 @@
     display: flex;
     flex-direction: column;
 }
+.footerb2b1 a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
 .footerb2b2 {
     display: flex;
     flex-direction: column;
@@ -133,11 +138,15 @@
 
 
 
+.faqatelier{
+    padding: 100px;
+}
 
 
 .toggle-content-atelier {
     display: none;
     margin-top: 10px;
+    
 }
 
 .textfooteratelier {
@@ -146,10 +155,13 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    color: #871116;
+    font-size: 25px;
+   
 }
 
 .toggle-button-atelier {
-    background-color: red;
+    background-color: #871116;
     color: white;
     border: none;
     border-radius: 50%;
@@ -159,13 +171,19 @@
     text-align: center;
     line-height: 30px;
     cursor: pointer;
-    transition: transform 0.2s; /* Transition pour le bouton */
+    transition: transform 0.2s;
+    
+     /* Transition pour le bouton */
 }
 
 .toggle-button-atelier.minus:before {
-    content: "-"; /* Changement du contenu pour le bouton "-" */
+    content: "-";
+     /* Changement du contenu pour le bouton "-" */
 }
 
 .toggle-content-atelier.show {
     display: block;
+    margin-right: 220px;
+    color: #871116;
+    
 }
