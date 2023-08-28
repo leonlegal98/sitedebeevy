@@ -63,7 +63,7 @@ function Home() {
 
             <div className='block2'>
                 <div className="image-container">
-                    <img className='imagebook' src="/images/imbook.png" // onClick={playSound} // }} //     style={{} //     cursor: 'pointer'} // }}
+                    <img className='imagebook' src="/images/imagebook.png" // onClick={playSound} // }} //     style={{} //     cursor: 'pointer'} // }}
                         alt="Image"/>
                     <h1 className='textimagebl2'>Cliquez sur
                         <br/>
@@ -121,7 +121,7 @@ function Home() {
             </Swiper>
             </div>
             <div className='block3'>
-                <img className='imgbl3' src='/images/homebl3.png'/>
+                <img className='imgbl3' src='/images/groupphoto.png'/>
                 <h1 className='textbl3'>Ils me font confiance</h1>
                 <div className='homesecondcarousel'>
                 <Swiper
@@ -137,27 +137,27 @@ function Home() {
                     <SwiperSlide>
                         <div className='car1slide2'>
                             <img className='car2imgsize' src='/images/car2im1.png'/>
-                            <p>Dans le cadre du dispositif national “La classe, l'œuvre”, le Labo des <br></br>
-                                Histoires- Grand Est a organisé le cycle d’ateliers d’écriture “Sur les <br></br> traces
-                                de Théodore Deck” en partenariat avec le Musée consacré <br></br> au céramiste et le
+                            <p>Dans le cadre du dispositif national “La classe, l'œuvre”, le Labo des
+                                Histoires- Grand Est a organisé le cycle d’ateliers d’écriture “Sur les traces
+                                de Théodore Deck” en partenariat avec le Musée consacré au céramiste et le
                                 collège Mathias Grünewald de Guebwiller.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car1slide2'>
                             <img className='car2imgsize' src='/images/car2im2.png'/>
-                            <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre <br></br> auprès
-                                d’assistantes maternelles. L’occasion pour ces <br></br> professionnelles de faire récit
-                                de leurs expériences et de leurs <br></br> parcours. “L'atelier de Beevy, c'est le moment
-                                du lâcher prise” <br></br> Anne Lamothe, Professionnelle du Relais Petite Enfance
+                            <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre auprès
+                                d’assistantes maternelles. L’occasion pour ces professionnelles de faire récit
+                                de leurs expériences et de leurs parcours. “L'atelier de Beevy, c'est le moment
+                                du lâcher prise” Anne Lamothe, Professionnelle du Relais Petite Enfance
                                 d'Ingwiller</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car1slide2'>
                             <img className='car2imgsize' src='/images/car2im3.png'/>
-                            <p>En collaboration avec Actemo Théâtre et Le Centre Hospitalier <br></br> d’Erstein. «
-                                Une série d'ateliers d'écriture tout en émotions, poésie <br></br> et sensibilité » Céline
+                            <p>En collaboration avec Actemo Théâtre et Le Centre Hospitalier d’Erstein. «
+                                Une série d'ateliers d'écriture tout en émotions, poésie et sensibilité » Céline
                                 Modéré Adam, responsable du relais culturel
                             </p>
                         </div>
@@ -165,14 +165,14 @@ function Home() {
                     <SwiperSlide>
                         <div className='car1slide2'>
                             <img className='car2imgsize' src='/images/car2im4.png'/>
-                            <p>Depuis mars 2020, un atelier d'écriture créative par mois est <br></br> proposé aux
+                            <p>Depuis mars 2020, un atelier d'écriture créative par mois est proposé aux
                                 soignantes de l'EHPAD ABRAPA.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car1slide2'>
                             <img className='car2imgsize' src='/images/car2im5.png'/>
-                            <p>« Cet atelier à permis aux participants de renouer avec les autres,<br></br> de
+                            <p>« Cet atelier à permis aux participants de renouer avec les autres de
                                 retrouver confiance » Sabrina Helbling, co-administratice
                             </p>
                         </div>
@@ -180,9 +180,9 @@ function Home() {
                     <SwiperSlide>
                         <div className='car1slide2'>
                             <img className='car2imgsize' src='/images/car2im6.png'/>
-                            <p>Des ateliers d'écriture proposés à un public de migrants du centre <br></br> de
-                                Ferrette. L’occasion d’aborder les thèmes de l'égalité, de la  <br></br>liberté, de la
-                                justice avec des hommes et des <br></br> femmes venus des quatre coins du monde.
+                            <p>Des ateliers d'écriture proposés à un public de migrants du centre de
+                                Ferrette. L’occasion d’aborder les thèmes de l'égalité, de la liberté, de la
+                                justice avec des hommes et des femmes venus des quatre coins du monde.
                             </p>
                         </div>
                     </SwiperSlide>
