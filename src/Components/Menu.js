@@ -18,8 +18,8 @@ function Menu() {
             <div className="menu-right">
                 <Link to="bio">Bio</Link>
                 <Link to="atelier">Ateliers d'écriture</Link>
-                <Link to="presse">Presse</Link>
                 <Link to="tarif">Tarifs</Link>
+                <Link to="presse">Presse</Link>
                 <Link to="contact">Contact</Link>
             </div>
         </div>

@@ -44,6 +44,8 @@ body {
     color: #871116;
     margin-right: 20vh;
     margin-bottom: 50px;
+    font-family: Aperçu, sans-serif;
+    font-weight: 'normal';
 }
 .namehenri {
     margin-top: -10px;
@@ -66,6 +68,7 @@ body {
 .sect1bio-s1 h2 {
     color: #871116;
     font-size: 40px;
+    font-family: MADE Regular, sans-serif;
 }
 .linesect1bio {
     height: 96vh;
@@ -79,10 +82,14 @@ body {
 .sect1bio-s2 h3{
     color: #871116;
     font-size: 40px;
+    font-family: MADE Regular, sans-serif;
+    font-size: 30px;
 }
 .sect1bio-s2 p{
     color: #871116;
     font-size: 18px;
+    font-family: Aperçu, sans-serif;
+    font-weight: 'normal';
 }
 .section3bio {
     background-color: white;
@@ -97,10 +104,13 @@ body {
 .section3bio a{
     color: #871116;
     margin-bottom: 90px;
+    font-family: Aperçu, sans-serif;
+    font-weight: 'normal';
 }
 .textbiosect3{
     color: #871116;
     margin-top: 80px;
+    font-family: MADE Regular, sans-serif;
     
 }
 .block5 {
@@ -116,6 +126,8 @@ body {
 }
 .textbl5 {
     color: #871116;
+    font-family: Aperçu, sans-serif;
+    font-weight: 'normal';
 }
 .imgbl5 img {
     padding: 30px;

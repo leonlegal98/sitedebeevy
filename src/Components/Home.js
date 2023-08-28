@@ -20,7 +20,7 @@ function Home() {
 
             <div className='block1'>
 
-                <h3>« Écrire et se réinventer »</h3>
+                <h3 className='oo'>« Écrire et se réinventer »</h3>
 
                 <p>Vous aimez écrire ? Vous ne savez pas par quoi ni comment commencer ? <br></br>
                     Rejoignez-moi dans mes ateliers d’écriture. 
@@ -54,11 +54,7 @@ function Home() {
                             <Link to="/">
                             <img src='/images/youtube.png'/>
                             </Link>
-                            
-                            
-                           
-                          
-
+                
                         </div>
                     </div>
                 </div>
@@ -67,7 +63,7 @@ function Home() {
 
             <div className='block2'>
                 <div className="image-container">
-                    <img className='imagebook' src="/images/book001.png" // onClick={playSound} // }} //     style={{} //     cursor: 'pointer'} // }}
+                    <img className='imagebook' src="/images/imbook.png" // onClick={playSound} // }} //     style={{} //     cursor: 'pointer'} // }}
                         alt="Image"/>
                     <h1 className='textimagebl2'>Cliquez sur
                         <br/>
