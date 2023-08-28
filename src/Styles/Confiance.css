@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     color: #871116;
+    
 }
 
 .confiancearticle{
@@ -21,4 +22,10 @@
     color: #871116;
     margin-left: 50px;
     
+}
+.confiancebl2 h3{
+    font-family: MADE Regular, sans-serif;
+}
+.confiancebl2 p{
+    font-family: Aperçu, sans-serif;
 }

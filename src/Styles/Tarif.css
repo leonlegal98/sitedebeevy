@@ -14,6 +14,7 @@
 }
 .tarifparticulier h3{ 
     font-size: 40px;
+    font-family: MADE Regular, sans-serif;
     
 }
 .particuliernametarif{
@@ -35,6 +36,7 @@
 }
 .tarifpro h3{ 
     font-size: 40px;
+    font-family: MADE Regular, sans-serif;
     
 }
 
@@ -59,9 +61,10 @@
 }
 .tarifbl2 h3{
     font-size: 40px;
+    font-family: MADE Regular, sans-serif;
 }
 .lientarif{
-    
+    font-family: Aperçu, sans-serif;
     color: #871116;
 }
 

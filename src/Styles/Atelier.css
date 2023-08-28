@@ -8,10 +8,12 @@
 .ateliersect1b1 h1{
     color: #871116;
     font-size: 50px;
+    font-family: MADE Regular, sans-serif;
 }
 .ateliersect1b1 p{
     color: #871116;
     font-size: 18px;
+    font-family: Aperçu, sans-serif;
     
 }
 .bioateletierbaudelaire{
@@ -21,6 +23,7 @@
 }
 .bioateletierbaudelaire h4{
     color: #871116;
+    font-family: MADE Regular, sans-serif;
 }
 .liensect1 a {
     color: #871116;
@@ -37,10 +40,12 @@
 .ateliersect2b2 h1{
     color: #871116;
     font-size: 50px;
+    font-family: MADE Regular, sans-serif;
 }
 .ateliersect2b2 p{
     color: #871116;
     font-size: 18px;
+    font-family: Aperçu, sans-serif;
 }
 .ateliersect3{
     display: flex;
@@ -53,10 +58,12 @@
 .ateliersect3b1 h1{
     color: #871116;
     font-size: 50px;
+    font-family: MADE Regular, sans-serif;
 }
 .ateliersect3b1 p{
     color: #871116;
     font-size: 18px;
+    font-family: Aperçu, sans-serif;
 }
 .ateliersect4{
     display: flex;
@@ -71,10 +78,12 @@
 .ateliersect4b1 h1{
     color: #871116;
     font-size: 50px;
+    
 }
 .ateliersect4b1 p{
     color: #871116;
     font-size: 18px;
+    font-family: Aperçu, sans-serif;
 }
 .ateliersection5{
     background-color: white;
@@ -88,10 +97,12 @@
 .ateliersection5 a{
     color: #871116;
     margin-bottom: 90px;
+    font-family: Aperçu, sans-serif;
 }
 .textateliersect5{
     color: #871116;
     margin-top: 80px;
+    font-family: MADE Regular, sans-serif;
     
 }
 .footer {
@@ -146,6 +157,7 @@
 .toggle-content-atelier {
     display: none;
     margin-top: 10px;
+    font-family: Aperçu, sans-serif;
     
 }
 
@@ -157,6 +169,7 @@
     cursor: pointer;
     color: #871116;
     font-size: 25px;
+    font-family: MADE Regular, sans-serif;
    
 }
 

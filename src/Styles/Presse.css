@@ -61,15 +61,18 @@
     display: flex;
     justify-content: center;
     color: #871116;
+    font-family: MADE Regular, sans-serif;
 }
 .titrepressedeux{
     font-size: 45px;
     display: flex;
     justify-content: center;
     color: #871116;
+    font-family: MADE Regular, sans-serif;
 }
 .titrepressetrois{
     border-top: #871116 1px solid;
+    font-family: MADE Regular, sans-serif;
     font-size: 45px;
     display: flex;
     justify-content: center;

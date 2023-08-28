@@ -60,7 +60,7 @@ function Tarifs() {
                     <p>Mariage, anniversaire, départ à la retraite... je propose <br></br>des ateliers créés
                         sur-mesure pour la personne de <br></br>votre choix.
                     </p>
-                   <a className='lientarif' href='contact'>Demander un devis gratuit</a>
+                   <a className='lientarif' href='contact'>Demandez un devis gratuit</a>
                 </div>
                 <div>
                     <h3>Bon cadeau</h3>

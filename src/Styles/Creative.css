@@ -4,12 +4,14 @@
     align-items: center;
     flex-direction: column;
     color: #871116;
+    font-family: MADE Regular, sans-serif;
 }
 .containercreative{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
+    font-family: Aperçu, sans-serif;
 }
 .creativearticle{
     color: #871116;
