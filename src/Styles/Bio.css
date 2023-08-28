@@ -1,3 +1,32 @@
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+   
+    
+  }
+  @font-face {
+    font-family: "titreMirage";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "textebase";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "italiccar";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "itabbee";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
 .swiper {
     width: 100%;
     height: 334px;
@@ -31,6 +60,7 @@
 .car3slide2 p {
     color: #871116;
     margin-left: 30px;
+    font-family: "textebase", sans-serif;
     
 }
 
@@ -44,7 +74,7 @@ body {
     color: #871116;
     margin-right: 20vh;
     margin-bottom: 50px;
-    font-family: Aperçu, sans-serif;
+    font-family: "textebase", sans-serif;
     font-weight: 'normal';
 }
 .namehenri {
@@ -68,7 +98,7 @@ body {
 .sect1bio-s1 h2 {
     color: #871116;
     font-size: 40px;
-    font-family: MADE Regular, sans-serif;
+    font-family:"Mademirageitalic", sans-serif;
 }
 .linesect1bio {
     height: 96vh;
@@ -82,13 +112,13 @@ body {
 .sect1bio-s2 h3{
     color: #871116;
     font-size: 40px;
-    font-family: MADE Regular, sans-serif;
+    font-family:"Mademirageitalic", sans-serif;
     font-size: 30px;
 }
 .sect1bio-s2 p{
     color: #871116;
     font-size: 18px;
-    font-family: Aperçu, sans-serif;
+    font-family: "textebase", sans-serif;
     font-weight: 'normal';
 }
 .section3bio {
@@ -104,13 +134,13 @@ body {
 .section3bio a{
     color: #871116;
     margin-bottom: 90px;
-    font-family: Aperçu, sans-serif;
+    font-family: "textebase", sans-serif;
     font-weight: 'normal';
 }
 .textbiosect3{
     color: #871116;
     margin-top: 80px;
-    font-family: MADE Regular, sans-serif;
+    font-family:"Mademirageitalic", sans-serif;
     
 }
 .block5 {
@@ -126,7 +156,7 @@ body {
 }
 .textbl5 {
     color: #871116;
-    font-family: Aperçu, sans-serif;
+    font-family: "textebase", sans-serif;
     font-weight: 'normal';
 }
 .imgbl5 img {

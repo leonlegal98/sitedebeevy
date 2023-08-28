@@ -1,3 +1,32 @@
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+   
+    
+  }
+  @font-face {
+    font-family: "titreMirage";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "textebase";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "italiccar";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "itabbee";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
 .ateliersect1{
     display: flex;
 }
@@ -8,12 +37,12 @@
 .ateliersect1b1 h1{
     color: #871116;
     font-size: 50px;
-    font-family: MADE Regular, sans-serif;
+    font-family: "Mademirageitalic", sans-serif;
 }
 .ateliersect1b1 p{
     color: #871116;
     font-size: 18px;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     
 }
 .bioateletierbaudelaire{
@@ -23,7 +52,7 @@
 }
 .bioateletierbaudelaire h4{
     color: #871116;
-    font-family: MADE Regular, sans-serif;
+    font-family: "Mademirageitalic", sans-serif;
 }
 .liensect1 a {
     color: #871116;
@@ -40,12 +69,12 @@
 .ateliersect2b2 h1{
     color: #871116;
     font-size: 50px;
-    font-family: MADE Regular, sans-serif;
+    font-family: "Mademirageitalic", sans-serif;
 }
 .ateliersect2b2 p{
     color: #871116;
     font-size: 18px;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
 }
 .ateliersect3{
     display: flex;
@@ -58,22 +87,26 @@
 .ateliersect3b1 h1{
     color: #871116;
     font-size: 50px;
-    font-family: MADE Regular, sans-serif;
+    font-family: "Mademirageitalic", sans-serif;
 }
 .ateliersect3b1 p{
     color: #871116;
     font-size: 18px;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
 }
 .ateliersect4{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30vh;
+    margin-left: 30vh;
     margin-top: 100px;
     margin-bottom: 150px;
    
 }
 .ateliersect4b1{
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .ateliersect4b1 h1{
     color: #871116;
@@ -83,7 +116,7 @@
 .ateliersect4b1 p{
     color: #871116;
     font-size: 18px;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
 }
 .ateliersection5{
     background-color: white;
@@ -97,57 +130,14 @@
 .ateliersection5 a{
     color: #871116;
     margin-bottom: 90px;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
 }
 .textateliersect5{
     color: #871116;
     margin-top: 80px;
-    font-family: MADE Regular, sans-serif;
+    font-family: "Mademirageitalic", sans-serif;
     
 }
-.footer {
-    background-color: #871116;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    padding: 50px 50px 70px;
-}
-.footerb1 {
-    color: white;
-}
-.footerb2 {
-    color: white;
-
-}
-.footerb2b1 {
-    display: flex;
-    flex-direction: column;
-}
-.footerb2b1 a {
-    text-decoration: none;
-    color: white;
-    margin-top: 5px;
-}
-.footerb2b2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 70px;
-}
-.footerb3 {
-    color: white;
-}
-.footerb3b2 {
-    margin-top: 110px;
-}
-.footerb4 {
-    color: white;
-}
-.socialfooter img {
-    margin-right: 20px;
-
-}
-
-
 
 .faqatelier{
     padding: 100px;
@@ -157,7 +147,7 @@
 .toggle-content-atelier {
     display: none;
     margin-top: 10px;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     
 }
 
@@ -169,7 +159,7 @@
     cursor: pointer;
     color: #871116;
     font-size: 25px;
-    font-family: MADE Regular, sans-serif;
+    font-family: "Mademirageitalic", sans-serif;
    
 }
 

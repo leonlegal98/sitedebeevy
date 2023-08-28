@@ -1,6 +1,34 @@
 
 
-
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+   
+    
+  }
+  @font-face {
+    font-family: "titreMirage";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "textebase";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "italiccar";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "itabbee";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
 .listeimagepress{
     
     align-items: center;
@@ -61,23 +89,44 @@
     display: flex;
     justify-content: center;
     color: #871116;
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
 }
 .titrepressedeux{
     font-size: 45px;
     display: flex;
     justify-content: center;
     color: #871116;
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
 }
 .titrepressetrois{
     border-top: #871116 1px solid;
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
     font-size: 45px;
     display: flex;
     justify-content: center;
     color: #871116;
 }
+.pressbl1 p{
+    font-family: 'textebase',sans-serif;
+}
+
+.pressbl2 p{
+    font-family: 'textebase',sans-serif;
+}
+.pressbl3 p{
+    font-family: 'textebase',sans-serif;
+}
+.pressbl1 h3{
+   font-family: 'Mademirageitalic', sans-serif;
+}
+
+.pressbl2 h3{
+   font-family: 'Mademirageitalic', sans-serif;
+}
+.pressbl3 h3{
+   font-family: 'Mademirageitalic', sans-serif;
+}
+
 
 
 

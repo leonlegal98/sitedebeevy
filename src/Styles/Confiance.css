@@ -1,9 +1,39 @@
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+   
+    
+  }
+  @font-face {
+    font-family: "titreMirage";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "textebase";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "italiccar";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "itabbee";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
 .titreconfiance{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #871116;
+    font-family:'Mademirageitalic', sans-serif;
     
 }
 
@@ -24,8 +54,8 @@
     
 }
 .confiancebl2 h3{
-    font-family: MADE Regular, sans-serif;
+    font-family:'Mademirageitalic', sans-serif;
 }
 .confiancebl2 p{
-    font-family: Aperçu, 'light';
+    font-family:'textebase' , sans-serif;
 }

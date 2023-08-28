@@ -1,10 +1,39 @@
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+   
+    
+  }
+  @font-face {
+    font-family: "titreMirage";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "textebase";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "italiccar";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "itabbee";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
 .tarifbl1{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-left: 120px;
     margin-right: 120px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,;
+    font-family:"Mademirageitalic",sans-serif;
 }
 .tarifparticulier{
     color: #871116;
@@ -14,7 +43,7 @@
 }
 .tarifparticulier h3{ 
     font-size: 40px;
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
     
 }
 .particuliernametarif{
@@ -36,8 +65,11 @@
 }
 .tarifpro h3{ 
     font-size: 40px;
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
     
+}
+.tarifpro p{
+    font-family: 'textebase', sans-serif;
 }
 
 .pronametarif{
@@ -50,6 +82,9 @@
     justify-content: space-between;
     margin-right: 70px;
 }
+.proprice p{
+    font-family: 'textebase', sans-serif;
+}
 .tarifbl2{
     display: flex;
     justify-content: space-around;
@@ -61,10 +96,13 @@
 }
 .tarifbl2 h3{
     font-size: 40px;
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
+}
+.tarifbl2 p{
+    font-family: 'textebase', sans-serif;
 }
 .lientarif{
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     color: #871116;
 }
 
