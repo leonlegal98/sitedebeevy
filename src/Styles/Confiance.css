@@ -46,11 +46,15 @@
     padding-top: 70px;
     border-bottom: #871116 1px solid;
 }
+.confiancearticle img{
+  height: 20vh;
+}
 .confiancebl2{
     display: flex;
     flex-direction: column;
     color: #871116;
     margin-left: 50px;
+    margin-top: -10px;
     
 }
 .confiancebl2 h3{

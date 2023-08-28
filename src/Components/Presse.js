@@ -14,12 +14,12 @@ function Presse() {
                 <h1>Presse écrite</h1>
             </div>
             <div className='listeimagepress'>
-                <img src='/images/bl4-01.png'/>
-                <img src='/images/bl4-02.png'/>
-                <img src='/images/bl4-03.png'/>
-                <img src='/images/bl4-04.png'/>
-                <img src='/images/bl4-05.png'/>
-                <img src='/images/bl4-06.png'/>
+                <img src='/images/1.png'/>
+                <img src='/images/2.png'/>
+                <img src='/images/3.png'/>
+                <img src='/images/4.png'/>
+                <img src='/images/5.png'/>
+                <img src='/images/6.png'/>
             </div>
 
             <div className='titrepressedeux'>

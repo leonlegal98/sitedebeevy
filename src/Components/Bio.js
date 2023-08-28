@@ -12,7 +12,7 @@ function Bio() {
     return (
         <div className='biobody'>
             <div className='henriMichaux'>
-                <p>« J’écris pour me parcourir »</p>
+                <p className='pourparcour'>« J’écris pour me parcourir »</p>
                 <p className='namehenri'>Henri Michaux</p>
             </div>
             <div className='section1bio'>

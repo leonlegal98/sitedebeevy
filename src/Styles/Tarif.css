@@ -5,9 +5,11 @@
    
     
   }
+  
   @font-face {
     font-family: "titreMirage";
     src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Regular.otf") format("truetype");
     
   }
   @font-face {
@@ -24,7 +26,7 @@
   @font-face {
     font-family: "itabbee";
     src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+   
     
   }
 .tarifbl1{
@@ -33,7 +35,8 @@
     align-items: center;
     margin-left: 120px;
     margin-right: 120px;
-    font-family:"Mademirageitalic",sans-serif;
+    font-family:"titreMirage",sans-serif;
+    margin-top: 0;
 }
 .tarifparticulier{
     color: #871116;
@@ -43,18 +46,20 @@
 }
 .tarifparticulier h3{ 
     font-size: 40px;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'titreMirage', sans-serif;
     
 }
 .particuliernametarif{
     display: flex;
     justify-content: space-between;
+    font-family: 'textebase', sans-serif;
     
 }
 .particulierprice{
     display: flex;
     justify-content: space-between;
-    margin-right: 90px;
+    margin-right: 100px;
+    margin-top: -35px;
    
 }
 .tarifpro{
@@ -62,10 +67,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 .tarifpro h3{ 
     font-size: 40px;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'titreMirage', sans-serif;
     
 }
 .tarifpro p{
@@ -76,11 +82,13 @@
     display: flex;
     justify-content: space-between;
     
+    
 }
 .proprice{
     display: flex;
     justify-content: space-between;
-    margin-right: 70px;
+    margin-right: 80px;
+    margin-top: -35px;
 }
 .proprice p{
     font-family: 'textebase', sans-serif;
@@ -88,15 +96,15 @@
 .tarifbl2{
     display: flex;
     justify-content: space-around;
-    margin-right: 270px;
-    margin-left: 120px;
+    margin-right: 200px;
+    margin-left: 114px;
     margin-top: 90px;
     margin-bottom: 90px;
     color: #871116;
 }
 .tarifbl2 h3{
     font-size: 40px;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'titreMirage', sans-serif;
 }
 .tarifbl2 p{
     font-family: 'textebase', sans-serif;
@@ -107,48 +115,3 @@
 }
 
 
-
-
-
-
-.footer {
-    background-color: #871116;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    padding: 50px 50px 70px;
-}
-.footerb1 {
-    color: white;
-}
-.footerb2 {
-    color: white;
-
-}
-.footerb2b1 {
-    display: flex;
-    flex-direction: column;
-}
-.footerb2b1 a {
-    text-decoration: none;
-    color: white;
-    margin-top: 5px;
-}
-.footerb2b2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 70px;
-}
-.footerb3 {
-    color: white;
-}
-.footerb3b2 {
-    margin-top: 110px;
-}
-.footerb4 {
-    color: white;
-}
-.socialfooter img {
-    margin-right: 20px;
-
-}

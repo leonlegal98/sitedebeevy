@@ -5,9 +5,11 @@
    
     
   }
+  
   @font-face {
     font-family: "titreMirage";
     src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Regular.otf") format("truetype");
     
   }
   @font-face {
@@ -24,7 +26,7 @@
   @font-face {
     font-family: "itabbee";
     src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+   
     
   }
 .swiper {
@@ -74,12 +76,15 @@ body {
     color: #871116;
     margin-right: 20vh;
     margin-bottom: 50px;
-    font-family: "textebase", sans-serif;
     font-weight: 'normal';
+}
+.pourparcour{
+    font-family: "italiccar", sans-serif;
 }
 .namehenri {
     margin-top: -10px;
     margin-left: 30px;
+    font-family: "textebase", sans-serif;
 
 }
 .section1bio {
@@ -98,7 +103,7 @@ body {
 .sect1bio-s1 h2 {
     color: #871116;
     font-size: 40px;
-    font-family:"Mademirageitalic", sans-serif;
+    font-family:"titreMirage", sans-serif;
 }
 .linesect1bio {
     height: 96vh;
@@ -112,7 +117,7 @@ body {
 .sect1bio-s2 h3{
     color: #871116;
     font-size: 40px;
-    font-family:"Mademirageitalic", sans-serif;
+    font-family:"titreMirage", sans-serif;
     font-size: 30px;
 }
 .sect1bio-s2 p{
@@ -140,7 +145,7 @@ body {
 .textbiosect3{
     color: #871116;
     margin-top: 80px;
-    font-family:"Mademirageitalic", sans-serif;
+    font-family:"titreMirage", sans-serif;
     
 }
 .block5 {
@@ -165,58 +170,4 @@ body {
 .cparici {
     color: #871116;
     padding: 15px;
-}
-.footer {
-    background-color: #871116;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    padding: 50px 50px 70px;
-}
-.footerb1 {
-    color: white;
-    margin-top: 30px;
-}
-.footerb2 {
-    color: white;
-
-}
-.footerb2 h3 {
-    font-size: 30px;
-}
-.footerb2b1 {
-    display: flex;
-    flex-direction: column;
-}
-.footerb2b1 a {
-    text-decoration: none;
-    color: white;
-    margin-top: 5px;
-}
-.footerb2b2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 70px;
-}
-.footerb3 {
-    color: white;
-}
-.footerb3 h3{
-    font-size: 30px;
-}
-.footerb3b2 {
-    margin-top: 110px;
-}
-.footerb4 {
-    color: white;
-}
-.socialfooter img {
-    margin-right: 20px;
-
-}
-.footerb5 {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-
 }

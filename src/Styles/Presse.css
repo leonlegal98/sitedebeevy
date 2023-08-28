@@ -40,6 +40,8 @@
 .listeimagepress img {
     margin-left: 60px;
     margin-right: 60px;
+    height: 80px;
+    width: 140px;
 }
 .pressbl1{
     display: flex;
@@ -48,12 +50,15 @@
     margin-right: 150px;
     padding-bottom: 50px;
 }
+.pressbl1 img{
+    width: 30vh;
+}
 .pressbl1bl2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: #871116;
     margin-left: 50px;
+    margin-top: -15px;
 }
 
 .pressbl2{
@@ -64,12 +69,15 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.pressbl2 img{
+    width: 30vh;
+}
 .pressbl2bl2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: #871116;
     margin-left: 50px;
+    margin-top: -15px;
 }
 .pressbl3{
     display: flex;
@@ -77,22 +85,28 @@
     margin-right: 150px;
     padding-bottom: 100px;
 }
+.pressbl3 img{
+    width: 30vh;
+}
 .pressbl3bl2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 0;
     color: #871116;
     margin-left: 50px;
+    margin-top: -15px;
 }
 .titrepresse{
-    font-size: 45px;
+    font-size: 30px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     color: #871116;
     font-family: 'Mademirageitalic', sans-serif;
 }
 .titrepressedeux{
-    font-size: 45px;
+    font-size: 30px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     color: #871116;
@@ -101,7 +115,8 @@
 .titrepressetrois{
     border-top: #871116 1px solid;
     font-family: 'Mademirageitalic', sans-serif;
-    font-size: 45px;
+    font-size: 30px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     color: #871116;

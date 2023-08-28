@@ -5,9 +5,11 @@
    
     
   }
+  
   @font-face {
     font-family: "titreMirage";
     src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Regular.otf") format("truetype");
     
   }
   @font-face {
@@ -24,7 +26,7 @@
   @font-face {
     font-family: "itabbee";
     src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+   
     
   }
 .ateliersect1{
@@ -37,7 +39,7 @@
 .ateliersect1b1 h1{
     color: #871116;
     font-size: 50px;
-    font-family: "Mademirageitalic", sans-serif;
+    font-family: "titreMirage", sans-serif;
 }
 .ateliersect1b1 p{
     color: #871116;
@@ -49,10 +51,11 @@
     display: flex;
     flex-direction: column;
     align-items: end;
+    
 }
 .bioateletierbaudelaire h4{
     color: #871116;
-    font-family: "Mademirageitalic", sans-serif;
+    font-family: "itabbee", sans-serif;
 }
 .liensect1 a {
     color: #871116;
@@ -69,7 +72,7 @@
 .ateliersect2b2 h1{
     color: #871116;
     font-size: 50px;
-    font-family: "Mademirageitalic", sans-serif;
+    font-family: "titreMirage", sans-serif;
 }
 .ateliersect2b2 p{
     color: #871116;
@@ -87,7 +90,7 @@
 .ateliersect3b1 h1{
     color: #871116;
     font-size: 50px;
-    font-family: "Mademirageitalic", sans-serif;
+    font-family: "titreMirage", sans-serif;
 }
 .ateliersect3b1 p{
     color: #871116;
@@ -159,7 +162,7 @@
     cursor: pointer;
     color: #871116;
     font-size: 25px;
-    font-family: "Mademirageitalic", sans-serif;
+    font-family: "titreMirage", sans-serif;
    
 }
 
