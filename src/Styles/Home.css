@@ -1,12 +1,18 @@
 @font-face {
     font-family: "Mademirageitalic";
     src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
    
     
   }
   @font-face {
     font-family: "titreMirage";
     src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "titreMirage2";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
     
   }
 .homepage {
@@ -29,7 +35,6 @@
 }
 .block1 h3 {
     font-family:"titreMirage", sans-serif;
-    font-style: italic;
     font-weight: 300px;
     margin-top: 90px;
     margin-left: 70px;
