@@ -20,22 +20,22 @@ function Home() {
 
             <div className='block1'>
 
-                <h3 className='oo'>« Écrire et se réinventer »</h3>
+                <h3 className='oo'>« Écrire et se réinventer »</h3>
 
-                <p>Vous aimez écrire ? Vous ne savez pas par quoi ni comment commencer ? <br></br>
-                    Rejoignez-moi dans mes ateliers d’écriture. 
+                <p>Vous aimez écrire ? Vous ne savez pas par quoi ni comment commencer ? <br></br>
+                    Rejoignez-moi dans mes ateliers d’écriture.
 
                     </p>
                 <p>Vous y trouverez un espace de créativité unique, un lieu préservé, dédié au partage et aux mots.<br></br> Guidé.es par les pistes d’écriture spécialement conçues pour l’occasion, vous serez accompagné.es <br></br>
                  tout au long du processus. Votre créativité se déploiera hors des sentiers connus, pour votre  <br></br>
                   comme celui de vos pairs. Les échanges en groupe comme la lecture des textes vous donneront <br></br> 
-                  l’opportunité d’avoir de précieux retours sur vos écrits. En toute bienveillance. </p>
+                  l’opportunité d’avoir de précieux retours sur vos écrits. En toute bienveillance.</p>
                 <p>
-                Vous hésitez ? Un seul conseil : essayez !  Et si vous hésitez encore, laissez-vous porter par ces mots <br></br>
-                de Christian Bobin « La vie est la maîtresse, j’essaie juste d’être au rendez-vous.» 
+                Vous hésitez? Un seul conseil : essayez ! Et si vous hésitez encore, laissez-vous porter par ces mots <br></br>
+                de Christian Bobin «La vie est la maîtresse, j’essaie juste d’être au rendez-vous.»
                 </p>
                 <p>
-                A très bientôt, 
+                A très bientôt,
                 </p>
                 <div className='b1-sect1'>
                     <img src='/images/imageportrait.png'/>
@@ -201,7 +201,7 @@ function Home() {
                 <img src='/images/bl4-06.png'/>
             </div>
             <div className='block5'>
-                <h1 className='titrebl5'>Suivez-moi sur Instagram</h1>
+                <h1 className='titrebl5'>Suivez-moi sur les réseaux</h1>
                 <p className='textbl5'>Pour être au courant de toute mon actu et des ateliers d’écriture à venir</p>
                 <div className='imgbl5'>
                     <img src="/images/imgbl5-01.png"/>
