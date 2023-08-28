@@ -1,3 +1,32 @@
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+   
+    
+  }
+  @font-face {
+    font-family: "titreMirage";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "textebase";
+    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "italiccar";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "itabbee";
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    
+  }
 .footer {
     background-color: #871116;
     display: flex;
@@ -13,19 +42,19 @@
 
 }
 .footerb2 h3{
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
     font-size: 30px;
 }
 .footerb2 p{
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
 .footerb3 h3{
-    font-family: MADE Regular, sans-serif;
+    font-family: 'Mademirageitalic', sans-serif;
     font-size: 30px;
 }
 .footerb3 p{
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
 .footerb2b1 {
@@ -36,7 +65,7 @@
 .footerb2b1 a {
     text-decoration: none;
     color: white;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     font-weight: 'normal';
     margin-top: 5px;
 }
@@ -47,7 +76,7 @@
 }
 .footerb3 {
     color: white;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
 .footerb3b2 {
@@ -55,7 +84,7 @@
 }
 .footerb3b2 a{
     color: white;
-    font-family: Aperçu, sans-serif;
+    font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
 .footerb4 {
