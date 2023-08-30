@@ -31,10 +31,13 @@
   }
 .ateliersect1{
     display: flex;
+    margin-top: 70px;
+    
 }
 .ateliersect1b1{
  margin-right: 180px;
  margin-left: 180px;
+ margin-top: -25px;
 }
 .ateliersect1b1 h1{
     color: #871116;
@@ -51,19 +54,30 @@
     display: flex;
     flex-direction: column;
     align-items: end;
+    text-align: end;
+    font-size: 20px;
     
 }
 .bioateletierbaudelaire h4{
     color: #871116;
     font-family: "itabbee", sans-serif;
 }
+.liensect1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 .liensect1 a {
     color: #871116;
     font-size: 18px;
+
 }
 .ateliersect2{
     display: flex;
     margin-top: 100Px;
+    align-items: center;
 }
 .ateliersect2b2{
     margin-right: 80px;
@@ -82,6 +96,7 @@
 .ateliersect3{
     display: flex;
     margin-top: 100px;
+    align-items: center;
 }
 .ateliersect3b1{
     margin-right: 80px;
@@ -114,6 +129,7 @@
 .ateliersect4b1 h1{
     color: #871116;
     font-size: 50px;
+    font-family: 'titreMirage', sans-serif;
     
 }
 .ateliersect4b1 p{
@@ -138,12 +154,14 @@
 .textateliersect5{
     color: #871116;
     margin-top: 80px;
-    font-family: "Mademirageitalic", sans-serif;
+    font-family: "titreMirage", sans-serif;
+    font-size: 70px;
     
 }
 
 .faqatelier{
     padding: 100px;
+    
 }
 
 
@@ -151,6 +169,8 @@
     display: none;
     margin-top: 10px;
     font-family: 'textebase', sans-serif;
+    
+    
     
 }
 
@@ -163,6 +183,9 @@
     color: #871116;
     font-size: 25px;
     font-family: "titreMirage", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
    
 }
 
@@ -171,13 +194,14 @@
     color: white;
     border: none;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     font-weight: bold;
     text-align: center;
     line-height: 30px;
     cursor: pointer;
     transition: transform 0.2s;
+    
     
      /* Transition pour le bouton */
 }
@@ -191,5 +215,11 @@
     display: block;
     margin-right: 220px;
     color: #871116;
+   
+   
     
+}
+
+.ligneatelierfoo{
+    border-bottom: #871116 1px solid;
 }

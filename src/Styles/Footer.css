@@ -98,4 +98,13 @@
     height: 40px;
     width: 40px;
 
+
+}
+.emailfooter{
+    text-decoration: none;
+    color: white;
+}
+.socialfooter{
+    margin-left: -9px;
+    margin-top: 5px;
 }

@@ -32,7 +32,7 @@ function Footer() {
                 <div className='footerb3'>
                     <div className='footerb3b1'>
                         <h3>Contact</h3>
-                        <p>Email</p>
+                        <a className='emailfooter' href='/contact'>Email</a>
                             <div className='socialfooter'>
                             <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/">
                             <img src='/images/linkedin.png'/>
@@ -55,7 +55,7 @@ function Footer() {
                         <p>Webdesign : <a href='https://www.behance.net/helenelega4b4d'>Hélène Le Gal</a>
                         </p>
                         <p>Web developper : <a href='https://www.linkedin.com/in/l%C3%A9on-le-gal/'>Léon Le Gal</a></p>
-                        <p>Photos : Beevy Jalma, Abdesslam Mirdass, <a href='https://ericolivier.myportfolio.com/accueil-1'>Eric Olivier</a></p>
+                        <p>Photos : Beevy Jalma, <a href='https://www.a-mirdass.com/  '>Abdesslam Mirdass,</a> <a href='https://ericolivier.myportfolio.com/accueil-1'>Eric Olivier</a></p>
 
                     </div>
 

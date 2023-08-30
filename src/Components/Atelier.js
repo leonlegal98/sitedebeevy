@@ -94,14 +94,15 @@ function Atelier() {
                     <p>Un atelier d'écriture réunit des personnes désireuses d'écrire. Le respect,
                         l'écoute et la bienveillance sont essentiels pour le bon déroulement de ces
                         ateliers. Les ateliers créatifs s'adressent à des particuliers et à des groupes
-                        de professionnels.</p>
-                    <p>J’adopte une approche oulipienne, utilisant des contraintes pour stimuler la
+                        de professionnels.
+                    J’adopte une approche oulipienne, utilisant des contraintes pour stimuler la
                         créativité et offrir des perspectives inédites. Cette approche permet aux
-                        participants de sortir de leurs habitudes et de découvrir de nouvelles voies.</p>
-                    <p>J’interviens auprès de différents secteurs, notamment éducatif, médico-social
+                        participants de sortir de leurs habitudes et de découvrir de nouvelles voies.
+                    J’interviens auprès de différents secteurs, notamment éducatif, médico-social
                         et de la santé, afin de soutenir ceux qui prennent soin des autres.</p>
                     <div className='liensect1'>
                         <a>Textes d’ateliers</a>
+                        <a>Podcasts</a>
                         <a>Tarifs</a>
                     </div>
                     <div className='bioateletierbaudelaire'>
@@ -253,7 +254,7 @@ function Atelier() {
 
             <div className='faqatelier'>
                 {textData.map((item) => (
-                    <div key={item.id}>
+                    <div className='ligneatelierfoo' key={item.id}>
                         <h4 className="textfooteratelier">
                             {item.title}
                             <button

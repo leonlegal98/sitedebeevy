@@ -31,7 +31,7 @@ function Presse() {
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
                     <p>
-                        16/10/2020
+                        <span>16/10/2020</span>
                         <br></br>
                         -
                         <br></br>
@@ -46,7 +46,7 @@ function Presse() {
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
                     <p>
-                        16/10/2020
+                        <span>16/10/2020</span>
                         <br></br>
                         -
                         <br></br>
@@ -66,7 +66,7 @@ function Presse() {
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
                     <p>
-                        16/10/2020
+                        <span>16/10/2020</span>
                         <br></br>
                         -
                         <br></br>

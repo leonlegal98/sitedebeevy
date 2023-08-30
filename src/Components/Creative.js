@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../Styles/Creative.css';
+import Footer from './Footer';
 
 function Creative() {
     return (
@@ -117,6 +118,7 @@ function Creative() {
                 </div>
 
             </div>
+            <Footer/>
 
         </div>
     );

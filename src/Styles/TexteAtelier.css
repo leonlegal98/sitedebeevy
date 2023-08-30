@@ -33,13 +33,18 @@
     align-items: center;
     flex-direction: column;
     color: #871116;
+    margin-bottom: 50px;
    
 }
 .titretexteatelier h1{
     font-family:'Mademirageitalic',sans-serif ;
+    font-size: 70px;
 }
 .titretexteatelier p{
     font-family: 'textebase',sans-serif;
+    margin-left: 60vh;
+    margin-right: 60vh;
+    text-align: center;
 }
 .containertexteatelier{
     display: grid;

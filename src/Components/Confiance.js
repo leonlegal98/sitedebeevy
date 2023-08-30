@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../Styles/Confiance.css';
+import Footer from './Footer';
 
 function Confiance() {
     return (
@@ -307,6 +308,7 @@ function Confiance() {
                 </div>
 
             </div>
+            <Footer/>
 
         </div>
     );

@@ -38,7 +38,7 @@ function Home() {
                 A très bientôt,
                 </p>
                 <div className='b1-sect1'>
-                    <img src='/images/imageportrait.png'/>
+                    <img src='/images/beevyphoto.png'/>
                     <div className='liensect1img'>
                         <a className='beevylien' href='#'>Beevy Jalma</a>
                         <div>
@@ -100,21 +100,34 @@ function Home() {
                 className="mySwiper">
                 <SwiperSlide>
                     <div className='car1slide1'>
-                        <h3>« Pour tous.tes ceux/celles qui veulent écrire <br></br> et se réinventer »</h3>
+                        <h3>« Trois heures qui sont passées comme un enchantement »</h3>
+                        <p>Sonia
+                        </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='car1slide1'>
+                        <h3>« A découvrir absolument ! »</h3>
+                        <p>Guillaume</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='car1slide1'>
+                        <h3>« Oublier l’angoisse de la page blanche ! »</h3>
+                        <p>Marie-Christine</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='car1slide1'>
+                        <h3>« Cet atelier m’a fortement comblé »</h3>
                         <p>Félix
                         </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='car1slide1'>
-                        <h3>« De beaux moments de partage et d'émotions »</h3>
-                        <p>Judith</p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='car1slide1'>
-                        <h3>« Merci à Beevy pour son écoute et sa douceur »</h3>
-                        <p>Justine</p>
+                        <h3>« Une parenthèse enchantée »</h3>
+                        <p>Myriam</p>
                     </div>
                 </SwiperSlide>
 

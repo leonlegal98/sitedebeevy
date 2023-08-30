@@ -7,7 +7,7 @@ function Tarifs() {
         <div>
             <div className='tarifbl1'>
 
-                <div>
+                <div className='tarifblocleft'>
                     <div className='tarifparticulier'>
 
                         <h3>
