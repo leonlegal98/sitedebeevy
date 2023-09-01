@@ -9,8 +9,30 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper/modules';
 import Footer from './Footer';
+import soundFile1 from '../sonAtelier/mainquiecrit.mp3';
+import soundFile2 from '../sonAtelier/sonrobin.mp3';
+import soundFile3 from '../sonAtelier/graindecafe.mp3';
+import soundFile4 from '../sonAtelier/citationcioran.mp3';
 
 function Atelier() {
+
+    const [audio] = useState(new Audio(soundFile1));
+    const playSound1 = () => {
+        audio.play();
+    };
+    const [audio2] = useState(new Audio(soundFile2));
+    const playSound2 = () => {
+        audio2.play();
+    };
+    const [audio3] = useState(new Audio(soundFile3));
+    const playSound3 = () => {
+        audio3.play();
+    };
+    const [audio4] = useState(new Audio(soundFile4));
+    const playSound4 = () => {
+        audio4.play();
+    };
+
     const [contentStates,
         setContentStates] = useState({});
 
@@ -74,15 +96,12 @@ function Atelier() {
                     'ée à la bonne tenue de la séance.'
         }, {
             id: 'text10',
-            title: '« Je fais des fautes d’orthographe, est-ce grave ? »',
-            content: 'Il serait dommage de vous priver d’un atelier d’écriture pour des raisons orthog' +
-                    'raphiques ou grammaticales. À ce sujet, Bukowski disait : <q>Je n’ai pas prêté b' +
-                    'eaucoup d’attention à la grammaire, et quand j’écris c’est surtout par amour du ' +
-                    'mot, de la tonalité, comme un peintre jetant ses couleurs sur la toile. (...) Un' +
-                    'e écriture qui vient du sang plutôt que de l’intellect.</q>'
+            title: '« Combien ça coûte ? »',
+            content: 'Voir "Tarifs"'
         },
 
         // Ajoutez d'autres objets de données ici pour chaque texte supplémentaire
+
     ];
 
     return (
@@ -91,38 +110,50 @@ function Atelier() {
             <div className='ateliersect1'>
                 <div className='ateliersect1b1'>
                     <h1>Un atelier d’écriture c’est quoi ?</h1>
-                    <p>Un atelier d'écriture réunit des personnes désireuses d'écrire. Le respect,
-                        l'écoute et la bienveillance sont essentiels pour le bon déroulement de ces
-                        ateliers. Les ateliers créatifs s'adressent à des particuliers et à des groupes
-                        de professionnels.
-                    J’adopte une approche oulipienne, utilisant des contraintes pour stimuler la
-                        créativité et offrir des perspectives inédites. Cette approche permet aux
-                        participants de sortir de leurs habitudes et de découvrir de nouvelles voies.
-                    J’interviens auprès de différents secteurs, notamment éducatif, médico-social
-                        et de la santé, afin de soutenir ceux qui prennent soin des autres.</p>
+                    <p>Un atelier d’écriture est un lieu regroupant des personnes qui écrivent. Pour
+                        reprendre les mots d’Odile Neumayer, « en atelier, il n’y a pas de hors-sujet »
+                        car « c’est vous le sujet. » Ouvert.es à toustes, sans aucune restriction , mes
+                        ateliers se déroulent en Alsace, en « présentiel » ou en « visio ». Je peux
+                        également me déplacer dans toute la France.
+                    </p>
                     <div className='liensect1'>
                         <a>Textes d’ateliers</a>
                         <a>Podcasts</a>
                         <a>Tarifs</a>
                     </div>
                     <div className='bioateletierbaudelaire'>
-                        <h4>« Parce que la forme est contraignante, <br></br> l'idée jaillit plus intense »</h4>
+                        <h4>« Parce que la forme est contraignante,
+                            <br></br>
+                            l'idée jaillit plus intense »</h4>
                         <p>
                             Charles Baudelaire</p>
                     </div>
                 </div>
 
-                <img src="/images/atelier-01.png" alt="Image 1"/>
+                <img
+                    src="/images/atelier-01.png"
+                    alt="Image 1"
+                    onClick={playSound1}
+                    style={{
+                    cursor: 'pointer'
+                }}/>
             </div>
 
             <div className='ateliersect2'>
 
-                <img src="/images/atelier-02.png" alt="Image 2"/>
+                <img src="/images/atelier-02.png" alt="Image 2" onClick={playSound2}
+                    style={{
+                    cursor: 'pointer'
+                }}/>
                 <div className='ateliersect2b2'>
-                    <h1>Pour tous, sans aucune restriction.</h1>
-                    <p>En atelier d’écriture, « il n’y a pas de hors-sujet car » comme le disait
-                        Odile Neumayer, « c’est vous le sujet. ». Nous sommes tous capables d’écrire.
-                        Ici, le moteur est le désir, l’idée est de prendre plaisir.
+                    <h1>Comment se passe
+                        <br></br>
+                        un atelier ?</h1>
+                    <p>Il m’est difficile de répondre à cette question. Que dire ? Quoi décrire ?
+                        Chaque atelier est unique. C’est avant tout une expérience à vivre. Pour vous
+                        donner une image, je compare souvent les ateliers d’écriture aux recettes de
+                        cuisine ou aux entraînements sportifs. Avant d’écrire, on se prépare.
+
                     </p>
                 </div>
             </div>
@@ -145,14 +176,21 @@ function Atelier() {
                         particuliers.
                     </p>
                     <p>
-                        J’interviens également auprès de professionnelles en établissement et en
-                        entreprise. Là, les ateliers mêlent écriture et analyse de pratiques.
+                        J’interviens également auprès de<span className='textesurligneratelier'>
+                            professionnelles en établissement et en entreprise.</span>
+                        Là, les ateliers mêlent écriture et analyse de pratiques.
                     </p>
                 </div>
-                <img src="/images/atelier-03.png" alt="Image 3"/>
+                <img src="/images/atelier-03.png" alt="Image 3" onClick={playSound3}
+                    style={{
+                    cursor: 'pointer'
+                }}/>
             </div>
             <div className='ateliersect4'>
-                <img src="/images/atelier-04.png" alt="Image 3"/>
+                <img src="/images/atelier-04.png" alt="Image 3" onClick={playSound4}
+                    style={{
+                    cursor: 'pointer'
+                }}/>
 
                 <div className='ateliersect4b1'>
                     <h1>Ma spécialité</h1>

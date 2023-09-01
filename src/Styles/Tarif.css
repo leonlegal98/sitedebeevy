@@ -1,31 +1,35 @@
 @font-face {
     font-family: "Mademirageitalic";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
    
     
+  }
+  @font-face {
+    font-family: "newtypo";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("truetype");
+
   }
   
   @font-face {
     font-family: "titreMirage";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Regular.otf") format("truetype");
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
     
   }
   @font-face {
     font-family: "textebase";
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
     
   }
   @font-face {
     font-family: "italiccar";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
     
   }
   @font-face {
     font-family: "itabbee";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
    
     
   }
@@ -36,7 +40,12 @@
     margin-left: 120px;
     margin-right: 120px;
     font-family:"titreMirage",sans-serif;
+    margin-top: 50px;
     
+}
+.imagetarifb1{
+    height: 666px;
+    width: 423px;
 }
 .tarifparticulier{
     color: #871116;
@@ -49,6 +58,8 @@
 .tarifparticulier h3{ 
     font-size: 40px;
     font-family: 'titreMirage', sans-serif;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
     
 }
 .particuliernametarif{
@@ -61,7 +72,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-    margin-top: -55px;
+    margin-top: -50px;
    
 }
 .tarifpro{
@@ -78,11 +89,13 @@
 }
 .tarifpro p{
     font-family: 'textebase', sans-serif;
+    margin-top: 15px;
 }
 
 .pronametarif{
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
     
     
 }
@@ -90,18 +103,19 @@
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
-    margin-top: -55px;
+    margin-top: -50px;
 }
 .proprice p{
     font-family: 'textebase', sans-serif;
+   
 }
 .tarifbl2{
     display: flex;
     justify-content: space-around;
-    margin-right: 200px;
-    margin-left: 114px;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-right: 144px;
+    margin-left: 107px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     color: #871116;
 }
 .tarifbl2 h3{
@@ -117,3 +131,6 @@
 }
 
 
+.devisgratuit{
+    color: #871116;
+}

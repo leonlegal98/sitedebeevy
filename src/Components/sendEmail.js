@@ -1,16 +1,4 @@
-// if (typeof global === 'undefined') {
-//     global = window;
-//   }
-//   if (!global.stream) {
-//     global.stream = require('stream-browserify');
-//   }
-  
-//   if (typeof global === 'undefined') {
-//     global = window;
-//   }
-//   if (!global.crypto) {
-//     global.crypto = require('crypto-browserify');
-//   }
+
 // const nodemailer = require('nodemailer');
 
 

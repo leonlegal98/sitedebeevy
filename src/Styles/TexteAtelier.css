@@ -1,39 +1,45 @@
 @font-face {
-    font-family: "Mademirageitalic";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
-   
-    
-  }
-  @font-face {
-    font-family: "titreMirage";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    
-  }
-  @font-face {
-    font-family: "textebase";
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
-    
-  }
-  @font-face {
-    font-family: "italiccar";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
-    
-  }
-  @font-face {
-    font-family: "itabbee";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
-    
-  }
+  font-family: "Mademirageitalic";
+  src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+  src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+ 
+  
+}
+@font-face {
+  font-family: "newtypo";
+  src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("truetype");
+
+}
+
+@font-face {
+  font-family: "titreMirage";
+  src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+  
+}
+@font-face {
+  font-family: "textebase";
+  src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+  
+}
+@font-face {
+  font-family: "italiccar";
+  src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+  src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
+  
+}
+@font-face {
+  font-family: "itabbee";
+  src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+ 
+  
+}
 .titretexteatelier{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #871116;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
    
 }
 .titretexteatelier h1{
@@ -42,15 +48,19 @@
 }
 .titretexteatelier p{
     font-family: 'textebase',sans-serif;
-    margin-left: 60vh;
-    margin-right: 60vh;
+    margin-left: 55vh;
+    font-size: 18px;
+    margin-right: 55vh;
     text-align: center;
+    
 }
 .containertexteatelier{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .texteatelierarticle {
     
@@ -67,4 +77,8 @@
 }
 .texteatelierarticle p{
     font-family:'textebase',sans-serif ;
+    font-size: 18px;
+}
+.texteatelierarticle p:nth-child(2){
+  font-size: 14px;
 }

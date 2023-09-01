@@ -1,31 +1,35 @@
 @font-face {
     font-family: "Mademirageitalic";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
    
     
+  }
+  @font-face {
+    font-family: "newtypo";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("truetype");
+
   }
   
   @font-face {
     font-family: "titreMirage";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Regular.otf") format("truetype");
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
     
   }
   @font-face {
     font-family: "textebase";
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
     
   }
   @font-face {
     font-family: "italiccar";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
     
   }
   @font-face {
     font-family: "itabbee";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
    
     
   }
@@ -38,6 +42,11 @@
 }
 .footerb1 {
     color: white;
+}
+.footerb1 img{
+   height: 150px;
+   width: 300px;
+   margin-top: 30px;
 }
 .footerb2 {
     color: white;
@@ -74,6 +83,7 @@
 .footerb2b2 {
     display: flex;
     flex-direction: column;
+    font-family: 'textebase', sans-serif;
     margin-top: 70px;
 }
 .footerb3 {

@@ -1,31 +1,35 @@
 @font-face {
     font-family: "Mademirageitalic";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
    
     
+  }
+  @font-face {
+    font-family: "newtypo";
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("truetype");
+
   }
   
   @font-face {
     font-family: "titreMirage";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Regular.otf") format("truetype");
+    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
     
   }
   @font-face {
     font-family: "textebase";
-    src: url("../../TYPOS/APERCU/Apercu\ Light.otf") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
     
   }
   @font-face {
     font-family: "italiccar";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.otf") format("truetype");
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
     
   }
   @font-face {
     font-family: "itabbee";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.ttf") format("truetype");
+    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
    
     
   }
@@ -35,9 +39,13 @@
     
 }
 .ateliersect1b1{
- margin-right: 180px;
- margin-left: 180px;
+    margin-right: 325px;
+    margin-left: 160px;
  margin-top: -25px;
+}
+.ateliersect1b1 img{
+    width: 616px;
+    height: 648px;
 }
 .ateliersect1b1 h1{
     color: #871116;
@@ -80,8 +88,8 @@
     align-items: center;
 }
 .ateliersect2b2{
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 160px;
+    margin-left: 325px;
 }
 .ateliersect2b2 h1{
     color: #871116;
@@ -99,8 +107,8 @@
     align-items: center;
 }
 .ateliersect3b1{
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 325px;
+    margin-left: 160px;
 }
 .ateliersect3b1 h1{
     color: #871116;
@@ -116,15 +124,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30vh;
-    margin-left: 30vh;
     margin-top: 100px;
     margin-bottom: 150px;
    
 }
+.ateliersect4 img{
+    margin-left: 160px;
+}
 .ateliersect4b1{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 160px;
+    margin-left: 325px;
 }
 .ateliersect4b1 h1{
     color: #871116;
@@ -161,6 +170,8 @@
 
 .faqatelier{
     padding: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     
 }
 
@@ -222,4 +233,7 @@
 
 .ligneatelierfoo{
     border-bottom: #871116 1px solid;
+}
+.textesurligneratelier{
+   text-decoration: underline;
 }

@@ -7,7 +7,7 @@ function Creative() {
     return (
         <div>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative : "Un air de vacances"</h1>
+                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
 
             </div>
             <div className='containercreative'>

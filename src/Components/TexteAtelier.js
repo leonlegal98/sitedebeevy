@@ -12,6 +12,7 @@ function TexteAtelier() {
                     écrits ne peuvent témoigner du vécu dense et riche de l’atelier mais ils
                     illustrent néanmoins ce qu’un atelier d’écriture peut produire dans toute sa
                     diversité.</p>
+                <p>Temps d'écriture: de 10 à 25 minutes par texte.</p>
             </div>
 
             <div className='containertexteatelier'>

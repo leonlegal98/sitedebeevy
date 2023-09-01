@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import '../Styles/Tarif.css'
 import Footer from './Footer';
+import soundtarif from '../sonTarif/cartonvert.mp3'
 
 function Tarifs() {
+    const [audio] = useState(new Audio(soundtarif));
+    const tarifplaysound = () => {
+        audio.play();
+    };
     return (
         <div>
             <div className='tarifbl1'>
@@ -47,11 +52,14 @@ function Tarifs() {
                                 575€
                             </h3>
                         </div>
-                        <p>Devis gratuit, sur simple demande</p>
+                        <p><a className='devisgratuit' href='contact'>Devis gratuit,</a> sur simple demande</p>
                     </div>
 
                 </div>
-                <img src='/images/tarifimg1.png'/>
+                <img className='imagetarifb1' src='/images/tarifimg1.png' onClick={tarifplaysound}
+                        style={{
+                        cursor: 'pointer'
+                    }}/>
 
             </div>
             <div className='tarifbl2'>

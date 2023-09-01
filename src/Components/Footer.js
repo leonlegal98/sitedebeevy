@@ -12,7 +12,7 @@ function Footer() {
         <div className="">
              <div className='footer'>
                 <div className='footerb1'>
-                    <img src='/images/logofooter.png'/>
+                    <img src='/images/atelierbbeevyfooter.png'/>
                 </div>
                 <div className='footerb2'>
                     <h3>Menu</h3>
