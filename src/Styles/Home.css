@@ -42,10 +42,10 @@
 
 .block1 {
     background-color: #871116;
-    width: 1048px;
-    height: 801px;
+    width: 948px;
+    height: 671px;
     display: flex;
-    margin-left: 35vh;
+    margin-left: 40vh;
     flex-direction: column;
     border-radius: 25px;
     position: relative;
@@ -56,7 +56,7 @@
 .block1 h3 {
     font-family:"newtypo", sans-serif;
     font-weight: 300px;
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: 70px;
     color: white;
     font-size: 30px;
@@ -263,7 +263,8 @@ span.swiper-pagination-bullet{
     display: flex;
     justify-content: center;
     color: #871116;
-    margin-top: 90px;
+    margin-top: 70px;
+    margin-bottom: -20px;
     font-family:"titreMirage", sans-serif;
     font-size: 70px;
 }
@@ -283,10 +284,10 @@ span.swiper-pagination-bullet{
     height: 30vh;
 }
 .block4 img {
-    margin-left: 25px;
-    margin-right: 25px;
-    height: 120px;
-    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 130px;
+    width: 220px;
 }
 .block5 {
     display: flex;

@@ -46,8 +46,8 @@
  margin-top: -25px;
 }
 .ateliersect1b1 img{
-    width: 616px;
-    height: 648px;
+    width: 657px;
+    height: 678px;
 }
 .ateliersect1b1 h1{
     color: #871116;
@@ -88,10 +88,15 @@
     display: flex;
     margin-top: 100Px;
     align-items: center;
+    
+}
+.ateliersect2 img{
+    width: 830px;
+    height: 642px;
 }
 .ateliersect2b2{
-    margin-right: 160px;
-    margin-left: 325px;
+    margin-left: 31vh;
+    margin-right: 100px;
 }
 .ateliersect2b2 h1{
     color: #871116;
@@ -107,6 +112,10 @@
     display: flex;
     margin-top: 100px;
     align-items: center;
+}
+.ateliersect3 img {
+    width: 638px;
+    height: 657px;
 }
 .ateliersect3b1{
     margin-right: 325px;
@@ -131,11 +140,13 @@
    
 }
 .ateliersect4 img{
-    margin-left: 160px;
+    margin-left: 40vh;
+    height: 512px;
+    width: 387px;
 }
 .ateliersect4b1{
-    margin-right: 160px;
-    margin-left: 325px;
+    margin-left: 38vh;
+    margin-right: 100px;
 }
 .ateliersect4b1 h1{
     color: #871116;
@@ -172,8 +183,8 @@
 
 .faqatelier{
     padding: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
     
 }
 

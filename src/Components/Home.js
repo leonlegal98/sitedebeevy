@@ -10,7 +10,7 @@ import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper/modules';
 import Menu from './Menu';
 import Footer from './Footer';
 import soundFile from '../sonAccueil/coeur.mp3';
-import soudnFile2 from '../sonAccueil/crayon.mp3';
+import soundFile2 from '../sonAccueil/crayon.mp3';
 
 
 function Home() {
@@ -41,6 +41,10 @@ function Home() {
     const [audio] = useState(new Audio(soundFile));
     const playSound = () => {
         audio.play();
+    };
+    const [audio2] = useState(new Audio(soundFile2));
+    const playSound2 = () => {
+        audio2.play();
     };
     return (
         <div className="homepage">
@@ -188,7 +192,10 @@ function Home() {
                 </Swiper>
             </div>
             <div className='block3'>
-                <img className='imgbl3' src='/images/groupphoto.png'/>
+                <img onClick={playSound2}
+                        style={{
+                        cursor: 'pointer'
+                    }} className='imgbl3' src='/images/groupphoto.png'/>
                 <h1 className='textbl3'>Ils me font confiance</h1>
                 <div className='homesecondcarousel'>
                     <Swiper

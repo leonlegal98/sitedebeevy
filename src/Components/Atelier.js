@@ -117,9 +117,9 @@ function Atelier() {
                         également me déplacer dans toute la France.
                     </p>
                     <div className='liensect1'>
-                        <a>Textes d’ateliers</a>
-                        <a>Podcasts</a>
-                        <a>Tarifs</a>
+                        <a href='/texteatelier'>Textes d’ateliers</a>
+                        <a href='podcast'>Podcasts</a>
+                        <a href='tarif'>Tarifs</a>
                     </div>
                     <div className='bioateletierbaudelaire'>
                         <h4>« Parce que la forme est contraignante,

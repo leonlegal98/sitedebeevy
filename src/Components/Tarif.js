@@ -52,7 +52,7 @@ function Tarifs() {
                                 575€
                             </h3>
                         </div>
-                        <p><a className='devisgratuit' href='contact'>Devis gratuit,</a> sur simple demande</p>
+                        <p><a className='devisgratuit' href='contact'>Devis gratuit</a>, sur simple demande</p>
                     </div>
 
                 </div>
