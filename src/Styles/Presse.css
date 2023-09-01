@@ -44,10 +44,10 @@
     border-bottom: #871116 1px solid;
 }
 .listeimagepress img {
-    margin-left: 15px;
-    margin-right: 15px;
-    height: 120px;
-    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 130px;
+    width: 220px;
 }
 .pressbl1{
     display: flex;
@@ -58,7 +58,7 @@
     
 }
 .pressbl1 img{
-    width: 30vh;
+    width: 25vh;
 }
 .pressbl1bl2{
     display: flex;
@@ -95,7 +95,7 @@
     font-size: 18px;
 }
 .pressbl2 img{
-    width: 30vh;
+    width: 25vh;
 }
 .pressbl2bl2{
     display: flex;
@@ -111,7 +111,7 @@
     padding-bottom: 130px;
 }
 .pressbl3 img{
-    width: 30vh;
+    width: 25vh;
 }
 .pressbl3bl2{
     display: flex;

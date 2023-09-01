@@ -12,40 +12,40 @@ function Creative() {
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent Un oiseau dessine un chemin Je le suis</p>
+                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
                     <p>Annick</p>
 
                 </div>
                 <div className='creativearticle article2'>
                     <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » Voici ce que tu as
-                        devant les yeux : Un village perché, griffant le ciel bleu, accordant la valse
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-en-ciel, le miracle Soulages… Voici ce que tes
-                        narines respirent : La poussière des vieux bois de l’appartement familial… Cuite
-                        par le soleil, la vapeur puissante des touffes de thym, d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables de souvenirs ». Voici ce que tes oreilles
-                        entendent : Le bruissement des feuilles dans les hautes frondaisons. Le
-                        délicieux clapotis de la rivière glissant sur les galets moussus met l’eau à la
-                        bouche. Les cris de joie des enfants comme des pépiements d’oiseaux. Les calmes
+                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
+                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
+                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
+                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
+                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
+                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
+                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
+                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
+                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
+                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
                         battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant… Oui, ce village, ces moments, mettent sous ta peau ces sensations, dans
-                        ton âme ce chant, ces images sous tes paupières…</p>
+                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
+                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
                     <p>Marie-Christine</p>
 
                 </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance, La chaleur des rayons du soleil sur le visage Un maillot de
-                        bain pour se jeter dans les vagues J’accepte de me perdre sur des sentiers et
-                        des chemins de traverse… Ah, une trouée, une clairière… Mouvance inquiète du
-                        pont improbable Saint-Tropez.</p>
+                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
+                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
+                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
+                        pont improbable<br></br> Saint-Tropez.</p>
                     <p>Poésie collective/ cadavre exquis</p>
 
                 </div>
                 <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire Flâner au gré de ses envies S’enfoncer dans le sol,
-                        dans le sable chaud, Profiter du moment sous le soleil couchant, Sous le vent du
-                        soir, sous une moustiquaire… Une revivance d’étonnements L’enfance</p>
+                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
+                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
+                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
                     <p>Poésie collective/ cadavre exquis</p>
 
                 </div>
@@ -71,7 +71,7 @@ function Creative() {
 
                 </div>
                 <div className='creativearticle article6'>
-                    <p>Étonnement bondissants Sur les chemins de traverse L'inconnu attend</p>
+                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
                     <p>Annick</p>
 
                 </div>

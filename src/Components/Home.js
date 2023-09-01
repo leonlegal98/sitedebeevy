@@ -1,5 +1,5 @@
 import '../Styles/Home.css';
-import React, {useRef, useState} from 'react';
+import React, {useRef, useState,useEffect} from 'react';
 
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Link} from 'react-router-dom';
@@ -37,6 +37,7 @@ function Home() {
         setSelectedImage(null);
         setModalOpen(false);
     };
+  
 
     const [audio] = useState(new Audio(soundFile));
     const playSound = () => {
@@ -276,9 +277,9 @@ function Home() {
                         onClick={() => handleImageClick(image)}/>))}
             </div>
             {modalOpen && (
-                <div className="modal-overlay">
+                <div className="modal-overlay" onClick={closeModal}>
                     <div className="modal">
-                        <button onClick={closeModal}>Fermer</button>
+                        <button onClick={closeModal}>X</button>
                         {selectedImage && <img src={selectedImage} alt="Image en grand"/>}
                     </div>
                 </div>

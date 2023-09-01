@@ -1,11 +1,34 @@
 import '../Styles/Presse.css';
 
-import React from 'react';
 import Bio from './Bio.js';
 import Home from './Home.js';
 import Footer from './Footer';
+import React, {useRef, useState,useEffect} from 'react';
 
 function Presse() {
+    const [modalOpen,
+        setModalOpen] = useState(false);
+    const [selectedImage,
+        setSelectedImage] = useState(null);
+
+    const imageAssociations = {
+        '/images/1.png': '/images/ArticlelAlsace_1.jpg',
+        '/images/2.png': '/images/EhpadErstein_1.jpg',
+        '/images/3.png': '/images/Eurometropole_1.jpg',
+        '/images/4.png': '/images/BulletinHoenheim_1.jpg',
+        '/images/5.png': '/images/page01_1.jpg',
+        '/images/6.png': '/images/article_1.jpg',
+        // Ajoutez ici les associations pour vos images
+    };
+
+    const handleImageClick = (image) => {
+        setSelectedImage(imageAssociations[image]);
+        setModalOpen(true);
+    };
+    const closeModal = () => {
+        setSelectedImage(null);
+        setModalOpen(false);
+    };
     return (
 
         <div className="pressebody">
@@ -14,13 +37,22 @@ function Presse() {
                 <h1>Presse écrite</h1>
             </div>
             <div className='listeimagepress'>
-                <img src='/images/1.png'/>
-                <img src='/images/2.png'/>
-                <img src='/images/3.png'/>
-                <img src='/images/4.png'/>
-                <img src='/images/5.png'/>
-                <img src='/images/6.png'/>
+            {Object
+                    .keys(imageAssociations)
+                    .map((image, index) => (<img
+                        key={index}
+                        src={image}
+                        alt={`Image ${index}`}
+                        onClick={() => handleImageClick(image)}/>))}
             </div>
+            {modalOpen && (
+                <div className="modal-overlay" onClick={closeModal}>
+                    <div className="modal">
+                        <button onClick={closeModal}>X</button>
+                        {selectedImage && <img src={selectedImage} alt="Image en grand"/>}
+                    </div>
+                </div>
+            )}
 
             <div className='titrepressedeux'>
                 <h1>Télévision</h1>
