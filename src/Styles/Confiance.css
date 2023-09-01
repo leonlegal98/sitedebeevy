@@ -1,38 +1,40 @@
 @font-face {
-    font-family: "Mademirageitalic";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-   
-    
-  }
-  @font-face {
-    font-family: "newtypo";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("truetype");
-
-  }
+  font-family: "Mademirageitalic";
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+ 
   
-  @font-face {
-    font-family: "titreMirage";
-    src: url("../../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-    
-  }
-  @font-face {
-    font-family: "textebase";
-    src: url("../../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-    
-  }
-  @font-face {
-    font-family: "italiccar";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-    src: url("../../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
-    
-  }
-  @font-face {
-    font-family: "itabbee";
-    src: url("../../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-   
-    
-  }
+}
+@font-face {
+  font-family: "newtypo";
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("woff");
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.eot") format("eot");
+
+}
+
+@font-face {
+  font-family: "titreMirage";
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+  
+}
+@font-face {
+  font-family: "textebase";
+  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+  
+}
+@font-face {
+  font-family: "italiccar";
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
+  
+}
+@font-face {
+  font-family: "itabbee";
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+ 
+  
+}
   .titreconfiance{
     display: flex;
     justify-content: center;
