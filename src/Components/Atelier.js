@@ -141,7 +141,10 @@ function Atelier() {
 
             <div className='ateliersect2'>
 
-                <img src="/images/atelier-02.png" alt="Image 2" onClick={playSound2}
+                <img
+                    src="/images/atelier-02.png"
+                    alt="Image 2"
+                    onClick={playSound2}
                     style={{
                     cursor: 'pointer'
                 }}/>
@@ -181,13 +184,19 @@ function Atelier() {
                         Là, les ateliers mêlent écriture et analyse de pratiques.
                     </p>
                 </div>
-                <img src="/images/atelier-03.png" alt="Image 3" onClick={playSound3}
+                <img
+                    src="/images/atelier-03.png"
+                    alt="Image 3"
+                    onClick={playSound3}
                     style={{
                     cursor: 'pointer'
                 }}/>
             </div>
             <div className='ateliersect4'>
-                <img src="/images/atelier-04.png" alt="Image 3" onClick={playSound4}
+                <img
+                    src="/images/atelier-04.png"
+                    alt="Image 3"
+                    onClick={playSound4}
                     style={{
                     cursor: 'pointer'
                 }}/>
@@ -301,8 +310,12 @@ function Atelier() {
                                 : ''}`}
                                 onClick={() => toggleContent(item.id)}>
                                 {contentStates[item.id]
-                                    ? '-'
-                                    : '+'}
+                                    ? (
+                                        <img className='moinsfaq' src="/images/-.png" alt="Minus"/> // Image pour fermer le contenu
+                                    )
+                                    : (
+                                        <img className='plusfaq' src="/images/+.png" alt="Plus"/> // Image pour ouvrir le contenu
+                                    )}
                             </button>
                         </h4>
                         <div

@@ -45,9 +45,10 @@
     margin-left: 160px;
  margin-top: -25px;
 }
-.ateliersect1b1 img{
+.ateliersect1 img{
     width: 657px;
     height: 678px;
+    margin-right: 160px;
 }
 .ateliersect1b1 h1{
     color: #871116;
@@ -91,12 +92,12 @@
     
 }
 .ateliersect2 img{
-    width: 830px;
-    height: 642px;
+    
+    margin-left: 160px;
 }
 .ateliersect2b2{
-    margin-left: 31vh;
-    margin-right: 100px;
+    margin-left: 15vh;
+    margin-right: 160px;
 }
 .ateliersect2b2 h1{
     color: #871116;
@@ -110,12 +111,12 @@
 }
 .ateliersect3{
     display: flex;
-    margin-top: 100px;
-    align-items: center;
+    margin-top: 150px;
+   
 }
 .ateliersect3 img {
-    width: 638px;
-    height: 657px;
+    
+    margin-right: 160px;
 }
 .ateliersect3b1{
     margin-right: 325px;
@@ -135,18 +136,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 150px;
    
 }
 .ateliersect4 img{
-    margin-left: 40vh;
+    margin-left: 30vh;
     height: 512px;
     width: 387px;
 }
 .ateliersect4b1{
-    margin-left: 38vh;
-    margin-right: 100px;
+    margin-left: 30vh;
+    margin-right: 160px;
 }
 .ateliersect4b1 h1{
     color: #871116;
@@ -170,12 +171,13 @@
 }
 .ateliersection5 a{
     color: #871116;
-    margin-bottom: 90px;
+    margin-bottom: 110px;
     font-family: 'textebase', sans-serif;
 }
 .textateliersect5{
     color: #871116;
-    margin-top: 80px;
+    margin-top: 75px;
+    margin-bottom: -10px;
     font-family: "titreMirage", sans-serif;
     font-size: 70px;
     
@@ -218,20 +220,27 @@
     color: white;
     border: none;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     font-weight: bold;
     text-align: center;
-    line-height: 30px;
+    line-height: 10px;
     cursor: pointer;
     transition: transform 0.2s;
     
     
      /* Transition pour le bouton */
 }
-
+.moinsfaq{
+    width: 18px;
+    margin-bottom: 3px;
+    
+}
+.plusfaq{
+    width: 20px;
+}
 .toggle-button-atelier.minus:before {
-    content: "-";
+
      /* Changement du contenu pour le bouton "-" */
 }
 

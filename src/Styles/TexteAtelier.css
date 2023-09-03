@@ -49,14 +49,20 @@
     font-family:'Mademirageitalic',sans-serif ;
     font-size: 70px;
 }
+.decouvreatelier{
+  font-size: 18px;
+}
+.textateliertemp{
+  font-size: 16px;
+}
 .titretexteatelier p{
     font-family: 'textebase',sans-serif;
     margin-left: 55vh;
-    font-size: 18px;
     margin-right: 55vh;
     text-align: center;
     
 }
+
 .containertexteatelier{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -64,6 +70,7 @@
     padding: 20px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 100px;
 }
 .texteatelierarticle {
     

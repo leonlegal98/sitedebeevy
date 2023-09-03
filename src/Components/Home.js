@@ -214,8 +214,7 @@ function Home() {
                                 <img className='car2imgsize' src='/images/car2im1.png'/>
                                 <p>Dans le cadre du dispositif national “La classe, l'œuvre”, le Labo des
                                     Histoires- Grand Est a organisé le cycle d’ateliers d’écriture “Sur les traces
-                                    de Théodore Deck” en partenariat avec le Musée consacré au céramiste et le
-                                    collège Mathias Grünewald de Guebwiller.</p>
+                                    de Théodore Deck” en partenariat avec le Musée consacré au céramiste.</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>

@@ -52,8 +52,8 @@
 .pressbl1{
     display: flex;
     border-bottom: #871116 1px solid;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 290px;
+    margin-right: 290px;
     padding-bottom: 50px;
     
 }
@@ -71,8 +71,8 @@
 .pressbl2{
     display: flex;
     
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 290px;
+    margin-right: 290px;
     padding-top: 50px;
     padding-bottom: 150px;
 }
@@ -106,8 +106,8 @@
 }
 .pressbl3{
     display: flex;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 290px;
+    margin-right: 290px;
     padding-bottom: 130px;
 }
 .pressbl3 img{

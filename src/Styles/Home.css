@@ -43,7 +43,7 @@
 .block1 {
     background-color: #871116;
     width: 948px;
-    height: 671px;
+    height: 661px;
     display: flex;
     margin-left: 40vh;
     flex-direction: column;
@@ -74,9 +74,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 
-    margin-right: -80px;
+    margin-right: -130px;
 }
 .b1-sect1 img{
     height: 90px;
@@ -250,7 +250,7 @@ span.swiper-pagination-bullet{
 .block3 a {
 
     color: #871116;
-    margin-bottom: 90px;
+    margin-bottom: 110px;
     display: flex;
     justify-content: center;
     font-family: "textebase", sans-serif;
@@ -264,7 +264,7 @@ span.swiper-pagination-bullet{
     justify-content: center;
     color: #871116;
     margin-top: 70px;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
     font-family:"titreMirage", sans-serif;
     font-size: 70px;
 }
@@ -293,13 +293,13 @@ span.swiper-pagination-bullet{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 .titrebl5 {
     color: #871116;
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 49px;
     font-family: "titreMirage",sans-serif;
     font-size: 70px;
@@ -335,7 +335,8 @@ span.swiper-pagination-bullet{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Assurez-vous que la modal soit au-dessus de tout le reste */
+    z-index: 1000; 
+    cursor: pointer;
   }
   
   .modal {
@@ -356,6 +357,6 @@ span.swiper-pagination-bullet{
   
   .modal img {
     max-width: 100%;
-    max-height: 80vh; /* Limite la hauteur de l'image pour éviter le débordement */
+    max-height: 80vh;
   }
   

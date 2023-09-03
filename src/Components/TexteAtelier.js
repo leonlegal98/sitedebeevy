@@ -8,11 +8,11 @@ function TexteAtelier() {
         <div>
             <div className='titretexteatelier'>
                 <h1>Textes d’ateliers</h1>
-                <p>Découvrez une sélection de textes publiés avec l'accord de leurs auteurs. Ces
+                <p className='decouvreatelier'>Découvrez une sélection de textes publiés avec l'accord de leurs auteurs. Ces
                     écrits ne peuvent témoigner du vécu dense et riche de l’atelier mais ils
                     illustrent néanmoins ce qu’un atelier d’écriture peut produire dans toute sa
                     diversité.</p>
-                <p>Temps d'écriture: de 10 à 25 minutes par texte.</p>
+                <p className='textateliertemp'>Temps d'écriture: de 10 à 25 minutes par texte.</p>
             </div>
 
             <div className='containertexteatelier'>
