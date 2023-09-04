@@ -9,6 +9,8 @@ import Home from './Home.js';
 function Menu() {
     return (
 
+        <div>
+
         <div className="menu">
             <div className="menu-left">
             <Link to="/">
@@ -22,8 +24,10 @@ function Menu() {
                 <Link to="presse">Presse</Link>
                 <Link to="contact">Contact</Link>
             </div>
+            
+            
         </div>
-
+        </div>
     );
 }
 

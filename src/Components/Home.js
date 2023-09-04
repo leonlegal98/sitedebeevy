@@ -1,5 +1,5 @@
 import '../Styles/Home.css';
-import React, {useRef, useState,useEffect} from 'react';
+import React, {useRef, useState, useEffect} from 'react';
 
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Link} from 'react-router-dom';
@@ -11,7 +11,6 @@ import Menu from './Menu';
 import Footer from './Footer';
 import soundFile from '../sonAccueil/coeur.mp3';
 import soundFile2 from '../sonAccueil/crayon.mp3';
-
 
 function Home() {
     const [modalOpen,
@@ -37,7 +36,6 @@ function Home() {
         setSelectedImage(null);
         setModalOpen(false);
     };
-  
 
     const [audio] = useState(new Audio(soundFile));
     const playSound = () => {
@@ -193,10 +191,13 @@ function Home() {
                 </Swiper>
             </div>
             <div className='block3'>
-                <img onClick={playSound2}
-                        style={{
-                        cursor: 'pointer'
-                    }} className='imgbl3' src='/images/groupphoto.png'/>
+                <img
+                    onClick={playSound2}
+                    style={{
+                    cursor: 'pointer'
+                }}
+                    className='imgbl3'
+                    src='/images/groupphoto.png'/>
                 <h1 className='textbl3'>Ils me font confiance</h1>
                 <div className='homesecondcarousel'>
                     <Swiper
@@ -278,7 +279,9 @@ function Home() {
             {modalOpen && (
                 <div className="modal-overlay" onClick={closeModal}>
                     <div className="modal">
-                        <button onClick={closeModal}>X</button>
+                        <div className="modal-header">
+                            <button className="close-button" onClick={closeModal}>X</button>
+                        </div>
                         {selectedImage && <img src={selectedImage} alt="Image en grand"/>}
                     </div>
                 </div>

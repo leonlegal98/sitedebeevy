@@ -3,7 +3,7 @@ import '../Styles/Presse.css';
 import Bio from './Bio.js';
 import Home from './Home.js';
 import Footer from './Footer';
-import React, {useRef, useState,useEffect} from 'react';
+import React, {useRef, useState, useEffect} from 'react';
 
 function Presse() {
     const [modalOpen,
@@ -37,7 +37,7 @@ function Presse() {
                 <h1>Presse écrite</h1>
             </div>
             <div className='listeimagepress'>
-            {Object
+                {Object
                     .keys(imageAssociations)
                     .map((image, index) => (<img
                         key={index}
@@ -48,7 +48,9 @@ function Presse() {
             {modalOpen && (
                 <div className="modal-overlay" onClick={closeModal}>
                     <div className="modal">
-                        <button onClick={closeModal}>X</button>
+                        <div className="modal-header">
+                            <button className="close-button" onClick={closeModal}>X</button>
+                        </div>
                         {selectedImage && <img src={selectedImage} alt="Image en grand"/>}
                     </div>
                 </div>
@@ -58,7 +60,11 @@ function Presse() {
                 <h1>Télévision</h1>
             </div>
             <div className='pressbl1'>
+                <div>
                 <img src='/images/pressbl1.png'/>
+                </div>
+                
+                
                 <div className='pressbl1bl2'>
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
@@ -73,7 +79,10 @@ function Presse() {
                 </div>
             </div>
             <div className='pressbl2'>
+                <div>
                 <img src='/images/press-02.png'/>
+                </div>
+               
                 <div className='pressbl2bl2'>
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
@@ -93,7 +102,10 @@ function Presse() {
             </div>
 
             <div className='pressbl3'>
+                <div>
                 <img src='/images/press-03.png'/>
+                </div>
+                
                 <div className='pressbl3bl2'>
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
@@ -107,7 +119,6 @@ function Presse() {
                     </p>
                 </div>
             </div>
-
 
             <Footer/>
         </div>

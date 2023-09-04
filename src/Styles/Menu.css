@@ -60,3 +60,6 @@
     color: #86262B;
     font-family: "textebase",sans-serif;
 }
+@media screen and (max-width: 768px) {
+  .logoim1{}
+}

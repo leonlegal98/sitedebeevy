@@ -44,10 +44,11 @@
     border-bottom: #871116 1px solid;
 }
 .listeimagepress img {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 130px;
-    width: 220px;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 170px;
+    width: 290px;
+    cursor: pointer;
 }
 .pressbl1{
     display: flex;
