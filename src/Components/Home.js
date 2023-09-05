@@ -136,7 +136,7 @@ function Home() {
                     </p>
                     <div className='lienbl2'>
 
-                        <a href='/bio'>Découvrir</a>
+                        <a href='/atelier'>Découvrir</a>
                         <a href='/texteatelier'>Textes d'ateliers</a>
                         <a href='/tarif'>Tarifs</a>
 

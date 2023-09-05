@@ -42,12 +42,12 @@
     margin-left: 120px;
     margin-right: 120px;
     font-family:"titreMirage",sans-serif;
-    margin-top: 50px;
+    margin-top: 40px;
     
 }
 .imagetarifb1{
-    height: 616px;
-    width: 373px;
+    height: 596px;
+    width: 353px;
 }
 .tarifparticulier{
     color: #871116;
@@ -68,6 +68,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'textebase', sans-serif;
+    margin-top: -20px;
     
 }
 .particulierprice{
@@ -136,4 +137,9 @@
 
 .devisgratuit{
     color: #871116;
+}
+.kilometriques{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
 }

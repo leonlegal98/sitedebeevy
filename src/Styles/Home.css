@@ -21,13 +21,18 @@
 }
 @font-face {
     font-family: "italiccar";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
 
 }
 @font-face {
     font-family: "itabbee";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
 .homepage {
@@ -80,6 +85,8 @@
     color: white;
     font-family: "itabbee",sans-serif;
     margin-left: -10px;
+    text-decoration: none;
+    font-size: 20px;
 
 }
 .liensect1img {
@@ -135,7 +142,7 @@
 }
 .titrec2 {
     color: #871116;
-    font-family: "titreMirage",sans-serif;
+    font-family: "helene",sans-serif;
     font-size: 60px;
 }
 .parac2 {
@@ -249,6 +256,7 @@ span.swiper-pagination-bullet {
 
     color: #871116;
     margin-bottom: 110px;
+    margin-top: -5px;
     display: flex;
     justify-content: center;
     font-family: "textebase", sans-serif;
@@ -262,7 +270,7 @@ span.swiper-pagination-bullet {
     justify-content: center;
     color: #871116;
     margin-top: 70px;
-    margin-bottom: -18px;
+    margin-bottom: -10px;
     font-family: "titreMirage", sans-serif;
     font-size: 70px;
 }

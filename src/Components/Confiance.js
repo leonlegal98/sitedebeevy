@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function Confiance() {
     return (
-        <div>
+        <div className='confiancehome'>
             <div className='titreconfiance'>
                 <h1>Ils me font confiance</h1>
 

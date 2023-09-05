@@ -52,10 +52,10 @@ function Atelier() {
             id: 'text2',
             title: '« Je fais des fautes d’orthographe, est-ce grave ? »',
             content: 'Il serait dommage de vous priver d’un atelier d’écriture pour des raisons orthog' +
-                    'raphiques ou grammaticales. À ce sujet, Bukowski disait : <q>Je n’ai pas prêté b' +
+                    'raphiques ou grammaticales. À ce sujet, Bukowski disait :«  Je n’ai pas prêté b' +
                     'eaucoup d’attention à la grammaire, et quand j’écris c’est surtout par amour du ' +
                     'mot, de la tonalité, comme un peintre jetant ses couleurs sur la toile. (...) Un' +
-                    'e écriture qui vient du sang plutôt que de l’intellect.</q>'
+                    'e écriture qui vient du sang plutôt que de l’intellect. »'
         }, {
             id: 'text3',
             title: '« Pour participer à une séance, faut-il s’inscrire à tous les ateliers ? »',

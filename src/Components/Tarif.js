@@ -37,9 +37,10 @@ function Tarifs() {
                             Tarifs pro
                         </h3>
                         <p>Les tarifs varient en fonction de la commande et du lieu* <br></br> Exemple de tarifs
-                            pour un groupe de 5 à 12 personnes
+                            pour un groupe de 5 à 12 personnes <br></br>
+                            <span className='kilometriques'>*frais kilométriques en sus, hébergement, frais de repas.</span>
                         </p>
-                        <p>*frais kilométriques en sus, hébergement, frais de repas.</p>
+                    
                         <div className='pronametarif'>
                             <p>Atelier de 2h à partir de</p>
                             <p>Atelier de 3h à partir de</p>
