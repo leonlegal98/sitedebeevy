@@ -46,8 +46,8 @@
     
 }
 .imagetarifb1{
-    height: 666px;
-    width: 423px;
+    height: 616px;
+    width: 373px;
 }
 .tarifparticulier{
     color: #871116;
@@ -60,7 +60,7 @@
 .tarifparticulier h3{ 
     font-size: 40px;
     font-family: 'titreMirage', sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     padding-bottom: 20px;
     
 }
@@ -87,6 +87,7 @@
 .tarifpro h3{ 
     font-size: 40px;
     font-family: 'titreMirage', sans-serif;
+    margin-bottom: 15px;
     
 }
 .tarifpro p{
@@ -114,7 +115,7 @@
 .tarifbl2{
     display: flex;
     justify-content: space-around;
-    margin-right: 144px;
+    margin-right: 103px;
     margin-left: 107px;
     margin-top: 70px;
     margin-bottom: 150px;

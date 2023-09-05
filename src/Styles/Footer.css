@@ -120,3 +120,8 @@
     margin-left: -9px;
     margin-top: 5px;
 }
+@media screen and (max-width: 868px) {
+    .footer{
+        display: block;
+    }
+}
