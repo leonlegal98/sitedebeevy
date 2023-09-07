@@ -260,3 +260,67 @@
 .textesurligneratelier{
    text-decoration: underline;
 }
+@media screen and (max-width: 868px) {
+    .atelierbody{
+        overflow-x: hidden;
+    }
+    .ateliersect1{
+        margin-top: 0px;
+        display: block;
+    }
+    .ateliersect1 img {
+        margin-left: 0px;
+        height:300px;
+        width:300px;
+    }
+    .ateliersect1b1{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 100px;
+        margin-top:0px;
+    }
+    .ateliersect2{
+        display: block;
+    }
+    .ateliersect2 img {
+        margin-left: 0px;
+        height:300px;
+        width:300px;
+    }
+    .ateliersect2b2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ateliersect3{
+        display: block;
+    }
+    .ateliersect3 img {
+        margin-left: 0px;
+        height:300px;
+        width:300px;
+    }
+    .ateliersect3b1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ateliersect4{
+        display: block;
+    }
+    .ateliersect4 img {
+        margin-left: 0px;
+        height:300px;
+        width:300px;
+    }
+    .ateliersect4b1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ateliersection5{
+        display: none;
+    }
+    .faqatelier{
+        padding: 0px; 
+    margin-left: 0px; 
+     margin-right: 0px;
+    }
+}

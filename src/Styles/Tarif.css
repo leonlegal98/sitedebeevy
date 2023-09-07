@@ -46,8 +46,8 @@
     
 }
 .imagetarifb1{
-    height: 596px;
-    width: 353px;
+    height: 525px;
+    width: 525px;
 }
 .tarifparticulier{
     color: #871116;
@@ -116,7 +116,7 @@
 .tarifbl2{
     display: flex;
     justify-content: space-around;
-    margin-right: 103px;
+    margin-right: 248px;
     margin-left: 107px;
     margin-top: 70px;
     margin-bottom: 150px;
@@ -142,4 +142,20 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 12px;
+}
+@media screen and (max-width: 868px) {
+    .tarifbl1{
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .imagetarifb1{
+        width: 300px;
+        height: 200px;
+    }
+    .tarifbl2{
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }

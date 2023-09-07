@@ -70,3 +70,9 @@
 .confiancebl2 p{
     font-family:'textebase' , sans-serif;
 }
+@media screen and (max-width: 868px) {
+  .titreconfiance{
+    display: block;
+    margin-top: -50px;
+  }
+}

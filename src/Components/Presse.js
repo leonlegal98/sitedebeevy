@@ -87,12 +87,11 @@ function Presse() {
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
                     <p>
-                        <span>16/10/2020</span>
+                        <span>13/12/2021</span>
                         <br></br>
                         -
                         <br></br>
-                        Un reportage de Sylvie Malal sur les ateliers d'écriture en EHPAD diffusé dans
-                        le 19/20 de France 3 Alsace
+                        Un reportage de Jean-Marc Schaefer pour TV Erstein sur les ateliers d’écriture <br></br>au Centre Hospitalier 
                     </p>
                 </div>
             </div>
@@ -110,12 +109,11 @@ function Presse() {
                     <h3>Les ateliers d'écriture en confinement
                     </h3>
                     <p>
-                        <span>16/10/2020</span>
+                        <span>01/03/2021</span>
                         <br></br>
                         -
                         <br></br>
-                        Un reportage de Sylvie Malal sur les ateliers d'écriture en EHPAD diffusé dans
-                        le 19/20 de France 3 Alsace
+                        Une chronique d'Olivier Vogel, journal de  7 heures, sur France Bleu Alsace
                     </p>
                 </div>
             </div>
