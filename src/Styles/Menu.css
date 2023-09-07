@@ -6,9 +6,7 @@
 }
 @font-face {
     font-family: "newtypo";
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("woff");
     src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.eot") format("eot");
 
 }
 @font-face {
@@ -23,13 +21,18 @@
 }
 @font-face {
     font-family: "italiccar";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
 
 }
 @font-face {
     font-family: "itabbee";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
 .menu {

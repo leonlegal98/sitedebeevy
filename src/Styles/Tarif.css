@@ -2,52 +2,53 @@
     font-family: "Mademirageitalic";
     src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
     src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-   
-    
-  }
-  @font-face {
-    font-family: "newtypo";
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("woff");
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.eot") format("eot");
 
-  }
-  
-  @font-face {
+}
+@font-face {
+    font-family: "newtypo";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
+
+}
+@font-face {
     font-family: "titreMirage";
     src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-    
-  }
-  @font-face {
+
+}
+@font-face {
     font-family: "textebase";
     src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-    
-  }
-  @font-face {
+
+}
+@font-face {
     font-family: "italiccar";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
-    
-  }
-  @font-face {
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+
+}
+@font-face {
     font-family: "itabbee";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-   
-    
-  }
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+
+}
+
 .tarifbl1{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-left: 120px;
     margin-right: 120px;
-    font-family:"titreMirage",sans-serif;
+    font-family:"helene",sans-serif;
     margin-top: 40px;
     
 }
 .imagetarifb1{
-    height: 525px;
-    width: 525px;
+    height: 535px;
+    width: 535px;
 }
 .tarifparticulier{
     color: #871116;
@@ -59,7 +60,7 @@
 }
 .tarifparticulier h3{ 
     font-size: 40px;
-    font-family: 'titreMirage', sans-serif;
+    font-family: 'helene', sans-serif;
     margin-bottom: 15px;
     padding-bottom: 20px;
     
@@ -87,7 +88,7 @@
 }
 .tarifpro h3{ 
     font-size: 40px;
-    font-family: 'titreMirage', sans-serif;
+    font-family: 'helene', sans-serif;
     margin-bottom: 15px;
     
 }
@@ -116,7 +117,7 @@
 .tarifbl2{
     display: flex;
     justify-content: space-around;
-    margin-right: 248px;
+    margin-right: 258px;
     margin-left: 107px;
     margin-top: 70px;
     margin-bottom: 150px;
@@ -124,7 +125,7 @@
 }
 .tarifbl2 h3{
     font-size: 40px;
-    font-family: 'titreMirage', sans-serif;
+    font-family: 'helene', sans-serif;
 }
 .tarifbl2 p{
     font-family: 'textebase', sans-serif;

@@ -61,6 +61,7 @@ function Presse() {
             </div>
             <div className='pressbl1'>
                 <div>
+                    
                 <img src='/images/pressbl1.png'/>
                 </div>
                 
@@ -73,7 +74,7 @@ function Presse() {
                         <br></br>
                         -
                         <br></br>
-                        Un reportage de Sylvie Malal sur les ateliers d'écriture en EHPAD diffusé dans
+                        <a href='https://www.youtube.com/watch?v=ehSTKBNhjj0'>Un reportage de Sylvie Malal</a> sur les ateliers d'écriture en EHPAD diffusé dans
                         le 19/20 de France 3 Alsace
                     </p>
                 </div>
@@ -91,7 +92,7 @@ function Presse() {
                         <br></br>
                         -
                         <br></br>
-                        Un reportage de Jean-Marc Schaefer pour TV Erstein sur les ateliers d’écriture <br></br>au Centre Hospitalier 
+                        <a href='https://www.youtube.com/watch?v=5XiJvngx5Ew'>Un reportage de Jean-Marc Schaefer</a> pour TV Erstein sur les ateliers d’écriture <br></br>au Centre Hospitalier 
                     </p>
                 </div>
             </div>
@@ -113,7 +114,7 @@ function Presse() {
                         <br></br>
                         -
                         <br></br>
-                        Une chronique d'Olivier Vogel, journal de  7 heures, sur France Bleu Alsace
+                        <a href='https://www.youtube.com/watch?v=PKGzcsYY7Ys'>Une chronique d'Olivier Vogel</a>, journal de  7 heures, sur France Bleu Alsace
                     </p>
                 </div>
             </div>

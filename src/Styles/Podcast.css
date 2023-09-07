@@ -1,5 +1,41 @@
 
+@font-face {
+  font-family: "Mademirageitalic";
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
 
+}
+@font-face {
+  font-family: "newtypo";
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
+
+}
+@font-face {
+  font-family: "titreMirage";
+  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+
+}
+@font-face {
+  font-family: "textebase";
+  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+
+}
+@font-face {
+  font-family: "italiccar";
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+
+}
+@font-face {
+  font-family: "itabbee";
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+  font-family: "helene";
+  src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+
+}
 .titrepodcast{
     display: flex;
     justify-content: center;
@@ -7,9 +43,10 @@
     flex-direction: column;
     text-align: center;
     color: #871116;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
     font-size: 25px;
     margin-bottom: 70px;
+    margin-top: -50px;
 }
 .podcastbl1{
     display: flex;
@@ -17,6 +54,10 @@
     margin-right: 290px;
     padding-bottom: 50px;
     
+}
+.poddansma{
+  font-size: 25px;
+  font-family: 'helene', sans-serif;
 }
 .podcastbl1 img{
     width: 35vh;
@@ -26,7 +67,7 @@
     flex-direction: column;
     color: #871116;
     margin-left: 50px;
-    margin-top: -15px;
+    margin-top: -28px;
 }
 .podcastbl1bl2 span{
   font-size: 16px;
@@ -40,6 +81,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    margin-right: 260px;
 }
 .podcast-item{
     padding: 40px;
@@ -86,3 +128,7 @@
 .position-buttonpod{
     display: flex;
 }  
+.titlepodcastepi{
+  font-family: "helene", sans-serif;
+  font-size: 25px;
+}

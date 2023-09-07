@@ -53,7 +53,7 @@
 
 }
 .block1 h3 {
-    font-family: "newtypo", sans-serif;
+    font-family: "helene", sans-serif;
     font-weight: 300px;
     margin-top: 80px;
     margin-left: 70px;
@@ -123,7 +123,7 @@
     left: 55vh;
     color: white;
     font-size: 60px;
-    font-family: 'titreMirage', sans-serif;
+    font-family: 'helene', sans-serif;
     text-align: end;
 
 }
@@ -271,7 +271,7 @@ span.swiper-pagination-bullet {
     color: #871116;
     margin-top: 70px;
     margin-bottom: -10px;
-    font-family: "titreMirage", sans-serif;
+    font-family: "helene", sans-serif;
     font-size: 70px;
 }
 .carousel-containedeux {
@@ -308,7 +308,7 @@ span.swiper-pagination-bullet {
     padding: 20px;
     margin-top: 50px;
     font-size: 49px;
-    font-family: "titreMirage",sans-serif;
+    font-family: "helene",sans-serif;
     font-size: 70px;
 }
 .textbl5 {

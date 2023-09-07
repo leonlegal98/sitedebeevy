@@ -2,38 +2,38 @@
   font-family: "Mademirageitalic";
   src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
   src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
- 
-  
+
 }
 @font-face {
   font-family: "newtypo";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("woff");
   src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.eot") format("eot");
 
 }
-
 @font-face {
   font-family: "titreMirage";
   src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-  
+
 }
 @font-face {
   font-family: "textebase";
   src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-  
+
 }
 @font-face {
   font-family: "italiccar";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
-  
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+
 }
 @font-face {
   font-family: "itabbee";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
- 
-  
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+  font-family: "helene";
+  src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+
 }
 
   .titreconfiance{
@@ -41,7 +41,7 @@
     justify-content: center;
     color: #871116;
     margin-top: -70px;
-    font-family:"titreMirage", sans-serif;
+    font-family:"helene", sans-serif;
     font-size: 40px;
   }
 
@@ -75,4 +75,12 @@
     display: block;
     margin-top: -50px;
   }
+  .confiancearticle{
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .confiancearticle img {
+    margin-left: 50px;
+}
 }

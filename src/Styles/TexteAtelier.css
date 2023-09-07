@@ -2,38 +2,38 @@
   font-family: "Mademirageitalic";
   src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
   src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
- 
-  
+
 }
 @font-face {
   font-family: "newtypo";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff") format("woff");
   src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.eot") format("eot");
 
 }
-
 @font-face {
   font-family: "titreMirage";
   src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-  
+
 }
 @font-face {
   font-family: "textebase";
   src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-  
+
 }
 @font-face {
   font-family: "italiccar";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
-  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("truetype");
-  
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+
 }
 @font-face {
   font-family: "itabbee";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("truetype");
- 
-  
+  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+  font-family: "helene";
+  src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+
 }
 .titretexteatelier{
     display: flex;
@@ -91,4 +91,20 @@
 }
 .texteatelierarticle p:nth-child(2){
   font-size: 14px;
+}
+@media screen and (max-width: 868px) {
+  .titretexteatelier p{
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  .containertexteatelier{
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .texteatelierarticle{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

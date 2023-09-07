@@ -14,32 +14,32 @@ function Podcast() {
             key: 'episode1',
             title: 'Episode 1',
             url: '/podcasts/Episode1.mp3',
-            date: 'Date du Episode 1',
-            texte: 'aa'
+            date: '13:56',
+            texte: 'Dans la valise'
         }, {
             key: 'episode2',
             title: 'Episode 2',
             url: '/podcasts/Episode2.mp3',
-            date: 'Date du Episode 2',
-            texte: 'aa'
+            date: '10:10',
+            texte: 'Dans le chapeau'
         }, {
             key: 'episode3',
             title: 'Episode 3',
             url: '/podcasts/Episode3.mp3',
-            date: 'Date du Episode 3',
-            texte: 'aa'
+            date: '10:46',
+            texte: 'Dans la thermos'
         }, {
             key: 'episode4',
             title: 'Episode 4',
             url: '/podcasts/Episode4.mp3',
-            date: 'Date du Episode 4',
-            texte: 'aa'
+            date: '12:56',
+            texte: 'Dans la radio'
         }, {
             key: 'episode5',
             title: 'Episode 5',
             url: '/podcasts/Episode5.mp3',
-            date: 'Date du Episode 5',
-            texte: 'aa'
+            date: '14:56',
+            texte: 'Dans la boîte à biscuits'
         },
         // Ajoutez d'autres podcasts ici
     ];
@@ -81,7 +81,7 @@ function Podcast() {
                 </div>
 
                 <div className='podcastbl1bl2'>
-                    <h3>Dans ma poche,<br></br>
+                    <h3 className='poddansma'>Dans ma poche,
                         ma mémoire
                     </h3>
                     <p>
@@ -105,9 +105,9 @@ function Podcast() {
 
                 {podcasts.map((podcast) => (
                     <div key={podcast.url} className="podcast-item">
-                        <h3>{podcast.title}</h3>
+                        <h3 className='titlepodcastepi'>{podcast.title}</h3>
                         <p>{podcast.texte}</p>
-                        <p>Date: {podcast.date}</p>
+                        <p>{podcast.date}</p>
                         <div className='position-buttonpod'>
                             <button
                                 className="round-button play-button"
