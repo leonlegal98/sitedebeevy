@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import validator from 'validator';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
+    email: '',
     subject: '',
     message: '',
   });
@@ -22,6 +24,25 @@ function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Vérifiez que tous les champs sont remplis
+    if (
+      !formData.firstName ||
+      !formData.lastName ||
+      !formData.email ||
+      !formData.subject ||
+      !formData.message
+    ) {
+      setErrorMessage('Veuillez remplir tous les champs.');
+      return;
+    }
+
+    // Vérifiez que l'e-mail est valide
+    if (!validator.isEmail(formData.email)) {
+      setErrorMessage('Veuillez entrer une adresse e-mail valide.');
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
@@ -35,6 +56,7 @@ function ContactForm() {
         setFormData({
           firstName: '',
           lastName: '',
+          email: '',
           subject: '',
           message: '',
         });
@@ -71,6 +93,15 @@ function ContactForm() {
               type="text"
               name="lastName"
               value={formData.lastName}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label>E-mail</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
               onChange={handleChange}
             />
           </div>
