@@ -62,7 +62,9 @@ function Presse() {
             <div className='pressbl1'>
                 <div>
                     
+                <a href='https://www.youtube.com/watch?v=ehSTKBNhjj0' target="_blank">
                 <img src='/images/pressbl1.png'/>
+                </a>
                 </div>
                 
                 
@@ -74,14 +76,16 @@ function Presse() {
                         <br></br>
                         -
                         <br></br>
-                        <a href='https://www.youtube.com/watch?v=ehSTKBNhjj0'>Un reportage de Sylvie Malal</a> sur les ateliers d'écriture en EHPAD diffusé dans
+                        <a href='https://www.youtube.com/watch?v=ehSTKBNhjj0' target="_blank">Un reportage de Sylvie Malal</a> sur les ateliers d'écriture en EHPAD diffusé dans
                         le 19/20 de France 3 Alsace
                     </p>
                 </div>
             </div>
             <div className='pressbl2'>
                 <div>
+                <a href='https://www.youtube.com/watch?v=5XiJvngx5Ew' target="_blank">
                 <img src='/images/press-02.png'/>
+                </a>
                 </div>
                
                 <div className='pressbl2bl2'>
@@ -92,7 +96,7 @@ function Presse() {
                         <br></br>
                         -
                         <br></br>
-                        <a href='https://www.youtube.com/watch?v=5XiJvngx5Ew'>Un reportage de Jean-Marc Schaefer</a> pour TV Erstein sur les ateliers d’écriture <br></br>au Centre Hospitalier 
+                        <a href='https://www.youtube.com/watch?v=5XiJvngx5Ew' target="_blank">Un reportage de Jean-Marc Schaefer</a> pour TV Erstein sur les ateliers d’écriture <br></br>au Centre Hospitalier 
                     </p>
                 </div>
             </div>
@@ -103,7 +107,9 @@ function Presse() {
 
             <div className='pressbl3'>
                 <div>
+                    <a href='https://www.youtube.com/watch?v=PKGzcsYY7Ys' target="_blank">
                 <img src='/images/press-03.png'/>
+                </a>
                 </div>
                 
                 <div className='pressbl3bl2'>
@@ -114,7 +120,7 @@ function Presse() {
                         <br></br>
                         -
                         <br></br>
-                        <a href='https://www.youtube.com/watch?v=PKGzcsYY7Ys'>Une chronique d'Olivier Vogel</a>, journal de  7 heures, sur France Bleu Alsace
+                        <a href='https://www.youtube.com/watch?v=PKGzcsYY7Ys' target="_blank">Une chronique d'Olivier Vogel</a>, journal de  7 heures, sur France Bleu Alsace
                     </p>
                 </div>
             </div>

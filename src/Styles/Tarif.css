@@ -90,6 +90,7 @@
     font-size: 40px;
     font-family: 'helene', sans-serif;
     margin-bottom: 15px;
+    margin-top: -5px;
     
 }
 .tarifpro p{
@@ -100,7 +101,7 @@
 .pronametarif{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: -15px;
     
     
 }
@@ -108,7 +109,8 @@
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
-    margin-top: -50px;
+    margin-top: -20px;
+    margin-bottom: 10px;
 }
 .proprice p{
     font-family: 'textebase', sans-serif;
@@ -119,7 +121,7 @@
     justify-content: space-around;
     margin-right: 258px;
     margin-left: 107px;
-    margin-top: 70px;
+    margin-top: 55px;
     margin-bottom: 150px;
     color: #871116;
 }

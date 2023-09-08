@@ -1,87 +1,103 @@
-
-import Footer from './Footer';
 import React, { useState } from 'react';
-import sendEmail from './sendEmail';
+import axios from 'axios';
 
+function ContactForm() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    subject: '',
+    message: '',
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
-function Contact() {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-  // const [formData, setFormData] = useState({
-  //   firstName: '',
-  //   lastName: '',
-  //   subject: '',
-  //   message: '',
-  // });
+    try {
+      const response = await axios.post(
+        'https://formspree.io/f/mjvqrzkq',
+        formData
+      );
 
-  // const handleInputChange = (event) => {
-  //   const { name, value } = event.target;
-  //   setFormData((prevData) => ({
-  //     ...prevData,
-  //     [name]: value,
-  //   }));
-  // };
+      if (response.status === 200) {
+        setIsSuccess(true);
+        setFormData({
+          firstName: '',
+          lastName: '',
+          subject: '',
+          message: '',
+        });
+      } else {
+        setErrorMessage('Erreur lors de l\'envoi de l\'e-mail.');
+      }
+    } catch (error) {
+      console.error('Erreur lors de la demande POST:', error);
+      setErrorMessage('Erreur lors de l\'envoi de l\'e-mail.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   // Ici, vous pouvez appeler la fonction pour envoyer l'email avec les données du formulaire
-  //   sendEmail(formData);
-  // };
-  
   return (
     <div>
-     {/* <div className='contactform'>
-     <h1>Contactez-nous</h1>
-      {/* <form onSubmit={handleSubmit}>
-        <div>
-          <label>Prénom</label>
-          <input
-            type="text"
-            name="firstName"
-            value={formData.firstName}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div>
-          <label>Nom</label>
-          <input
-            type="text"
-            name="lastName"
-            value={formData.lastName}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div>
-          <label>Objet</label>
-          <input
-            type="text"
-            name="subject"
-            value={formData.subject}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div>
-          <label>Message</label>
-          <textarea
-            name="message"
-            value={formData.message}
-            onChange={handleInputChange}
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Envoyer</button>
-      </form>
-        </div>        */} 
-
-
-
-
-     <Footer/>
+      {isSuccess ? (
+        <p>Message envoyé avec succès !</p>
+      ) : (
+        <form onSubmit={handleSubmit}>
+          {errorMessage && <p className="error">{errorMessage}</p>}
+          <div>
+            <label>Prénom</label>
+            <input
+              type="text"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label>Nom</label>
+            <input
+              type="text"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label>Objet</label>
+            <input
+              type="text"
+              name="subject"
+              value={formData.subject}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+            />
+          </div>
+          <button type="submit" disabled={isSubmitting}>
+            {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
+          </button>
+        </form>
+      )}
     </div>
   );
 }
 
-export default Contact;
+export default ContactForm;

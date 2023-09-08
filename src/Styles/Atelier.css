@@ -37,7 +37,7 @@
 }
 .ateliersect1{
     display: flex;
-    margin-top: 70px;
+    
     
 }
 .ateliersect1b1{
@@ -71,12 +71,12 @@
 }
 .bioateletierbaudelaire h4{
     color: #871116;
-    font-family: "itabbee", sans-serif;
+    font-family: "helene", sans-serif;
 }
 .liensect1{
     display: flex;
     justify-content: space-between;
-    margin-right: 150px;
+   
     margin-top: 70px;
     margin-bottom: 70px;
 }

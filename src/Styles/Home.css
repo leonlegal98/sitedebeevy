@@ -10,8 +10,8 @@
 
 }
 @font-face {
-    font-family: "titreMirage";
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    font-family: "apercuregular";
+    src: url("../TYPOS/APERCU/Apercu\ Regular.woff") format("woff");
 
 }
 @font-face {
@@ -28,6 +28,11 @@
 @font-face {
     font-family: "itabbee";
     src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+
+}
+@font-face {
+    font-family: "literal";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
 @font-face {
@@ -63,7 +68,7 @@
 }
 
 .block1 p {
-    font-family: "textebase", sans-serif;
+    font-family: "apercuregular", sans-serif;
     margin-left: 70px;
     font-size: 18px;
     color: white;
@@ -73,9 +78,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 
-    margin-right: -118px;
+    margin-right: -100px;
 }
 .b1-sect1 img {
     height: 90px;
@@ -86,7 +91,7 @@
     font-family: "itabbee",sans-serif;
     margin-left: -10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 .liensect1img {
@@ -144,6 +149,8 @@
     color: #871116;
     font-family: "helene",sans-serif;
     font-size: 60px;
+    margin-bottom: 10px;
+    line-height: 1;
 }
 .parac2 {
     color: #871116;
@@ -224,7 +231,7 @@ span.swiper-pagination-bullet {
 .car1slide1 h3 {
     color: #871116;
     font-size: 25px;
-    font-family: "itabbee", sans-serif;
+    font-family: "literal", sans-serif;
     font-size: 30px;
 
 }

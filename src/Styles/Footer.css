@@ -43,7 +43,7 @@
     padding: 50px 50px 70px;
 }
 .footerb1 {
-    color: white;
+    color: #FFF8F0;
 }
 .footerb1 img{
    height: 120px;
@@ -51,7 +51,7 @@
    margin-top: 30px;
 }
 .footerb2 {
-    color: white;
+    color: #FFF8F0;
 
 }
 .footerb2 h3{
@@ -77,7 +77,7 @@
 }
 .footerb2b1 a {
     text-decoration: none;
-    color: white;
+    color: #FFF8F0;
     font-family: 'textebase', sans-serif;
     font-weight: 'normal';
     margin-top: 5px;
@@ -89,7 +89,7 @@
     margin-top: 70px;
 }
 .footerb3 {
-    color: white;
+    color: #FFF8F0;
     font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
@@ -97,12 +97,12 @@
     margin-top: 110px;
 }
 .footerb3b2 a{
-    color: white;
+    color: #FFF8F0;
     font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
 .footerb4 {
-    color: white;
+    color: #FFF8F0;
     font-family: Aperçu, sans-serif;
     font-weight: 'normal';
 }
@@ -114,11 +114,14 @@
 }
 .emailfooter{
     text-decoration: none;
-    color: white;
+    color: #FFF8F0;
 }
 .socialfooter{
     margin-left: -9px;
     margin-top: 5px;
+}
+.yotubefooter{
+    margin-left: 5px;
 }
 @media screen and (max-width: 868px) {
     .footer{

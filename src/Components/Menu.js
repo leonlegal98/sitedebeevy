@@ -23,11 +23,11 @@ function Menu() {
         onClick={toggleMenu}
       />
       <div className="menuresponlien">
-                    <Link to="bio">Bio</Link>
-                    <Link to="atelier">Ateliers d'écriture</Link>
-                    <Link to="tarif">Tarifs</Link>
-                    <Link to="presse">Presse</Link>
-                    <Link to="contact">Contact</Link>
+                    <Link  onClick={toggleMenu} to="bio">Bio</Link>
+                    <Link  onClick={toggleMenu} to="atelier">Ateliers d'écriture</Link>
+                    <Link  onClick={toggleMenu} to="tarif">Tarifs</Link>
+                    <Link  onClick={toggleMenu} to="presse">Presse</Link>
+                    <Link  onClick={toggleMenu} to="contact">Contact</Link>
         </div>
 
     </div>
@@ -44,7 +44,7 @@ function Menu() {
             <div className="menu">
                 <div className="menu-left">
                     <Link to="/">
-                        <img className='logoim1' src="/images/imagegroupbee.png" alt="Image 1"/>
+                        <img className='logoim1' src="/images/logo.png" alt="Image 1"/>
                     </Link>
                 </div>
                 <div className="menu-right">

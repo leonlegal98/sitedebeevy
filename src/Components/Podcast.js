@@ -92,11 +92,7 @@ function Podcast() {
                         "Dans ma poche, ma mémoire", un podcast en 5 épisodes réalisé par Charlie
                         Droesch-Du Cerceau durant les ateliers d'écriture menés à l'EHPAD du Centre
                         Hospitalier d'Erstein. Projet initié par la Compagnie Actémo Théâtre en
-                        collaboration avec le Service Culturel de la Ville d'Erstein."Dans ma poche, ma
-                        mémoire", un podcast en 5 épisodes réalisé par Charlie Droesch-Du Cerceau durant
-                        les ateliers d'écriture menés à l'EHPAD du Centre Hospitalier d'Erstein. Projet
-                        initié par la Compagnie Actémo Théâtre en collaboration avec le Service Culturel
-                        de la Ville d'Erstein.
+                        collaboration avec le Service Culturel de la Ville d'Erstein.
                     </p>
                 </div>
             </div>

@@ -61,6 +61,7 @@
 }
 .pressbl1 img {
     width: 25vh;
+    cursor: pointer;
 }
 .pressbl1bl2 {
     display: flex;
@@ -110,6 +111,7 @@
 }
 .pressbl2 img {
     width: 25vh;
+    cursor: pointer;
 }
 .pressbl2bl2 {
     display: flex;
@@ -126,6 +128,7 @@
 }
 .pressbl3 img {
     width: 25vh;
+    cursor: pointer;
 }
 .pressbl3bl2 {
     display: flex;

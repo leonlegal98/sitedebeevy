@@ -1,30 +1,45 @@
+const express = require('express');
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
 
-// const nodemailer = require('nodemailer');
+const app = express();
+const port = 3001;
 
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
-// const transporter = nodemailer.createTransport({
-//   service: 'Gmail',
-//   auth: {
-//     user: 'votre_email@gmail.com',
-//     pass: 'votre_mot_de_passe',
-//   },
-// });
+app.post('/send-email', (req, res) => {
+  const { firstName, lastName, subject, message } = req.body;
 
-// const sendEmail = (formData) => {
-//   const mailOptions = {
-//     from: formData.email,
-//     to: 'destinataire@example.com',
-//     subject: formData.subject,
-//     text: formData.message,
-//   };
+  // Configuration du transporteur de messagerie
+  const transporter = nodemailer.createTransport({
+    service: 'Gmail',
+    auth: {
+      user: 'helenelegal8@gmail.com', // Remplacez par votre adresse e-mail
+      pass: 'Leonidas7', // Remplacez par votre mot de passe
+    },
+  });
 
-//   transporter.sendMail(mailOptions, (error, info) => {
-//     if (error) {
-//       console.error(error);
-//     } else {
-//       console.log('Email envoyé : ' + info.response);
-//     }
-//   });
-// };
+  // Contenu de l'e-mail
+  const mailOptions = {
+    from: 'helenelegal8@gmail.com',
+    to: 'helenelegal8@gmail.com',
+    subject: subject,
+    text: `Prénom: ${firstName}\nNom: ${lastName}\nMessage: ${message}`,
+  };
 
-// export default sendEmail;
+  // Envoyer l'e-mail
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log(error);
+      res.status(500).send('Erreur lors de l\'envoi de l\'e-mail');
+    } else {
+      console.log('E-mail envoyé: ' + info.response);
+      res.send('E-mail envoyé avec succès');
+    }
+  });
+});
+
+app.listen(port, () => {
+  console.log(`Serveur backend écoutant sur le port ${port}`);
+});
