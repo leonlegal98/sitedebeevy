@@ -396,26 +396,54 @@ span.swiper-pagination-bullet {
         width: 364px;
         height: 1173px;
     }
+    .block1 p{
+        margin-left: 25px;
+        margin-right: 25px;
+        
+    }
     .b1-sect1{
         display: block;
         
     }
+    .beevyphto{
+        margin-left: 120px;
+    }
+    .homemargeimage img {
+        margin-left: -24px;
+    }
+    .liensect1img{
+        margin-left: 100px;
+    }
     .block2{
         display: block;
     }
+    .imagebook{
+        height: 450px;
+        
+    }
     .textimagebl2{
-        left: 0;
-        top: 5vh;
+        left: 10px;
+        top: 20vh;
+        text-align:inherit;
     }
     .textbl2{
-        left: 0;
-        top: 25vh;
+        left: 10px;
+        top: 45vh;
+
     }
     .image-container{
         width: 100%;
     }
     .text-container{
-        margin-left: 0;
+        margin-left: 20px;
+    }
+    .lienbl2 a {
+        
+        margin-right: 55px;
+    }
+    .imgbl3 {
+        width: 100%;
+        height: 145px;
     }
     .swiper-wrapper {
        max-width: 414px;
@@ -429,10 +457,26 @@ span.swiper-pagination-bullet {
         margin-left: 0;
         margin-right: 0;
     }
+    .textbl3{
+        font-size: 60px;
+        text-align: center;
+        line-height: 1.3;
+    }
 
     .car1slide2 {
         display: block;
         
+    }
+    .car2imgsize{
+        margin-left: 35px;
+    }
+    .car1slide2 p{
+       text-align: center;
+        
+    }
+    .block3 a{
+        margin-top: -100px;
+        margin-bottom: 0;
     }
     .block4{
         display: none;
@@ -447,7 +491,16 @@ span.swiper-pagination-bullet {
         width: 90px;
         
     }
+    .titrebl5{
+        font-size: 60px;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .textbl5{
+        text-align: center;
+    }
     .menuleftrespon{
         display: block;
     }
+
 }

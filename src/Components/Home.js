@@ -86,7 +86,7 @@ function Home() {
                     A très bientôt,
                 </p>
                 <div className='b1-sect1'>
-                    <img src='/images/beevyphoto.png'/>
+                    <img className='beevyphto' src='/images/beevyphoto.png'/>
                     <div className='liensect1img'>
                         <a className='beevylien' href='#'>Beevy Jalma</a>
                         <div className='homemargeimage'>
