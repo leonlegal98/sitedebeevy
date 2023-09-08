@@ -40,6 +40,16 @@
     src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
+.menuleftrespon{
+    display: none;
+    margin-top: 140px;
+    margin-left: 15%;
+    margin-bottom: 60px;
+}
+.menuleftrespon img{
+    height: 120px;
+    width: 257px;
+}
 .homepage {
     background-color: #FFF8F0;
 
@@ -382,9 +392,13 @@ span.swiper-pagination-bullet {
 @media screen and (max-width: 868px) {
     .homepage{overflow-x: hidden;}
     .block1 {
-        margin-left: 33px;
+        margin-left: 23px;
         width: 364px;
-        height: 1100px;
+        height: 1173px;
+    }
+    .b1-sect1{
+        display: block;
+        
     }
     .block2{
         display: block;
@@ -432,5 +446,8 @@ span.swiper-pagination-bullet {
         height: 90px;
         width: 90px;
         
+    }
+    .menuleftrespon{
+        display: block;
     }
 }

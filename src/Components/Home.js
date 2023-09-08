@@ -47,6 +47,11 @@ function Home() {
     };
     return (
         <div className="homepage">
+            <div className="menuleftrespon">
+                    <Link to="/">
+                        <img className='logoim1' src="/images/logo.png" alt="Image 1"/>
+                    </Link>
+                </div>
 
             <div className='block1'>
 

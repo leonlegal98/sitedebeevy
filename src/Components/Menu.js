@@ -17,7 +17,7 @@ function Menu() {
     <>
     <div className='responshow'>
     <img
-        src="menu-icon.png"
+        src="/images/logofooterresp.png"
         alt="Menu Icon"
         className="menu-icon2"
         onClick={toggleMenu}
@@ -64,7 +64,7 @@ function Menu() {
                     {menuItems}
                     <div className='carrerespon'>
                     <img
-                    src={isMenuOpen ? "/images/logofooterresp.png" : "menu-icon.png"}
+                    src={isMenuOpen ? "/images/close.png" : "/images/menu.png"}
                     alt="Menu Icon"
                     className="menu-icon"
                     onClick={toggleMenu}
