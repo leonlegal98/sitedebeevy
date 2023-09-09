@@ -43,6 +43,7 @@
     margin-left: 120px;
     margin-right: 120px;
     font-family:"helene",sans-serif;
+    font-weight: 400;
     margin-top: 40px;
     
 }
@@ -61,6 +62,7 @@
 .tarifparticulier h3{ 
     font-size: 40px;
     font-family: 'helene', sans-serif;
+    font-weight: 200;
     margin-bottom: 15px;
     padding-bottom: 20px;
     
@@ -89,6 +91,7 @@
 .tarifpro h3{ 
     font-size: 40px;
     font-family: 'helene', sans-serif;
+    font-weight: 200;
     margin-bottom: 15px;
     margin-top: -5px;
     
@@ -128,6 +131,7 @@
 .tarifbl2 h3{
     font-size: 40px;
     font-family: 'helene', sans-serif;
+    font-weight: 200;
 }
 .tarifbl2 p{
     font-family: 'textebase', sans-serif;

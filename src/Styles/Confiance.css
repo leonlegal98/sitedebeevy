@@ -41,11 +41,17 @@
     justify-content: center;
     color: #871116;
     margin-top: -70px;
-    font-family:"helene", sans-serif;
+    
     font-size: 40px;
     margin-top: -70px;
   }
-
+  .titreconfiance h1{
+    font-family:"helene", sans-serif;
+    font-weight: 300;
+  }
+.containerconfiance{
+  margin-bottom: 200px;
+}
 .confiancearticle{
     display: flex;
     margin-left: 290px;
@@ -66,7 +72,7 @@
     
 }
 .confiancebl2 h3{
-    font-family:'Mademirageitalic', sans-serif;
+    font-family:'helene', sans-serif;
 }
 .confiancebl2 p{
     font-family:'textebase' , sans-serif;

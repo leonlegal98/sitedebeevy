@@ -69,19 +69,20 @@
 }
 .block1 h3 {
     font-family: "helene", sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     margin-top: 80px;
     margin-left: 70px;
-    color: white;
+    color: #FFF8F0;
     font-size: 30px;
 
 }
 
 .block1 p {
     font-family: "apercuregular", sans-serif;
+    
     margin-left: 70px;
     font-size: 18px;
-    color: white;
+    color: #FFF8F0;
 
 }
 .b1-sect1 {
@@ -136,7 +137,8 @@
     position: absolute;
     bottom: 30px;
     left: 55vh;
-    color: white;
+    color: #FFF8F0;
+    font-weight: 400;
     font-size: 60px;
     font-family: 'helene', sans-serif;
     text-align: end;
@@ -146,8 +148,9 @@
     position: absolute;
     bottom: 20px;
     left: 52vh;
-    color: white;
+    color: #FFF8F0;
     font-family: 'textebase', sans-serif;
+    
 }
 .text-container {
     display: flex;
@@ -169,7 +172,7 @@
 
 }
 .lienbl2 {
-    margin-top: 60px;
+    margin-top: 40px;
 
 }
 .lienbl2 a {
@@ -241,7 +244,7 @@ span.swiper-pagination-bullet {
 .car1slide1 h3 {
     color: #871116;
     font-size: 25px;
-    font-family: "literal", sans-serif;
+    font-family: "itabbee", sans-serif;
     font-size: 30px;
 
 }
@@ -290,6 +293,7 @@ span.swiper-pagination-bullet {
     margin-bottom: -10px;
     font-family: "helene", sans-serif;
     font-size: 70px;
+    font-weight: 400;
 }
 .carousel-containedeux {
     display: flex;
@@ -327,6 +331,7 @@ span.swiper-pagination-bullet {
     font-size: 49px;
     font-family: "helene",sans-serif;
     font-size: 70px;
+    font-weight: 400;
 }
 .textbl5 {
     color: #871116;

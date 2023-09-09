@@ -100,7 +100,7 @@ function Atelier() {
             content: 'Voir "Tarifs"'
         },
 
-        // Ajoutez d'autres objets de données ici pour chaque texte supplémentaire
+    
 
     ];
 

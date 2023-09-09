@@ -90,16 +90,16 @@ function Home() {
                     <div className='liensect1img'>
                         <a className='beevylien' href='#'>Beevy Jalma</a>
                         <div className='homemargeimage'>
-                            <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/">
+                            <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/" target="_blank">
                                 <img src='/images/linkedin.png'/>
                             </Link>
-                            <Link to="https://www.facebook.com/latelierdebeevy">
+                            <Link to="https://www.facebook.com/latelierdebeevy" target="_blank">
                                 <img src='/images/facebook.png'/>
                             </Link>
-                            <Link to="https://www.instagram.com/ecriturecreative_beevy/">
+                            <Link to="https://www.instagram.com/ecriturecreative_beevy/" target="_blank">
                                 <img src='/images/instagram.png'/>
                             </Link>
-                            <Link to="/">
+                            <Link to="https://www.youtube.com/@LatelierdeBeevy" target="_blank">
                                 <img src='/images/youtube.png'/>
                             </Link>
 

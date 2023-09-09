@@ -43,10 +43,14 @@
     flex-direction: column;
     text-align: center;
     color: #871116;
-    font-family: 'helene', sans-serif;
+    
     font-size: 25px;
     margin-bottom: 70px;
     margin-top: -50px;
+}
+.titrepodcast h1{
+  font-weight: 300;
+  font-family: 'helene', sans-serif;
 }
 .podcastbl1{
     display: flex;
@@ -132,5 +136,6 @@
 }  
 .titlepodcastepi{
   font-family: "helene", sans-serif;
+  font-weight: 200;
   font-size: 25px;
 }

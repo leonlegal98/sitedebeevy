@@ -146,7 +146,8 @@
     display: flex;
     justify-content: center;
     color: #871116;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
+    font-weight: 400;
 }
 .titrepressedeux {
     font-size: 30px;
@@ -155,11 +156,13 @@
     display: flex;
     justify-content: center;
     color: #871116;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
+    font-weight: 400;
 }
 .titrepressetrois {
     border-top: #871116 1px solid;
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
+    font-weight: 400;
     font-size: 30px;
     padding: 25px;
     display: flex;

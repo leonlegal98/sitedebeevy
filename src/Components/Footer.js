@@ -34,16 +34,16 @@ function Footer() {
                         <h3>Contact</h3>
                         <a className='emailfooter' href='/contact'>Email</a>
                             <div className='socialfooter'>
-                            <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/">
+                            <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/" target="_blank">
                             <img src='/images/linkedin.png'/>
                             </Link>
-                            <Link to="https://www.facebook.com/latelierdebeevy">
+                            <Link to="https://www.facebook.com/latelierdebeevy" target="_blank">
                             <img src='/images/facebook.png'/>
                             </Link>
-                            <Link to="https://www.instagram.com/ecriturecreative_beevy/">
+                            <Link to="https://www.instagram.com/ecriturecreative_beevy/" target="_blank">
                             <img src='/images/instagram.png'/>
                             </Link>
-                            <Link to="/">
+                            <Link to="https://www.youtube.com/@LatelierdeBeevy" target="_blank">
                             <img className='yotubefooter' src='/images/youtube.png'/>
                             </Link>
                         </div>
@@ -52,10 +52,10 @@ function Footer() {
                     <div className='footerb3b2'>
                         <h3>Crédits</h3>
 
-                        <p>Webdesign : <a href='https://www.behance.net/helenelega4b4d'>Hélène Le Gal</a>
+                        <p>Webdesign : <a target="_blank" href='https://www.behance.net/helenelega4b4d'>Hélène Le Gal</a>
                         </p>
-                        <p>Web developper : <a href='https://www.linkedin.com/in/l%C3%A9on-le-gal/'>Léon Le Gal</a></p>
-                        <p>Photos : Beevy Jalma, <a href='https://www.a-mirdass.com/  '>Abdesslam Mirdass,</a> <a href='https://ericolivier.myportfolio.com/accueil-1'>Eric Olivier</a></p>
+                        <p>Web developper : <a target="_blank" href='https://www.linkedin.com/in/l%C3%A9on-le-gal/'>Léon Le Gal</a></p>
+                        <p>Photos : Beevy Jalma, <a target="_blank" href='https://www.a-mirdass.com/  '>Abdesslam Mirdass,</a> <a target="_blank" href='https://ericolivier.myportfolio.com/accueil-1'>Eric Olivier</a></p>
 
                     </div>
 
