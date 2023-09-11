@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function Creative() {
     return (
-        <div>
+        <div className='creativebody'>
             <div className='titrecreative'>
                 <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
 

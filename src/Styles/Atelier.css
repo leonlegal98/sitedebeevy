@@ -35,7 +35,119 @@
     src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
-.ateliersect1{
+.ateliersect1,
+.ateliersect2,
+.ateliersect3,
+.ateliersect4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divisez chaque section en 2 colonnes égales */
+  grid-gap: 100px; /* Espace entre les éléments de chaque section */
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 50px;
+  padding-bottom: 50px; /* Ajoutez un espace autour de chaque section si nécessaire */
+}
+
+.ateliersect1 img,
+.ateliersect2 img,
+.ateliersect3 img,
+.ateliersect4 img {
+  max-width: 100%; /* Pour que les images ne dépassent pas la largeur de leur conteneur */
+}
+
+/* Styles spécifiques à chaque section */
+.ateliersect1 {
+  margin-top: -25px;
+}
+.ateliersect1 img{
+    width: 557px;
+    height: 578px;
+    margin-right: 160px;
+}
+.ateliersect1b1 h1{
+    color: #871116;
+    font-size: 50px;
+    font-family: "helene", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+}
+.ateliersect1b1 p{
+    color: #871116;
+    font-size: 18px;
+    font-family: 'textebase', sans-serif;
+    display: flex;
+    justify-content: end;
+    
+}
+.bioateletierbaudelaire h4{
+    color: #871116;
+    font-family: "helene", sans-serif;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+.liensect1{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.liensect1 a {
+    color: #871116;
+    font-size: 18px;
+
+}
+.ateliersect2 img{
+   
+}
+.ateliersect2b2 h1{
+    color: #871116;
+    font-size: 50px;
+    font-family: "helene", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+.ateliersect2b2 p{
+    color: #871116;
+    font-size: 18px;
+    font-family: 'textebase', sans-serif;
+}
+.ateliersect3 img {
+    width: 537px;
+    height: 558px;
+    margin-right: 160px;
+}
+.ateliersect3b1 h1{
+    color: #871116;
+    font-size: 50px;
+    font-family: "helene", sans-serif;
+    font-weight: 400;
+}
+.ateliersect3b1 p{
+    color: #871116;
+    font-size: 18px;
+    font-family: 'textebase', sans-serif;
+}
+.ateliersect4 img{
+    margin-left: 10vh;
+    height: 512px;
+    width: 387px;
+}
+.ateliersect4b1 h1{
+    color: #871116;
+    font-size: 50px;
+    font-family: 'helene', sans-serif;
+    font-weight: 400;
+    
+}
+.ateliersect4b1 p{
+    color: #871116;
+    font-size: 18px;
+    font-family: 'textebase', sans-serif;
+}
+
+/* .ateliersect1{
     display: flex;
     
     
@@ -46,14 +158,15 @@
  margin-top: -25px;
 }
 .ateliersect1 img{
-    width: 607px;
-    height: 628px;
+    width: 557px;
+    height: 578px;
     margin-right: 160px;
 }
 .ateliersect1b1 h1{
     color: #871116;
     font-size: 50px;
     font-family: "helene", sans-serif;
+    line-height: 1;
     font-weight: 400;
 }
 .ateliersect1b1 p{
@@ -93,7 +206,8 @@
     
 }
 .ateliersect2 img{
-    
+    width: 722px;
+    height: 442px;
     margin-left: 160px;
 }
 .ateliersect2b2{
@@ -105,6 +219,7 @@
     font-size: 50px;
     font-family: "helene", sans-serif;
     font-weight: 400;
+    line-height: 1;
 }
 .ateliersect2b2 p{
     color: #871116;
@@ -117,8 +232,8 @@
    
 }
 .ateliersect3 img {
-    width: 587px;
-    height: 608px;
+    width: 537px;
+    height: 558px;
     margin-right: 160px;
 }
 .ateliersect3b1{
@@ -145,7 +260,7 @@
    
 }
 .ateliersect4 img{
-    margin-left: 30vh;
+    margin-left: 36vh;
     height: 512px;
     width: 387px;
 }
@@ -164,7 +279,7 @@
     color: #871116;
     font-size: 18px;
     font-family: 'textebase', sans-serif;
-}
+} */
 .ateliersection5{
     background-color: white;
     display: flex;
@@ -265,6 +380,7 @@
 .textesurligneratelier{
    text-decoration: underline;
 }
+
 @media screen and (max-width: 868px) {
     .atelierbody{
         overflow-x: hidden;
@@ -325,7 +441,16 @@
     }
     .faqatelier{
         padding: 0px; 
-    margin-left: 0px; 
-     margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
+    .ateliersect1,
+.ateliersect2,
+.ateliersect3,
+.ateliersect4 {
+ 
+  padding-left: 20px;
+  padding-right: 20px;
+  /* Ajoutez un espace autour de chaque section si nécessaire */
+}
 }

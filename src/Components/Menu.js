@@ -23,6 +23,7 @@ function Menu() {
         onClick={toggleMenu}
       />
       <div className="menuresponlien">
+                    <Link  onClick={toggleMenu} to="/">Accueil</Link>
                     <Link  onClick={toggleMenu} to="bio">Bio</Link>
                     <Link  onClick={toggleMenu} to="atelier">Ateliers d'écriture</Link>
                     <Link  onClick={toggleMenu} to="tarif">Tarifs</Link>

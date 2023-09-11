@@ -1,44 +1,137 @@
+@font-face {
+    font-family: "Mademirageitalic";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
 
+}
+@font-face {
+    font-family: "newtypo";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
 
+}
+@font-face {
+    font-family: "apercuregular";
+    src: url("../TYPOS/APERCU/Apercu\ Regular.woff") format("woff");
 
+}
+@font-face {
+    font-family: "textebase";
+    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
 
+}
+@font-face {
+    font-family: "italiccar";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
 
+}
+@font-face {
+    font-family: "itabbee";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
 
+}
+@font-face {
+    font-family: "literal";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
+}
+@font-face {
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
-.footer {
-    background-color: #871116;
+}
+.homecontact{
     display: flex;
-    position: relative;
-    justify-content: space-around;
-    padding: 50px 50px 70px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    justify-content: center;
+   
 }
-.footerb1 {
-    color: white;
-}
-.footerb2 {
-    color: white;
 
+.contactimage{
+   
+   
 }
-.footerb2b1 {
+.imagebeevyfleur{
+    height: 599px;
+    width: 432px;
+}
+.contacttitre{
+    font-size: 60px;
+    font-family: 'helene',sans-serif;
+    font-weight: 400;
+    color: #871116;
+    margin-top: -25px;
+}
+.texteform p{
+    color: #871116;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    font-family: "textebase",sans-serif;
+}
+label{
+    color: #871116;
+    font-family: "textebase",sans-serif;
+    
+}
+.namecontact{
     display: flex;
-    flex-direction: column;
 }
-.footerb2b2 {
+input,
+textarea {
+   
+    padding: 10px;
+    border: none; /* Pas de bordure autour de l'input */
+    border-bottom: 1px solid #871116; /* Ligne rouge en bas */
+    color: black; /* Texte en bleu */
+    width: 100%;
+    background-color: transparent; /* Fond transparent */
+    outline: none;
+}
+textarea{
+    height: 120px;
+}
+.nomcontact{
     display: flex;
-    flex-direction: column;
-    margin-top: 70px;
 }
-.footerb3 {
-    color: white;
-}
-.footerb3b2 {
-    margin-top: 110px;
-}
-.footerb4 {
-    color: white;
-}
-.socialfooter img {
-    margin-right: 20px;
 
+form{
+    margin-left: 150px;
+}
+.buttoncontact{
+   color: #871116;
+   border: none;
+   text-decoration: underline;
+   margin-left: 91%;
+    
+}
+.homecontact div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 868px) {
+    .contactbio{
+        padding-top: 90px;
+        overflow-x: hidden;
+    }
+    .homecontact{
+        display: block;
+        
+    }
+    .homecontact form{
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    .contacttitre{
+        line-height: 1;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .imagebeevyfleur{
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 500px;
+        width: 333px;
+
+    }
 }

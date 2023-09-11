@@ -36,133 +36,133 @@
 
 }
 
-.tarifbl1{
+.tarifbl1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-left: 120px;
     margin-right: 120px;
-    font-family:"helene",sans-serif;
+    font-family: "helene",sans-serif;
     font-weight: 400;
     margin-top: 40px;
-    
+
 }
-.imagetarifb1{
+.imagetarifb1 {
     height: 535px;
     width: 535px;
 }
-.tarifparticulier{
+.tarifparticulier {
     color: #871116;
     border-bottom: #871116 1px solid;
-    
+
 }
-.tarifblocleft{
+.tarifblocleft {
     margin-top: -35px;
 }
-.tarifparticulier h3{ 
+.tarifparticulier h3 {
     font-size: 40px;
     font-family: 'helene', sans-serif;
     font-weight: 200;
     margin-bottom: 15px;
     padding-bottom: 20px;
-    
+
 }
-.particuliernametarif{
+.particuliernametarif {
     display: flex;
     justify-content: space-between;
     font-family: 'textebase', sans-serif;
     margin-top: -20px;
-    
+
 }
-.particulierprice{
+.particulierprice {
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
     margin-top: -50px;
-   
+
 }
-.tarifpro{
+.tarifpro {
     color: #871116;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
-.tarifpro h3{ 
+.tarifpro h3 {
     font-size: 40px;
     font-family: 'helene', sans-serif;
     font-weight: 200;
     margin-bottom: 15px;
-    margin-top: -5px;
-    
+    margin-top: 20px;
+
 }
-.tarifpro p{
+.tarifpro p {
     font-family: 'textebase', sans-serif;
     margin-top: 15px;
 }
 
-.pronametarif{
+.pronametarif {
     display: flex;
     justify-content: space-between;
     margin-top: -15px;
-    
-    
+
 }
-.proprice{
+.proprice {
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
     margin-top: -20px;
     margin-bottom: 10px;
 }
-.proprice p{
+.proprice p {
     font-family: 'textebase', sans-serif;
-   
+
 }
-.tarifbl2{
+.tarifbl2 {
     display: flex;
     justify-content: space-around;
-    margin-right: 258px;
-    margin-left: 107px;
-    margin-top: 55px;
-    margin-bottom: 150px;
+    margin: 55px 258px 150px 107px;
     color: #871116;
 }
-.tarifbl2 h3{
+.tarifbl2 h3 {
     font-size: 40px;
     font-family: 'helene', sans-serif;
     font-weight: 200;
 }
-.tarifbl2 p{
+.tarifbl2 p {
     font-family: 'textebase', sans-serif;
 }
-.lientarif{
+.lientarif {
     font-family: 'textebase', sans-serif;
     color: #871116;
 }
 
-
-.devisgratuit{
+.devisgratuit {
     color: #871116;
 }
-.kilometriques{
+.kilometriques {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 12px;
 }
 @media screen and (max-width: 868px) {
-    .tarifbl1{
-        display: block;
-        margin-left: 0px;
-        margin-right: 0px;
+    .tarifbody {
+        padding-top: 120px;
     }
-    .imagetarifb1{
-        width: 300px;
+    .tarifbl1 {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+   
+    .imagetarifb1 {
+        width: 100%;
         height: 200px;
     }
-    .tarifbl2{
+    .tarifbl2 {
         display: block;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

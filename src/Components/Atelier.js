@@ -109,7 +109,7 @@ function Atelier() {
         <div className="atelierbody">
             <div className='ateliersect1'>
                 <div className='ateliersect1b1'>
-                    <h1>Un atelier d’écriture c’est quoi ?</h1>
+                    <h1>Un atelier d’écriture <br></br> c’est quoi ?</h1>
                     <p>Un atelier d’écriture est un lieu regroupant des personnes qui écrivent. Pour
                         reprendre les mots d’Odile Neumayer, « en atelier, il n’y a pas de hors-sujet »
                         car « c’est vous le sujet. » Ouvert.es à toustes, sans aucune restriction , mes
@@ -194,7 +194,7 @@ function Atelier() {
             </div>
             <div className='ateliersect4'>
                 <img
-                    src="/images/atelier-04.png"
+                    src="/images/atelier.png"
                     alt="Image 3"
                     onClick={playSound4}
                     style={{

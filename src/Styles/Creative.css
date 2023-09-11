@@ -93,6 +93,12 @@
     grid-row-end: span 2; 
 }
 @media screen and (max-width: 868px) {
+  .creativebody{
+    padding-top: 50px;
+  }
+  .titrecreative{
+    margin-top: 50px;
+  }
   .containercreative{
     margin-left: 0px;
     margin-right: 0px;

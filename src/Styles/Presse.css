@@ -83,8 +83,8 @@
     font-size: 16px;
 }
 .pressbl1bl2 a {
-  
-   color: #871116;
+
+    color: #871116;
 }
 .pressbl1bl2 p {
     font-size: 18px;
@@ -93,9 +93,9 @@
     font-size: 16px;
 }
 .pressbl2bl2 a {
-  
+
     color: #871116;
- }
+}
 .pressbl2bl2 p {
     font-size: 18px;
 }
@@ -103,9 +103,9 @@
     font-size: 16px;
 }
 .pressbl3bl2 a {
-  
+
     color: #871116;
- }
+}
 .pressbl3bl2 p {
     font-size: 18px;
 }
@@ -180,45 +180,64 @@
     font-family: 'textebase',sans-serif;
 }
 .pressbl1 h3 {
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
+
 }
 
 .pressbl2 h3 {
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
+
 }
 .pressbl3 h3 {
-    font-family: 'Mademirageitalic', sans-serif;
+    font-family: 'helene', sans-serif;
+
 }
 @media screen and (max-width: 868px) {
+    .pressebody {
+        padding-top: 90px;
+    }
     .titrepresse {
+        text-align: center;
         display: block;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 1;
     }
     .pressbl1 {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
         display: block;
     }
+    .pressbl1 img{
+        margin-left: 50px;
+    }
+    .pressbl2 img{
+        margin-left: 50px;
+    }
+    .pressbl3 img{
+        margin-left: 50px;
+    }
     .pressbl2 {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
         display: block;
     }
     .pressbl3 {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
         display: block;
     }
     .listeimagepress {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         height: 80vh;
+        
 
     }
     .listeimagepress img {
-        height: 120px;
-        width: 190px;
+        height: 100px;
+        width: 170px;
         cursor: pointer;
+        margin-left: 10px;
     }
 }

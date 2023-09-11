@@ -11,6 +11,9 @@ import Footer from './Footer';
 function Bio() {
     return (
         <div className='biobody'>
+            <div className='biorepon'>
+                <h2>BIO</h2>
+            </div>
             <div className='henriMichaux'>
                 <p className='pourparcour'>« J’écris pour me parcourir »</p>
                 <p className='namehenri'>Henri Michaux</p>

@@ -9,7 +9,7 @@ function Tarifs() {
         audio.play();
     };
     return (
-        <div>
+        <div className='tarifbody'>
             <div className='tarifbl1'>
 
                 <div className='tarifblocleft'>

@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function TexteAtelier() {
     return (
-        <div>
+        <div className='texteatelierbody'>
             <div className='titretexteatelier'>
                 <h1>Textes d’ateliers</h1>
                 <p className='decouvreatelier'>Découvrez une sélection de textes publiés avec l'accord de leurs auteurs. Ces
