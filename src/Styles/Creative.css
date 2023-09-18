@@ -16,7 +16,7 @@
 }
 @font-face {
   font-family: "textebase";
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+  src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -42,11 +42,16 @@
     flex-direction: column;
     text-align: center;
     color: #871116;
-    font-family: 'helene', sans-serif;
-    font-weight: 300;
-    font-size: 25px;
+    
     margin-bottom: 70px;
     margin-top: -50px;
+}
+.titrecreative h1{
+  font-family: 'helene', sans-serif;
+  font-weight: 300;
+  margin-left: 160px;
+    margin-right: 160px;
+  font-size: 50px;
 }
 .containercreative{
     display: grid;
@@ -64,7 +69,7 @@
     border-bottom: #871116 1px solid;
     margin-left: 80px;
     margin-right: 80px;
-    padding-bottom: 30px;
+    
     margin-top: 30px;
     
 }
@@ -97,7 +102,8 @@
     padding-top: 50px;
   }
   .titrecreative{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
   .containercreative{
     margin-left: 0px;

@@ -70,7 +70,7 @@ function Podcast() {
     };
 
     return (
-        <div>
+        <div className='podcastbody'>
             <div className='titrepodcast'>
                 <h1>Podcasts</h1>
             </div>
@@ -81,8 +81,7 @@ function Podcast() {
                 </div>
 
                 <div className='podcastbl1bl2'>
-                    <h3 className='poddansma'>Dans ma poche,
-                        ma mémoire
+                    <h3 className='poddansma'>Dans ma poche, ma mémoire
                     </h3>
                     <p>
                         <span>Novembre 2021 - Mars 2022</span>
@@ -101,9 +100,11 @@ function Podcast() {
 
                 {podcasts.map((podcast) => (
                     <div key={podcast.url} className="podcast-item">
-                        <h3 className='titlepodcastepi'>{podcast.title}</h3>
-                        <p>{podcast.texte}</p>
-                        <p>{podcast.date}</p>
+                        <div>
+                            <h3 className='titlepodcastepi'>{podcast.title}</h3>
+                            <p>{podcast.texte}</p>
+                            <p>{podcast.date}</p>
+                        </div>
                         <div className='position-buttonpod'>
                             <button
                                 className="round-button play-button"

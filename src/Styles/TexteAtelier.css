@@ -16,7 +16,7 @@
 }
 @font-face {
   font-family: "textebase";
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+  src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -38,7 +38,6 @@
 .titretexteatelier{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     color: #871116;
     margin-bottom: 30px;
@@ -49,6 +48,7 @@
     font-family:'helene',sans-serif ;
     font-weight: 400;
     font-size: 70px;
+    text-align: center;
 }
 .decouvreatelier{
   font-size: 18px;
@@ -85,7 +85,12 @@
     margin-top: 30px;
 }
 .texteatelierarticle h3{
-    font-family:'Mademirageitalic',sans-serif ;
+    font-family:'helene',sans-serif ;
+    font-size: 30px;
+    
+}
+.texteatelierarticle a {
+  color: #871116;
 }
 .texteatelierarticle p{
     font-family:'textebase',sans-serif ;
@@ -111,15 +116,18 @@
 
   }
   .textateliertemp{
-    margin-right: 40px;
+   margin-right: 40px;
   }
   .containertexteatelier{
     margin-left: 0px;
     margin-right: 0px;
     grid-template-columns: repeat(1, 1fr);
+    margin-top: -70px;
   }
+
   .texteatelierarticle{
     margin-left: 0px;
     margin-right: 20px;
   }
+  
 }

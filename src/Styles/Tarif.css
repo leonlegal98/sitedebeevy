@@ -16,7 +16,7 @@
 }
 @font-face {
     font-family: "textebase";
-    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -48,8 +48,8 @@
 
 }
 .imagetarifb1 {
-    height: 535px;
-    width: 535px;
+    height: 540px;
+    width: 540px;
 }
 .tarifparticulier {
     color: #871116;
@@ -78,7 +78,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-    margin-top: -50px;
+    margin-top: -60px;
 
 }
 .tarifpro {
@@ -111,7 +111,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
-    margin-top: -20px;
+    margin-top: -40px;
     margin-bottom: 10px;
 }
 .proprice p {
@@ -121,11 +121,11 @@
 .tarifbl2 {
     display: flex;
     justify-content: space-around;
-    margin: 55px 258px 150px 107px;
+    margin: 55px 294px 150px 107px;
     color: #871116;
 }
 .tarifbl2 h3 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'helene', sans-serif;
     font-weight: 200;
 }
@@ -159,10 +159,17 @@
     .imagetarifb1 {
         width: 100%;
         height: 200px;
+        margin-top: 30px;
     }
     .tarifbl2 {
         display: block;
         margin-left: 20px;
         margin-right: 20px;
+        margin-bottom:50px;
+        margin-top: 20px;
+    }
+    .tarifbl2 h3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 }

@@ -16,7 +16,7 @@
 }
 @font-face {
     font-family: "textebase";
-    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -66,6 +66,7 @@
     position: fixed;
     z-index: 999;
     width: 100%;
+    
 }
 
 .top-bar {
@@ -86,6 +87,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 75vh;
 }
 
 .menu-icon {
@@ -125,10 +127,12 @@
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
-    color: white;
+    color: #fff8f0;
+    font-family: "helene",sans-serif;
 }
 .menu-items a:hover {
-    color: white;
+    color: #fff8f0;
+    font-family: "helene",sans-serif;
     text-decoration: none;
 }
 .menuresponlien {
@@ -138,10 +142,15 @@
 
 }
 .menuresponlien a {
-    color: white;
+    color: #fff8f0;
+    font-family: "textebase",sans-serif;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
+}
+.socialmenu img{
+    height: 40px;
+    width: 40px;
 }
 @media screen and (max-width: 868px) {
     .menu {
@@ -149,5 +158,12 @@
     }
     .menurespon {
         display: block;
+    }
+    .socialmenu img {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
     }
 }

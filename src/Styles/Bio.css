@@ -10,19 +10,13 @@
 
 }
 @font-face {
-    font-family: "titreMirage";
-    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    font-family: "saigon";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-ExtraLight.woff") format("woff");
 
 }
 @font-face {
     font-family: "textebase";
-    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
-
-}
-@font-face {
-    font-family: "italiccar";
-    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
-    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -77,6 +71,10 @@ body {
 .biorepon {
     display: none;
 }
+.biorepon h2{
+    font-family: 'helene',sans-serif;
+    font-weight: 200;
+}
 .henriMichaux {
     display: flex;
     flex-direction: column;
@@ -109,16 +107,19 @@ body {
 }
 .sect1bio-s1 h2 {
     color: #871116;
-    font-size: 40px;
-    font-family: "helene", sans-serif;
+    font-size: 30px;
+    font-family: "saigon", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 .linesect1bio {
-    height: 850px;
+    height: 1000px;
     background-color: #871116;
     width: 2px;
 }
 .sect1bio-s2 {
-    margin-left: 200px;
+    margin-left: 150px;
+    margin-right: 200px;
 
 }
 .sect1bio-s2 h3 {
@@ -167,6 +168,7 @@ body {
     color: #871116;
     padding: 20px;
     margin-top: 50px;
+    line-height: 1;
 }
 .textbl5 {
     color: #871116;
@@ -174,7 +176,7 @@ body {
     font-weight: 'normal';
 }
 .imgbl5 img {
-    padding: 30px;
+    padding: 15px;
 }
 .cparici {
     color: #871116;
@@ -186,7 +188,7 @@ body {
     }
 } */
 @media screen and (max-width: 868px) {
-    .biobody{
+    .biobody {
         overflow: hidden;
     }
     .section1bio {
@@ -202,29 +204,38 @@ body {
         flex-direction: column;
         text-align: center;
         color: #871116;
-        padding-top: 100px;
+        padding-top: 80px;
+        margin-left: 5px;
+        margin-bottom: -80px;
+        
+
+    }
+    .biorepon h2{
         font-family: "helene",sans-serif;
         font-weight: 400;
-        margin-left: 5px;
-        margin-bottom: -50px;
-        font-size: 30px;
-
+        font-size: 50px;
     }
 
     .sect1bio-s1 {
         flex-direction: row;
         margin-left: 0;
+        margin-bottom: -28px;
     }
-    .sect1bio-s1 h2 {
-        }
+    .sect1bio-s1 h2 {}
     .sect1bio-s2 {
         margin-left: 20px;
         margin-right: 40px;
     }
+    .sect1bio-s2 p{
+        margin-right: 0px;
+        padding-bottom: 30px;
+        line-height: 1.3;
+    }
     .linesect1bio {
-        height: 0;
+        height: 1px;
         background-color: #871116;
-        width: 2px;
+        width: 18px;
+        margin-top: 11px;
     }
     .section3bio {
         display: block;
@@ -232,8 +243,13 @@ body {
         padding-right: 0;
         background-color: #FFF8F0;
     }
+    .sect1bio-s2 h3 {
+        line-height: 1.3;
+    }
     .textbiosect3 {
-        font-size: 50px;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
         line-height: 1;
         display: flex;
         text-align: center;
@@ -250,14 +266,16 @@ body {
         margin-right: 50px;
     }
     .car3slide2 img {
-        margin-left: 110px;
+        margin-left: 90px;
     }
     .section3bio a {
         display: flex;
         align-items: center;
         justify-content: center;
-        }
-        .titrebl5{
-            margin-top: -50px;
-        }
+        margin-bottom: -15px;
+        margin-top: -20px;
+    }
+    .block5{
+        margin-bottom: 40px;
+    }
 }

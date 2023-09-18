@@ -16,7 +16,7 @@
 }
 @font-face {
     font-family: "textebase";
-    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -40,98 +40,115 @@
     src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
-.homecontact{
+.homecontact {
     display: flex;
     margin-bottom: 100px;
     margin-top: 50px;
     justify-content: center;
-   
+
 }
 
-.contactimage{
-   
-   
-}
-.imagebeevyfleur{
+.contactimage {
+    }
+.imagebeevyfleur {
     height: 599px;
     width: 432px;
 }
-.contacttitre{
+.contacttitre {
     font-size: 60px;
     font-family: 'helene',sans-serif;
     font-weight: 400;
     color: #871116;
     margin-top: -25px;
 }
-.texteform p{
+.texteform p {
     color: #871116;
     margin-top: -25px;
     margin-bottom: 30px;
     font-family: "textebase",sans-serif;
 }
-label{
+label {
     color: #871116;
     font-family: "textebase",sans-serif;
-    
+
 }
-.namecontact{
+.namecontact {
     display: flex;
 }
 input,
 textarea {
-   
+
     padding: 10px;
-    border: none; /* Pas de bordure autour de l'input */
-    border-bottom: 1px solid #871116; /* Ligne rouge en bas */
-    color: black; /* Texte en bleu */
+    border: none;
+    border-bottom: 1px solid #871116;
+    color: black;
     width: 100%;
-    background-color: transparent; /* Fond transparent */
+    background-color: transparent;
     outline: none;
 }
-textarea{
-    height: 120px;
+textarea {
+    height: 150px;
 }
-.nomcontact{
+.nomcontact {
     display: flex;
 }
 
-form{
+form {
     margin-left: 150px;
 }
-.buttoncontact{
-   color: #871116;
-   border: none;
-   text-decoration: underline;
-   margin-left: 91%;
-    
+form label{
+    font-family: "textebase",sans-serif;
 }
-.homecontact div{
+.buttoncontact {
+    color: #871116;
+    background-color: #FFF8F0;
+    border: none;
+    text-decoration: underline;
+    margin-left: 91%;
+    font-family: "textebase",sans-serif;
+    font-size: 18px;
+
+}
+.homecontact div {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 @media screen and (max-width: 868px) {
-    .contactbio{
+    .contactbio {
         padding-top: 90px;
         overflow-x: hidden;
+       
     }
-    .homecontact{
+    .homecontact {
         display: block;
         
+
     }
-    .homecontact form{
+    .homecontact form {
         margin-left: 20px;
         margin-right: 40px;
     }
-    .contacttitre{
+    .contacttitre {
         line-height: 1;
         margin-top: 20px;
         margin-bottom: 70px;
+        text-align: center;
+        font-size: 40px;
     }
-    .imagebeevyfleur{
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 500px;
-        width: 333px;
-
+    .texteform p{
+        text-align: center;
+        margin-top: -50px;
+    }
+    .imagebeevyfleur {
+        margin-left: 85px;
+        margin-right: 50px;
+        height: 282px;
+        width: 205px;
+    }
+    .nomcontact{
+        display: block;
+    }
+    .buttoncontact{
+       margin-left: 80%;
     }
 }

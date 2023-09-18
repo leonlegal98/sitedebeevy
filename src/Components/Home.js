@@ -48,10 +48,10 @@ function Home() {
     return (
         <div className="homepage">
             <div className="menuleftrespon">
-                    <Link to="/">
-                        <img className='logoim1' src="/images/logo.png" alt="Image 1"/>
-                    </Link>
-                </div>
+                <Link to="/">
+                    <img className='logoim1' src="/images/logo.png" alt="Image 1"/>
+                </Link>
+            </div>
 
             <div className='block1'>
 
@@ -129,15 +129,9 @@ function Home() {
                         <br></br>
                         d’écriture</h1>
                     <p className='parac2'>
-                        C’est avant tout une expérience à vivre. Pour vous
-                        <br></br>
-                        donner une image, je compare souvent les ateliers
-                        <br></br>
-                        d’écriture aux recettes de cuisine ou aux
-                        <br></br>
-                        entraînements sportifs. Avant d’écrire, on se
-                        <br></br>
-                        prépare.
+                        C’est avant tout une expérience à vivre. Pour vous donner une image, je compare
+                        souvent les ateliers d’écriture aux recettes de cuisine ou aux entraînements
+                        sportifs. Avant d’écrire, on se prépare.
                     </p>
                     <div className='lienbl2'>
 
@@ -147,6 +141,9 @@ function Home() {
 
                     </div>
                 </div>
+            </div>
+            <div className='chapresphome'>
+                <img src='/images/chapeau.png'/>
             </div>
             <div className='homefisrtcarousel'>
 
@@ -214,7 +211,7 @@ function Home() {
                     }}
                         navigation={true}
                         modules={[Navigation]}
-                        className="mySwiper">
+                        className="mySwiper2">
                         <SwiperSlide>
                             <div className='car1slide2'>
                                 <img className='car2imgsize' src='/images/car2im1.png'/>
@@ -306,6 +303,19 @@ function Home() {
 
             </div>
             <Footer/>
+            <style>
+                {
+                    ` @media screen and (max-width:868px) {
+                        /* Styles réactifs pour une largeur d'écran maximale de 868 pixels */
+                        .mySwiper2 .swiper-button-next,
+                        .mySwiper2 .swiper-button-prev {
+                            top: 20% !important;
+                            /* Ajustez la valeur pour les écrans plus petits */
+                        }
+                    }
+                     `
+                }</style>
+
         </div>
     );
 }

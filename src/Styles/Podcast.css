@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "textebase";
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("woff");
+  src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
@@ -43,13 +43,12 @@
     flex-direction: column;
     text-align: center;
     color: #871116;
-    
-    font-size: 25px;
     margin-bottom: 70px;
     margin-top: -50px;
 }
 .titrepodcast h1{
   font-weight: 300;
+  font-size: 50px;
   font-family: 'helene', sans-serif;
 }
 .podcastbl1{
@@ -137,5 +136,40 @@
 .titlepodcastepi{
   font-family: "helene", sans-serif;
   font-weight: 200;
-  font-size: 25px;
+  font-size: 30px;
+}
+@media screen and (max-width: 868px) {
+  .podcastbody{
+    overflow: hidden;
+  }
+  .titrepodcast{
+
+    padding-top: 120px;
+  }
+  .podcastbl1 img {
+    margin-left: 50px;
+}
+  .podcastbl1{
+    display: block;
+    margin-left: -25px;
+    margin-right: 20px;
+  }
+
+
+  .podcast-page{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .podcast-item{
+    padding: 0;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .position-buttonpod{
+    margin-top: 25px;
+    margin-right: 20px;
+  }
 }

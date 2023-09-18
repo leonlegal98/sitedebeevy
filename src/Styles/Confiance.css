@@ -1,58 +1,58 @@
 @font-face {
-  font-family: "Mademirageitalic";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    font-family: "Mademirageitalic";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "newtypo";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
+    font-family: "newtypo";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
 
 }
 @font-face {
-  font-family: "titreMirage";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    font-family: "titreMirage";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "textebase";
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    font-family: "textebase";
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "italiccar";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
-  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+    font-family: "italiccar";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
 
 }
 @font-face {
-  font-family: "itabbee";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    font-family: "itabbee";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
 
 }
 @font-face {
-  font-family: "helene";
-  src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
 
-  .titreconfiance{
+.titreconfiance {
     display: flex;
     justify-content: center;
     color: #871116;
     margin-top: -70px;
-    
+
     font-size: 40px;
     margin-top: -70px;
-  }
-  .titreconfiance h1{
-    font-family:"helene", sans-serif;
-    font-weight: 300;
-  }
-.containerconfiance{
-  margin-bottom: 200px;
 }
-.confiancearticle{
+.titreconfiance h1 {
+    font-family: "helene", sans-serif;
+    font-weight: 300;
+}
+.containerconfiance {
+    margin-bottom: 200px;
+}
+.confiancearticle {
     display: flex;
     margin-left: 290px;
     margin-right: 290px;
@@ -60,46 +60,47 @@
     padding-top: 70px;
     border-bottom: #871116 1px solid;
 }
-.confiancearticle img{
-  height: 20vh;
+.confiancearticle img {
+    height: 20vh;
 }
-.confiancebl2{
+.confiancebl2 {
     display: flex;
     flex-direction: column;
     color: #871116;
     margin-left: 50px;
     margin-top: -10px;
-    
+
 }
-.confiancebl2 h3{
-    font-family:'helene', sans-serif;
+.confiancebl2 h3 {
+    font-family: 'helene', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
 }
-.confiancebl2 p{
-    font-family:'textebase' , sans-serif;
+.confiancebl2 p {
+    font-family: 'textebase' , sans-serif;
 }
 @media screen and (max-width: 868px) {
-  .confiancehome{
-    padding-top: 50px;
-  }
-  .titreconfiance{
-    display: block;
-    margin-top: 20px;
-    line-height: 1;
-    text-align: center;
+    .confiancehome {
+        padding-top: 50px;
+    }
+    .titreconfiance {
+        display: block;
+        margin-top: 20px;
+        line-height: 1;
+        text-align: center;
 
-  }
-  .containerconfiance{
-    
-  }
-  .confiancearticle{
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .confiancebl2{
-    margin-right: 20px;
-  }
-  .confiancearticle img {
-    margin-left: 50px;
-}
+    }
+    .containerconfiance {
+        }
+    .confiancearticle {
+        display: block;
+        margin-left: -25px;
+        margin-right: 0;
+    }
+    .confiancebl2 {
+        margin-right: 20px;
+    }
+    .confiancearticle img {
+        margin-left: 50px;
+    }
 }

@@ -12,6 +12,7 @@ import TexteAtelier from './Components/TexteAtelier';
 import Creative from './Components/Creative';
 import Confiance from './Components/Confiance';
 import Podcast from './Components/Podcast';
+import TexteAteliernum1 from './Components/TextATelier/TexteAtelier-01';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/creative" element={<Creative />} />
         <Route path="/confiance" element={<Confiance />} />
         <Route path="/podcast" element={<Podcast />} />
+        <Route path="/texteatelier01" element={<TexteAteliernum1 />} />
         {/* Ajoutez des routes similaires pour les autres pages */}
       </Routes>
     </div>

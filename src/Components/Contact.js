@@ -40,7 +40,7 @@ function ContactForm() {
         setIsSubmitting(true);
 
         try {
-            const response = await axios.post('https://formspree.io/f/mjvqrzkq', formData);
+            const response = await axios.post('https://formspree.io/f/xaygbpab', formData);
 
             if (response.status === 200) {
                 setIsSuccess(true);

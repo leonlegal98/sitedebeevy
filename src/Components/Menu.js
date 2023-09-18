@@ -16,12 +16,7 @@ function Menu() {
   const menuItems = isMenuOpen ? (
     <>
     <div className='responshow'>
-    <img
-        src="/images/logofooterresp.png"
-        alt="Menu Icon"
-        className="menu-icon2"
-        onClick={toggleMenu}
-      />
+    
       <div className="menuresponlien">
                     <Link  onClick={toggleMenu} to="/">Accueil</Link>
                     <Link  onClick={toggleMenu} to="bio">Bio</Link>
@@ -30,6 +25,20 @@ function Menu() {
                     <Link  onClick={toggleMenu} to="presse">Presse</Link>
                     <Link  onClick={toggleMenu} to="contact">Contact</Link>
         </div>
+        <div className='socialmenu'>
+                            <Link to="https://www.linkedin.com/in/beevy-jalma-11382b1b9/" target="_blank">
+                            <img src='/images/linkedin.png'/>
+                            </Link>
+                            <Link to="https://www.facebook.com/latelierdebeevy" target="_blank">
+                            <img src='/images/facebook.png'/>
+                            </Link>
+                            <Link to="https://www.instagram.com/ecriturecreative_beevy/" target="_blank">
+                            <img src='/images/instagram.png'/>
+                            </Link>
+                            <Link to="https://www.youtube.com/@LatelierdeBeevy" target="_blank">
+                            <img className='yotubefooter' src='/images/youtube.png'/>
+                            </Link>
+                        </div>
 
     </div>
     

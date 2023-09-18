@@ -109,7 +109,7 @@ function Atelier() {
         <div className="atelierbody">
             <div className='ateliersect1'>
                 <div className='ateliersect1b1'>
-                    <h1>Un atelier d’écriture <br></br> c’est quoi ?</h1>
+                    <h1>Un atelier d’écriture c’est quoi ?</h1>
                     <p>Un atelier d’écriture est un lieu regroupant des personnes qui écrivent. Pour
                         reprendre les mots d’Odile Neumayer, « en atelier, il n’y a pas de hors-sujet »
                         car « c’est vous le sujet. » Ouvert.es à toustes, sans aucune restriction , mes
@@ -132,11 +132,20 @@ function Atelier() {
 
                 <img
                     src="/images/atelier-01.png"
+                    srcSet='/images/photo1-m.png 300w'
+                    sizes="(max-width: 600px)"
                     alt="Image 1"
                     onClick={playSound1}
                     style={{
                     cursor: 'pointer'
                 }}/>
+                <div className='bioateletierbaudelaire2'>
+                        <h4>« Parce que la forme est contraignante,
+                            <br></br>
+                            l'idée jaillit plus intense »</h4>
+                        <p>
+                            Charles Baudelaire</p>
+                    </div>
             </div>
 
             <div className='ateliersect2'>
@@ -186,6 +195,8 @@ function Atelier() {
                 </div>
                 <img
                     src="/images/atelier-03.png"
+                    srcSet='/images/photo2-m.png 300w'
+                    sizes="(max-width: 600px)"
                     alt="Image 3"
                     onClick={playSound3}
                     style={{
