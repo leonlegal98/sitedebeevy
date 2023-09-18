@@ -52,54 +52,57 @@
 .block1 {
     background-color: #871116;
     width: 948px;
-    height: 581px;
+    height: 620px;
     display: flex;
-    justify-content: center;
-    margin-left: 23%;
+    justify-content: center; /* Centrage vertical pour .block1 */
+    margin: 0 auto; /* Centrage horizontal pour .block1 */
     flex-direction: column;
     border-radius: 25px;
     position: relative;
     z-index: 3;
-
 }
+
+.block1 h3,
+.block1 p {
+    font-family: "aperculight", sans-serif;
+    color: #FFF8F0;/* Centrage horizontal pour le texte */
+}
+
 .block1 h3 {
     font-family: "helene", sans-serif;
     font-weight: 300;
     margin-top: 50px;
-    margin-left: 70px;
-    color: #FFF8F0;
     font-size: 30px;
-
+    margin-left: 50px;
 }
 
 .block1 p {
-    font-family: "aperculight", sans-serif;
-
-    margin-left: 70px;
     font-size: 18px;
-    color: #FFF8F0;
-
+    margin: 20px 0; 
+    margin-left: 50px;/* Ajoutez de l'espace entre les paragraphes */
 }
+
 .b1-sect1 {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    margin-top: -25px;
-
-    margin-right: -100px;
+    align-items: center; /* Centrage vertical pour .b1-sect1 */
+    margin-top: -20px;
+    margin-right: 20px;
 }
+
 .b1-sect1 img {
     height: 90px;
     width: 90px;
 }
+
 .beevylien {
     color: white;
-    font-family: "itabbee",sans-serif;
-    margin-left: -10px;
+    font-family: "itabbee", sans-serif;
+    margin-left: 10px;
     text-decoration: none;
     font-size: 22px;
-
 }
+
 .liensect1img {
     margin-left: 30px;
     margin-right: 20vh;
@@ -111,6 +114,7 @@
     height: 40px;
     width: 40px;
 }
+
 .homemargeimage img {
     margin-left: -20px;
 }
@@ -121,64 +125,70 @@
     margin-top: -50px;
     z-index: 2;
 }
+
 .image-container {
-    width: 50%;
+    width: 125%;
+    position: relative; /* Ajout de cette ligne pour que les éléments absolus soient positionnés par rapport à ce conteneur */
 }
+
 .imagebook {
     width: 100%;
-    height: 100%;
+    height: auto; /* Pour conserver les proportions de l'image */
 }
+
 .textimagebl2 {
     position: absolute;
-    bottom: 30px;
-    left: 55vh;
+    bottom: 5%; /* Ajustez la valeur pour la position verticale souhaitée */
+    left: 60%; /* Ajustez la valeur pour la position horizontale souhaitée */
     color: #FFF8F0;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 3vw; /* Utilisation de vw pour une taille de police relative à la largeur de l'écran */
     font-family: 'helene', sans-serif;
     text-align: end;
     line-height: 1;
-
 }
+
 .textbl2 {
     position: absolute;
-    bottom: 20px;
-    left: 54vh;
+    bottom: 2%; /* Ajustez la valeur pour la position verticale souhaitée */
+    left: 58%; /* Ajustez la valeur pour la position horizontale souhaitée */
     color: #FFF8F0;
     font-family: 'textebase', sans-serif;
-
 }
+
 .text-container {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 .titrec2 {
     color: #871116;
-    font-family: "helene",sans-serif;
+    font-family: "helene", sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 3vw; /* Utilisation de vw pour une taille de police relative à la largeur de l'écran */
     margin-bottom: 10px;
     line-height: 1;
 }
+
 .parac2 {
     color: #871116;
-    font-size: 18px;
+    font-size: 1.2vw; /* Utilisation de vw pour une taille de police relative à la largeur de l'écran */
     font-family: 'textebase', sans-serif;
-
 }
+
 .lienbl2 {
-    margin-top: 40px;
-
+    margin-top: 2vw; /* Utilisation de vw pour une marge relative à la largeur de l'écran */
 }
+
 .lienbl2 a {
     color: #871116;
-    margin-right: 100px;
+    margin-right: 4vw; /* Utilisation de vw pour une marge relative à la largeur de l'écran */
     font-family: 'textebase', sans-serif;
     font-weight: 'normal';
-
 }
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -376,9 +386,7 @@ span.swiper-pagination-bullet {
     font-family: 'textebase', sans-serif;
     font-weight: 'normal';
 }
-.image-container {
-    width: 100%;
-}
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -419,6 +427,12 @@ span.swiper-pagination-bullet {
     justify-content: flex-end;
 
 }
+@media screen and (max-width: 1698px) {
+    .block4 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 @media screen and (max-width: 868px) {
     .homepage {
         overflow-x: hidden;
@@ -427,7 +441,7 @@ span.swiper-pagination-bullet {
     .block1 {
         margin-left: 10px;
         width: 354px;
-        height: 1007px;
+        height: 1057px;
     }
     .block1 h3 {
         margin-left: 20px;
@@ -440,6 +454,9 @@ span.swiper-pagination-bullet {
         margin-right: 25px;
         
 
+    }
+    .liensect1img {
+        margin-right: 0;
     }
     .beevylien {
         margin-left: 20px;
@@ -468,14 +485,22 @@ span.swiper-pagination-bullet {
     }
     .textimagebl2 {
         left: 20px;
-        top: 100px;
+        top: 120px;
         text-align: inherit;
         line-height: 1;
+        font-size: -webkit-xxx-large;
     }
     .textbl2 {
         left: 21px;
         top: 250px;
+        font-size: medium;
 
+    }
+    .titrec2{
+        font-size: -webkit-xxx-large;
+    }
+    .parac2{
+        font-size: medium;
     }
     .image-container {
         width: 100%;
