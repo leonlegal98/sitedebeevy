@@ -57,7 +57,7 @@ function Home() {
 
                 <h3 className='oo'>« Écrire et se réinventer »</h3>
 
-                <p>Vous aimez écrire ? Vous ne savez pas par quoi commencer ni comment commencer ?
+                <p>Vous aimez écrire? Vous ne savez pas par quoi commencer ni comment?
                     <br></br>
                     Rejoignez-moi dans mes ateliers d’écriture.
 
@@ -185,7 +185,7 @@ function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car1slide1'>
-                            <h3>« Une parenthèse enchantée »</h3>
+                            <h3>« Une parenthèse <br></br>enchantée »</h3>
                             <p>Myriam</p>
                         </div>
                     </SwiperSlide>
@@ -194,6 +194,13 @@ function Home() {
             </div>
             <div className='block3'>
                 <img
+                    onClick={playSound2}
+                    style={{
+                    cursor: 'pointer'
+                }}
+                    className='imgbl3responsive'
+                    src='/images/beevygroupe.png'/>
+                    <img
                     onClick={playSound2}
                     style={{
                     cursor: 'pointer'
@@ -225,9 +232,8 @@ function Home() {
                                 <img className='car2imgsize' src='/images/car2im2.png'/>
                                 <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre auprès
                                     d’assistantes maternelles. L’occasion pour ces professionnelles de faire récit
-                                    de leurs expériences et de leurs parcours. “L'atelier de Beevy, c'est le moment
-                                    du lâcher prise” Anne Lamothe, Professionnelle du Relais Petite Enfance
-                                    d'Ingwiller</p>
+                                    de leurs expériences et de leurs parcours. “L'atelier de Beevy, c'est le moment 
+                                    du lâcher prise" Anne Lamothe, -professionnelle du Relais Petite Enfance d'Ingwiller</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>

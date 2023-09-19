@@ -36,7 +36,7 @@ function Tarifs() {
                         <h3>
                             Tarifs pro
                         </h3>
-                        <p>Les tarifs varient en fonction de la commande et du lieu* <br></br> Exemple de tarifs
+                        <p>Les tarifs varient en fonction de la commande et du lieu. <br></br> Exemple de tarifs
                             pour un groupe de 5 à 12 personnes <br></br>
                             <span className='kilometriques'>*frais kilométriques en sus, hébergement, frais de repas.</span>
                         </p>

@@ -416,6 +416,7 @@ span.swiper-pagination-bullet {
     border: none;
     font-size: 18px;
     cursor: pointer;
+    color: #871116;
 }
 
 .modal img {
@@ -426,6 +427,9 @@ span.swiper-pagination-bullet {
     display: flex;
     justify-content: flex-end;
 
+}
+.imgbl3responsive{
+    display: none;
 }
 @media screen and (max-width: 1698px) {
     .block4 {
@@ -440,19 +444,19 @@ span.swiper-pagination-bullet {
 
     .block1 {
         margin-left: 10px;
-        width: 354px;
-        height: 1057px;
+        width: 360px;
+        height: 957px;
     }
     .block1 h3 {
         margin-left: 20px;
         font-size: 25px;
-        margin-top: 34px;
+        margin-top: -34px;
         margin-bottom: 12px;
     }
     .block1 p {
         margin-left: 25px;
         margin-right: 25px;
-        
+        font-size: 16px;
 
     }
     .liensect1img {
@@ -520,6 +524,12 @@ span.swiper-pagination-bullet {
     .imgbl3 {
         width: 100%;
         height: 115px;
+        display: none;
+    }
+    .imgbl3responsive{
+        display: block;
+        width: 100%;
+        height: 115px;
     }
     .swiper-wrapper {
         max-width: 414px;
@@ -554,7 +564,7 @@ span.swiper-pagination-bullet {
 
     }
     .block3 a {
-        margin-top: -125px;
+        margin-top:0;
         margin-bottom: 0;
     }
     .block4 {

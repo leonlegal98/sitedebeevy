@@ -145,8 +145,8 @@
 }
 .ateliersect4 img {
     margin-left: 15vh;
-    height: 482px;
-    width: 354px;
+    height: 525px;
+    width: 390px;
 }
 .ateliersect1b1{
     margin-top: -51px;
@@ -157,6 +157,9 @@
     font-family: 'helene', sans-serif;
     font-weight: 400;
 
+}
+.ateliersect4b1{
+    margin-top: -35px;
 }
 .ateliersect4b1 p {
     color: #871116;
@@ -250,6 +253,7 @@
     margin-right: 220px;
     color: #871116;
     margin-bottom: 40px;
+    font-size: 18px;
 
 }
 
@@ -413,10 +417,14 @@
     .moinsfaq {
         width: unset;
     }
+    .toggle-button-atelier{
+        margin-left: 20px;
+    }
     .toggle-content-atelier.show {
         margin-right: 0;
     }
     .textfooteratelier{
-        font-size: 25px;
+        font-size: 30px;
+        padding-right: 10px;
     }
 }

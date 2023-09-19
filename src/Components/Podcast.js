@@ -77,7 +77,7 @@ function Podcast() {
 
             <div className='podcastbl1'>
                 <div>
-                    <img src='/images/imagepodcast.png'/>
+                    <img  src='/images/imagepodcast.png'/>
                 </div>
 
                 <div className='podcastbl1bl2'>

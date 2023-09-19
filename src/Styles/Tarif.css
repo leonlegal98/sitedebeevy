@@ -172,4 +172,13 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
+    .particuliernametarif{
+        margin-left: 6px;
+    }
+    .tarifbl2 br{
+        display: none;
+    }
+    .tarifpro br:nth-child(1){
+        display: none;
+    }
 }

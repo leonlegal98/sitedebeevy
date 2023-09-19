@@ -1,118 +1,120 @@
 @font-face {
-  font-family: "Mademirageitalic";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    font-family: "Mademirageitalic";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "newtypo";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
+    font-family: "newtypo";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
 
 }
 @font-face {
-  font-family: "titreMirage";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    font-family: "titreMirage";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "textebase";
-  src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
+    font-family: "textebase";
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "italiccar";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
-  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+    font-family: "italiccar";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
 
 }
 @font-face {
-  font-family: "itabbee";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    font-family: "itabbee";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
 
 }
 @font-face {
-  font-family: "helene";
-  src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
-.titrecreative{
+.titrecreative {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     color: #871116;
-    
+
     margin-bottom: 70px;
     margin-top: -50px;
 }
-.titrecreative h1{
-  font-family: 'helene', sans-serif;
-  font-weight: 300;
-  margin-left: 160px;
-    margin-right: 160px;
-  font-size: 50px;
+.titrecreative h1 {
+    font-family: 'helene', sans-serif;
+    font-weight: 300;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 50px;
 }
-.containercreative{
+.containercreative {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
     font-family: 'textebase', sans-serif;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 100px;
-    margin-top: -60px;
+    margin: -60px 150px 100px;
 }
-.creativearticle{
+.creativearticle {
     color: #871116;
     border-bottom: #871116 1px solid;
     margin-left: 80px;
     margin-right: 80px;
-    
+
     margin-top: 30px;
-    
+
 }
-.article1{
-    grid-row-end: span 1; 
+.article1 {
+    grid-row-end: span 1;
 }
-.article2{
-    grid-row-end: span 2; 
+.article2 {
+    grid-row-end: span 2;
 }
-.article3{
-    grid-row-end: span 1; 
+.article3 {
+    grid-row-end: span 1;
 }
-.article4{
-    grid-row-end: span 1; 
+.article4 {
+    grid-row-end: span 1;
 }
-.article5{
-    grid-row-end: span 2; 
+.article5 {
+    grid-row-end: span 2;
 }
-.article6{
-    grid-row-end: span 1; 
+.article6 {
+    grid-row-end: span 1;
 }
-.article7{
-    grid-row-end: span 2; 
+.article7 {
+    grid-row-end: span 2;
 }
-.article8{
-    grid-row-end: span 2; 
+.article8 {
+    grid-row-end: span 2;
 }
 @media screen and (max-width: 868px) {
-  .creativebody{
-    padding-top: 50px;
-  }
-  .titrecreative{
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-  .containercreative{
-    margin-left: 0px;
-    margin-right: 0px;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 0px;
-  }
-  .creativearticle{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+    .creativebody {
+        padding-top: 50px;
+    }
+    .titrecreative {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .titrecreative h1 {
+        font-size: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .containercreative {
+        margin-left: 0;
+        margin-right: 0;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+    .creativearticle {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

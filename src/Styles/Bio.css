@@ -221,7 +221,9 @@ body {
         margin-left: 0;
         margin-bottom: -28px;
     }
-    .sect1bio-s1 h2 {}
+    .sect1bio-s1 h2 {
+        font-size: 29px;
+    }
     .sect1bio-s2 {
         margin-left: 20px;
         margin-right: 40px;

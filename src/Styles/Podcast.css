@@ -1,42 +1,41 @@
-
 @font-face {
-  font-family: "Mademirageitalic";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
-  src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
+    font-family: "Mademirageitalic";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    src: url("../TYPOS/APERCU/Apercu\ Light.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "newtypo";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
+    font-family: "newtypo";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Regular\ PERSONAL\ USE.woff2") format("woff2");
 
 }
 @font-face {
-  font-family: "titreMirage";
-  src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
+    font-family: "titreMirage";
+    src: url("../TYPOS/MADE MIRAGE/MADE\ Mirage\ Thin\ PERSONAL\ USE.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "textebase";
-  src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
+    font-family: "textebase";
+    src: url("../TYPOS/APERCU/HindSiliguri-Light.woff") format("truetype");
 
 }
 @font-face {
-  font-family: "italiccar";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
-  src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
+    font-family: "italiccar";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    src: url("../TYPOS/APERCU/Apercu\ Light\ Italic.woff") format("woff");
 
 }
 @font-face {
-  font-family: "itabbee";
-  src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
+    font-family: "itabbee";
+    src: url("../TYPOS/CRIMSON\ ITALIC/CrimsonPro-ExtraLightItalic.woff") format("woff");
 
 }
 @font-face {
-  font-family: "helene";
-  src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
+    font-family: "helene";
+    src: url("../TYPOS/CRIMSON\ ITALIC/Literata_60pt-Light.woff") format("woff");
 
 }
-.titrepodcast{
+.titrepodcast {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,130 +45,142 @@
     margin-bottom: 70px;
     margin-top: -50px;
 }
-.titrepodcast h1{
-  font-weight: 300;
-  font-size: 50px;
-  font-family: 'helene', sans-serif;
+.titrepodcast h1 {
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'helene', sans-serif;
 }
-.podcastbl1{
+.podcastbl1 {
     display: flex;
     margin-left: 290px;
     margin-right: 290px;
     padding-bottom: 50px;
-    
+
 }
-.poddansma{
-  font-size: 25px;
-  font-family: 'helene', sans-serif;
+.poddansma {
+    font-size: 25px;
+    font-family: 'helene', sans-serif;
 }
-.podcastbl1 img{
+.podcastbl1 img {
     width: 35vh;
 }
-.podcastbl1bl2{
+.podcastbl1bl2 {
     display: flex;
     flex-direction: column;
     color: #871116;
     margin-left: 50px;
     margin-top: -28px;
 }
-.podcastbl1bl2 span{
-  font-size: 16px;
-  font-family: "textebase", sans-serif;
+.podcastbl1bl2 span {
+    font-size: 16px;
+    font-family: "textebase", sans-serif;
 
 }
-.podcastbl1bl2 p{
-  font-size: 18px;
-  
+.podcastbl1bl2 p {
+    font-size: 18px;
+    font-family: "textebase", sans-serif;
+
+
 }
-.podcast-page{
+.podcast-page {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
-   margin-left: 200px;
-   margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
-.podcast-item{
+.podcast-item {
     padding: 40px;
     color: #871116;
 }
 .round-button {
-    border-radius: 50%; 
-    width: 50px; 
-    height: 50px; 
-    background-color: #86262B; /* Couleur de fond du bouton */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #86262B;
+    /* Couleur de fond du bouton */
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: none; 
-    outline: none; 
-    padding: 0; 
+    border: none;
+    outline: none;
+    padding: 0;
     margin-right: 10px;
-  }
-  .round-button2 {
-    border-radius: 50%; 
-    width: 50px; 
-    height: 50px; 
+}
+.round-button2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     background-color: #FFF8F0;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: none; 
-    outline: none; 
-    padding: 0; 
-  }
-  .round-button2 img {
-    width: 100%; /* Ajustez la taille de l'image à votre convenance */
-    height: 100%; /* Ajustez la taille de l'image à votre convenance */
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.round-button2 img {
+    width: 100%;
+    /* Ajustez la taille de l'image à votre convenance */
+    height: 100%;
+    /* Ajustez la taille de l'image à votre convenance */
     display: block;
-  }
-  
-  .round-button img {
-    width: 80%; /* Ajustez la taille de l'image à votre convenance */
-    height: 80%; /* Ajustez la taille de l'image à votre convenance */
+}
+
+.round-button img {
+    width: 80%;
+    /* Ajustez la taille de l'image à votre convenance */
+    height: 80%;
+    /* Ajustez la taille de l'image à votre convenance */
     display: block;
-  }
-.position-buttonpod{
+}
+.position-buttonpod {
     display: flex;
-}  
-.titlepodcastepi{
-  font-family: "helene", sans-serif;
-  font-weight: 200;
-  font-size: 30px;
+}
+.titlepodcastepi {
+    font-family: "helene", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
 }
 @media screen and (max-width: 868px) {
-  .podcastbody{
-    overflow: hidden;
-  }
-  .titrepodcast{
+    .podcastbody {
+        overflow: hidden;
+    }
+    .titrepodcast {
 
-    padding-top: 120px;
-  }
-  .podcastbl1 img {
-    margin-left: 50px;
-}
-  .podcastbl1{
-    display: block;
-    margin-left: -25px;
-    margin-right: 20px;
-  }
+        padding-top: 120px;
+    }
+    .podcastbl1 img {
+        margin-left: 50px;
+    }
+    .podcastbl1 {
+        display: block;
+        margin-left: -25px;
+        margin-right: 20px;
+        margin-top: -40px;
+    }
 
+    .podcast-page {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .podcast-item {
+        padding: 0;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
 
-  .podcast-page{
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .podcast-item{
-    padding: 0;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
-   
-  }
-  .position-buttonpod{
-    margin-top: 25px;
-    margin-right: 20px;
-  }
+    }
+    .position-buttonpod {
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+    .poddansma {
+        font-weight: 200;
+        margin-bottom: 1px;
+        margin-top: 40px;
+    }
 }

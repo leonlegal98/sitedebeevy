@@ -61,7 +61,7 @@
 
 }
 .pressbl1 img {
-    width: 25vh;
+    width: 35vh;
     cursor: pointer;
 }
 .pressbl1bl2 {
@@ -99,6 +99,7 @@
 }
 .pressbl2bl2 p {
     font-size: 18px;
+    
 }
 .pressbl3bl2 span {
     font-size: 16px;
@@ -111,7 +112,7 @@
     font-size: 18px;
 }
 .pressbl2 img {
-    width: 25vh;
+    width: 35vh;
     cursor: pointer;
 }
 .pressbl2bl2 {
@@ -128,7 +129,7 @@
     padding-bottom: 130px;
 }
 .pressbl3 img {
-    width: 25vh;
+    width: 35vh;
     cursor: pointer;
 }
 .pressbl3bl2 {
@@ -185,13 +186,16 @@
 }
 .pressbl1 p {
     font-family: 'textebase',sans-serif;
+    margin-top: 10px;
 }
 
 .pressbl2 p {
     font-family: 'textebase',sans-serif;
+    margin-top: 10px;
 }
 .pressbl3 p {
     font-family: 'textebase',sans-serif;
+    margin-top: 10px;
 }
 .pressbl1 h3 {
     font-family: 'helene', sans-serif;
@@ -211,6 +215,12 @@
     font-size: 30px;
     margin-top: 15px;
 
+}
+@media screen and (max-width: 1698px) {
+    .pressbl1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media screen and (max-width: 868px) {
     .pressebody {
@@ -279,8 +289,8 @@
     }
     .titrepressetrois {
         padding: 0;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .listeimagepress {
         display: grid;

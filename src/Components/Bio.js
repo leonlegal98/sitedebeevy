@@ -33,13 +33,13 @@ function Bio() {
                         phrase fut une question.</p>
                     <h3>« Écrire c’est se mettre en danger »</h3>
                     <p>Mes premiers souvenirs d’écriture remontent à l’école primaire. J’étais en
-                        classe de CE2, j’avais huit ans,je jouais à l’élastique, je mangeais des
+                        classe de CE2, j’avais huit ans, je jouais à l’élastique, je mangeais des
                         sandwichs au porc laqué à la récréation, Nicolas était amoureux de moi et ma
                         meilleure amie s’appelait Audrey. Cette année-là, l’enseignante nous a demandé
                         d’écrire un poème pour la fête des pères. Quelques jours plus tard, j’ai lu mon
                         poème à voix haute, devant toute la classe. Je suis restée assise et je me
                         souviens avoir eu peur qu’on me demande ce qu’en avait pensé mon père. Mon père
-                        n’a jamais entendu ce poème. Ce jour-là, sous le regard approbateur de mon
+                        n’a jamais lu ce poème. Ce jour-là, sous le regard approbateur de mon
                         enseignante et les applaudissements de mes camarades, j’ai fait la découverte du
                         feu: les mots, frottés les uns contre les autres, pouvaient produire des
                         étincelles.</p>

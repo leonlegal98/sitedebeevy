@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import validator from 'validator';
 import Footer from './Footer'
-import '../Styles/Contact.css'
+import '../Styles/Contact.css';
+import soundFile1 from '../sonContact/pagecontact.mp3';
 
 function ContactForm() {
     const [formData,
@@ -20,6 +21,10 @@ function ContactForm() {
             ...formData,
             [name]: value
         });
+    };
+    const [audio] = useState(new Audio(soundFile1));
+    const playSound1 = () => {
+        audio.play();
     };
 
     const handleSubmit = async(e) => {
@@ -61,7 +66,13 @@ function ContactForm() {
 
             <div className='homecontact'>
                 <div className='contactimage'>
-                    <img className='imagebeevyfleur' src='/images/contact.png'/>
+                    <img
+                        onClick={playSound1}
+                        style={{
+                        cursor: 'pointer'
+                    }}
+                        className='imagebeevyfleur'
+                        src='/images/contact.png'/>
                 </div>
                 {isSuccess
                     ? (
@@ -77,23 +88,24 @@ function ContactForm() {
                             </div>
 
                             <div className='nomcontact'>
-                              <div>
-                                <label>Prénom</label>
+                                <div className='prenomcontact'>
+                                    <label>Prénom</label>
+
+                                    <input
+                                        type="text"
+                                        name="firstName"
+                                        value={formData.firstName}
+                                        onChange={handleChange}/>
                                 </div>
-                                <input
-                                    type="text"
-                                    name="firstName"
-                                    value={formData.firstName}
-                                    onChange={handleChange}/>
-                           <div>
-                           <label>Nom</label>
+                                <div className='nomcontactpos'>
+                                    <label>Nom</label>
+
+                                    <input
+                                        type="text"
+                                        name="lastName"
+                                        value={formData.lastName}
+                                        onChange={handleChange}/>
                                 </div>
-                                
-                                <input
-                                    type="text"
-                                    name="lastName"
-                                    value={formData.lastName}
-                                    onChange={handleChange}/>
                             </div>
                             <div>
                                 <label>E-mail</label>

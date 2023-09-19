@@ -52,10 +52,10 @@ function Atelier() {
             id: 'text2',
             title: '« Je fais des fautes d’orthographe, est-ce grave ? »',
             content: 'Il serait dommage de vous priver d’un atelier d’écriture pour des raisons orthog' +
-                    'raphiques ou grammaticales. À ce sujet, Bukowski disait :«  Je n’ai pas prêté b' +
-                    'eaucoup d’attention à la grammaire, et quand j’écris c’est surtout par amour du ' +
-                    'mot, de la tonalité, comme un peintre jetant ses couleurs sur la toile. (...) Un' +
-                    'e écriture qui vient du sang plutôt que de l’intellect. »'
+                    'raphiques ou grammaticales. À ce sujet, Bukowski disait :«  Je n’ai pas prêté be' +
+                    'aucoup d’attention à la grammaire, et quand j’écris c’est surtout par amour du m' +
+                    'ot, de la tonalité, comme un peintre jetant ses couleurs sur la toile. (...) Une' +
+                    ' écriture qui vient du sang plutôt que de l’intellect. »'
         }, {
             id: 'text3',
             title: '« Pour participer à une séance, faut-il s’inscrire à tous les ateliers ? »',
@@ -98,10 +98,7 @@ function Atelier() {
             id: 'text10',
             title: '« Combien ça coûte ? »',
             content: 'Voir "Tarifs"'
-        },
-
-    
-
+        }
     ];
 
     return (
@@ -113,8 +110,8 @@ function Atelier() {
                     <p>Un atelier d’écriture est un lieu regroupant des personnes qui écrivent. Pour
                         reprendre les mots d’Odile Neumayer, « en atelier, il n’y a pas de hors-sujet »
                         car « c’est vous le sujet. » Ouvert.es à toustes, sans aucune restriction , mes
-                        ateliers se déroulent en Alsace, en « présentiel » ou en « visio ». Je peux
-                        également me déplacer dans toute la France.
+                        ateliers se déroulent en « présentiel » ou en « visio ». Je peux également me
+                        déplacer dans toute la France.
                     </p>
                     <div className='liensect1'>
                         <a href='/texteatelier'>Textes d’ateliers</a>
@@ -140,12 +137,12 @@ function Atelier() {
                     cursor: 'pointer'
                 }}/>
                 <div className='bioateletierbaudelaire2'>
-                        <h4>« Parce que la forme est contraignante,
-                            <br></br>
-                            l'idée jaillit plus intense »</h4>
-                        <p>
-                            Charles Baudelaire</p>
-                    </div>
+                    <h4>« Parce que la forme est contraignante,
+                        <br></br>
+                        l'idée jaillit plus intense »</h4>
+                    <p>
+                        Charles Baudelaire</p>
+                </div>
             </div>
 
             <div className='ateliersect2'>
@@ -188,9 +185,9 @@ function Atelier() {
                         particuliers.
                     </p>
                     <p>
-                        J’interviens également auprès de<span className='textesurligneratelier'>
-                            professionnelles en établissement et en entreprise.</span>
-                        Là, les ateliers mêlent écriture et analyse de pratiques.
+                        J’interviens également auprès de <span className='textesurligneratelier'>
+                            professionnelles en établissement et en entreprise.</span> Là, les ateliers 
+                            mêlent écriture et analyse de pratiques.
                     </p>
                 </div>
                 <img
@@ -213,19 +210,15 @@ function Atelier() {
                 }}/>
 
                 <div className='ateliersect4b1'>
-                    <h1>Ma spécialité</h1>
+                    <h1>Ma spécificité</h1>
                     <p>Mes années d’éducatrice spécialisée, doublées de mon cheminement personnel et
-                        thérapeutique, m’ont permis de développer des qualités d’écoute, de
-                        bienveillance, de respect et d’accueil de l’autre. L’engagement sincère qui
-                        était le mien dans l’exercice de mes fonctions précédentes se retrouve dans les
-                        ateliers d’écriture que j’anime, mis au service des écrivants que je rencontre.</p>
-                    <p>Grâce à mon expérience et à ma formation, je suis outillée pour animer des
-                        ateliers auprès de divers professionnels, notamment du secteur sanitaire,
-                        médico-social et éducatif. Dans le cadre de " plan de formation ", des sessions
-                        d’ateliers d’écriture peuvent être organisées avec des thèmes définis au
-                        préalable par les équipes comme par exemple : " la bientraitance ", " comment
-                        faire récit de la souffrance "ou encore " mettre en mots les missions des
-                        professionnels, de l'exécution à la pensée ".</p>
+                        thérapeutique, me permettent d’être là où je suis aujourd’hui. L’engagement
+                        sincère qui était le mien dans l’exercice de mes fonctions précédentes se
+                        retrouve dans les ateliers d’écriture que j’anime.</p>
+                    <p>Grâce à mon expérience et à mes formations, je suis outillée pour animer des
+                        ateliers auprès de professionnel.les, notamment du secteur médical, social et
+                        éducatif. Pour ces salarié.es, l’idée que je soutiens est de prendre soin de
+                        ceux et celles qui, au quotidien, prennent soin des autres.</p>
                 </div>
             </div>
             <div className='ateliersection5'>
