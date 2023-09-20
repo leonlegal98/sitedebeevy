@@ -11,6 +11,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 import soundFile from '../sonAccueil/coeur.mp3';
 import soundFile2 from '../sonAccueil/crayon.mp3';
+import soundFile3 from '../sonAccueil/chapeau.mp3';
 
 function Home() {
     const [modalOpen,
@@ -44,6 +45,10 @@ function Home() {
     const [audio2] = useState(new Audio(soundFile2));
     const playSound2 = () => {
         audio2.play();
+    };
+    const [audio3] = useState(new Audio(soundFile3));
+    const playSound3 = () => {
+        audio3.play();
     };
     return (
         <div className="homepage">
@@ -143,7 +148,10 @@ function Home() {
                 </div>
             </div>
             <div className='chapresphome'>
-                <img src='/images/chapeau.png'/>
+                <img src='/images/chapeau.png' onClick={playSound3}
+                    style={{
+                    cursor: 'pointer'
+                }}/>
             </div>
             <div className='homefisrtcarousel'>
 
