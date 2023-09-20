@@ -85,8 +85,9 @@
 .podcast-page {
     display: flex;
     justify-content: space-around;
+    align-self: flex-start; /* Alignez le contenu par rapport au début de la colonne parente (.podcastbl1) */
     margin-bottom: 100px;
-    margin-left: 200px;
+    margin-left: 210px;
     margin-right: 100px;
 }
 .podcast-item {

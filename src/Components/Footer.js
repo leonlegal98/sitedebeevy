@@ -40,7 +40,7 @@ function Footer() {
                             <Link to="https://www.facebook.com/latelierdebeevy" target="_blank">
                             <img src='/images/facebook.png'/>
                             </Link>
-                            <Link to="https://www.instagram.com/ecriturecreative_beevy/" target="_blank">
+                            <Link to="https://www.instagram.com/latelierdebeevy/" target="_blank">
                             <img src='/images/instagram.png'/>
                             </Link>
                             <Link to="https://www.youtube.com/@LatelierdeBeevy" target="_blank">

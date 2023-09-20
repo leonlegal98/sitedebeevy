@@ -1,5 +1,4 @@
 import '../Styles/Atelier.css';
-
 import React, {useState} from 'react';
 import Bio from './Bio.js';
 import Home from './Home.js';
@@ -110,8 +109,7 @@ function Atelier() {
                     <p>Un atelier d’écriture est un lieu regroupant des personnes qui écrivent. Pour
                         reprendre les mots d’Odile Neumayer, « en atelier, il n’y a pas de hors-sujet »
                         car « c’est vous le sujet. » Ouvert.es à toustes, sans aucune restriction , mes
-                        ateliers se déroulent en « présentiel » ou en « visio ». Je peux également me
-                        déplacer dans toute la France.
+                        ateliers se déroulent en « présentiel » ou en « visio ».
                     </p>
                     <div className='liensect1'>
                         <a href='/texteatelier'>Textes d’ateliers</a>
@@ -180,7 +178,7 @@ function Atelier() {
                         de partage entre pairs.
 
                     </p>
-                    <p>« Parlez-moi d’amour », « Sur les chemins », « Un air de vacances », «
+                    <p>« Parlez-moi d’amour », « Sur les chemins », «Un air de vacances», «
                         Portraits de famille » sont quelques exemples de thématiques proposées aux
                         particuliers.
                     </p>

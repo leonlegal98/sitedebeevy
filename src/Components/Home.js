@@ -238,9 +238,7 @@ function Home() {
                         <SwiperSlide>
                             <div className='car1slide2'>
                                 <img className='car2imgsize' src='/images/car2im2.png'/>
-                                <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre auprès
-                                    d’assistantes maternelles. L’occasion pour ces professionnelles de faire récit
-                                    de leurs expériences et de leurs parcours. “L'atelier de Beevy, c'est le moment 
+                                <p>“L'atelier de Beevy, c'est le moment 
                                     du lâcher prise" Anne Lamothe, -professionnelle du Relais Petite Enfance d'Ingwiller</p>
                             </div>
                         </SwiperSlide>

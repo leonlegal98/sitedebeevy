@@ -105,8 +105,9 @@ function Confiance() {
                             permettent de mettre son vécu en mots, de jouer avec ses mots et les rendre
                             beaux, vivants, touchants. L 'atelier de Beevy, c'est mettre ses maux brut sur
                             le papier, de découvrir avec émotion la douce poésie dans le quotidien des
-                            assistantes Maternelles et de mettre en valeur ce métier !" Anne Lamothe -
-                            Référente Parentalité, Relais Petite Enfance, Maison de la Famille d'Ingwiller.
+                            assistantes Maternelles et de mettre en valeur ce métier !<br></br>"
+Anne Lamothe - Référente Parentalité, Relais Petite Enfance, Maison de la
+Famille d'Ingwiller.
                         </p>
                     </div>
 
@@ -166,9 +167,11 @@ function Confiance() {
                             Ces séances ont aussi été le moyen de découvrir le théâtre par un autre versant
                             : non plus uniquement celui du plateau mais également celui de l’écriture, pour
                             rendre les deux actions perméables l’une à l’autre. Je remercie Beevy de nous
-                            avoir accompagné dans cette recherche." Amélie Enon, metteure en scène "Beevy
-                            Jalma a assuré l’animation de notre atelier « Le théâtre des mots » de mai à
-                            juillet 2021. Sa contribution a permis de structurer et consolider très
+                            avoir accompagné dans cette recherche." Amélie Enon, metteure en scène
+                            <br></br>
+                            <br></br>
+                            "Beevy Jalma a assuré l’animation de notre atelier « Le théâtre des mots » de
+                            mai à juillet 2021. Sa contribution a permis de structurer et consolider très
                             utilement les travaux poursuivis dans cet atelier en vue d’une représentation, «
                             Le Grand Récit », intervenue au cours du festival MUZ 2022, organisé par notre
                             association en mai 2022." L'équipe associative des Ateliers des Malteries
@@ -253,7 +256,7 @@ function Confiance() {
                             créatives insoupçonnées! Ce projet, mené en lien avec la compagnie Actémo
                             Théâtre, a également pris tout son sens à travers la création de capsules audio
                             mettant en valeur ce travail d'écriture et permettant de le partager plus
-                            largement. Merci pour ce savoir-faire généreux et exigeant ! "Céline
+                            largement. Merci pour ce savoir-faire généreux et "exigeant !" Céline
                             Modéré-Adam, responsable du Relais culturel d'Erstein, initiateur et partenaire
                             de cette action culturelle
 

@@ -62,8 +62,8 @@
     margin-top: -25px;
 }
 .ateliersect1 img {
-    width: 467px;
-    height: 508px;
+    width: 431px;
+    height: 496px;;
     margin-right: 160px;
 }
 .ateliersect1b1 h1 {
@@ -111,7 +111,10 @@
     font-weight: 200;
 
 }
-.ateliersect2 img {}
+.ateliersect2 img {
+    width: 590px;
+    height: 320px;
+}
 .ateliersect2b2{
     margin-top: -30px;
 }
@@ -128,8 +131,8 @@
     font-family: 'textebase', sans-serif;
 }
 .ateliersect3 img {
-    width: 420px;
-    height: 449px;
+    width: 412px;
+    height: 412px;
     margin-right: 160px;
 }
 .ateliersect3b1 h1 {
@@ -145,8 +148,8 @@
 }
 .ateliersect4 img {
     margin-left: 15vh;
-    height: 525px;
-    width: 390px;
+    height: 480px;
+    width: 339px;
 }
 .ateliersect1b1{
     margin-top: -51px;
@@ -172,9 +175,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding-left: 330px;
-    padding-right: 330px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .ateliersection5 a {
     color: #871116;
@@ -212,7 +214,7 @@
     align-items: center;
     cursor: pointer;
     color: #871116;
-    font-size: 35px;
+    font-size: 25px;
     font-family: "helene", sans-serif;
     margin-top: 30px;
     font-weight: 200;

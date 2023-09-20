@@ -437,6 +437,20 @@ span.swiper-pagination-bullet {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media screen and (max-width: 1448px) {
+    .textimagebl2 {
+       
+        bottom: 12%;
+        left: 64%;
+    }
+}
+@media screen and (max-width: 1348px) {
+    .textimagebl2 {
+       
+        bottom: 16%;
+        
+    }
+}
 @media screen and (max-width: 868px) {
     .homepage {
         overflow-x: hidden;
