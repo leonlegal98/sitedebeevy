@@ -62,8 +62,8 @@ function TexteAtelier() {
                         des souvenirs d'enfance revisités. Une espiègle mise en bouche suivie d'une
                         succulente mise en mots a été possible grâce à la bonne volonté de chacun. Aidés
                         de Marcel Proust, Émile Zola, Ito Ogawa ou encore Ryoko Sekiguchi, nous nous
-                        sommes délectés de textes savamment assaisonnés. La chanson d'Oldelaf "La
-                        jardinière de légumes" a permis aux participants de confesser leur aversion pour
+                        sommes délectés de textes savamment assaisonnés. La chanson d'Oldelaf "<a href='https://www.youtube.com/watch?v=u381owMPrEg'  target="_blank">La
+                        jardinière de légumes"</a> a permis aux participants de confesser leur aversion pour
                         un met autrefois imposé. Éclats de rires garantis aussi réconfortants qu'une
                         tablette de chocolat au lait.</p>
                 </div>
@@ -77,8 +77,8 @@ function TexteAtelier() {
                     <p>
                         Atelier "Femmes je vous aime", mars 2023 Comme chaque année, le 8 mars 2023 a
                         été un jour de célébration des femmes. Cette année, avec ma consoeur Sonia
-                        Pavlik, fondatrice de "Poétique Intérieure", journaliste au Monde et
-                        intervenante à l'école les Mots , nous avons eu envie de proposer pour la
+                        Pavlik, fondatrice de <a href='https://poetiqueinterieure.com/'  target="_blank">"Poétique Intérieure"</a>, journaliste au Monde et
+                        intervenante à l'école <a href='https://lesmots.co/ecrivains/sonia-pavlik-52f10ee7-2e86-45e7-ad24-3e06318279f8'  target="_blank">les Mots"</a> , nous avons eu envie de proposer pour la
                         première fois une séance en co-animation- une manière de réunir nos forces vives
                         sur un sujet qui nous tient à cœur: le respect de soi, l'amour des femmes. Cet
                         atelier a été conçu comme un point de départ, une étape sur ce long chemin
@@ -86,7 +86,7 @@ function TexteAtelier() {
                         est de prendre soin de chacune d'entre nous, se reconnaître, prendre conscience,
                         nommer, écouter... Lors de cet atelier, nous nous sommes appuyées sur les écrits
                         d'Anaïs Nin "Etre une femme", de Paule Salomon "La femme solaire" ou encore de
-                        Maya Angelou "Femme phénoménale". La chanson de Julien Clerc, qui a inspiré le
+                        Maya Angelou "Femme phénoménale". <a href='https://www.youtube.com/watch?v=Q3IzSgX2La8https://www.youtube.com/watch?v=Q3IzSgX2La8'  target="_blank">La chanson de Julien Clerc</a>, qui a inspiré le
                         titre de cet atelier, nous a également accompagnées tout au long de notre chemin
                         d'écriture.</p>
                 </div>
@@ -103,7 +103,7 @@ function TexteAtelier() {
                         explorées durant cette journée d'écriture. Inspirée par la littérature de
                         Marceline Loridan-Ivens, d'Annie Ernaux ainsi que du livre jeunesse "Moi mon
                         ombre" de Sébastien Joanniez et d'Evelyne Mary, la production finale s'est
-                        appuyée sur la chanson de Bigflo et Oli "Je suis", live enregistré à
+                        appuyée sur la chanson de Bigflo et Oli <a href='https://www.youtube.com/watch?v=Kmc8uuxgRRs'  target="_blank">"Je suis"</a>, live enregistré à
                         l'Auditorium de la Maison de la Radio, en 2016, dans le cadre de la première
                         édition du "Hip Hop symphonique".</p>
                 </div>
@@ -228,7 +228,7 @@ function TexteAtelier() {
                         novembre 2021 à mars 2022</p>
                     <p>-</p>
                     <p>
-                        Contactée par la compagnie Actemo Théâtre, j’ai animé des ateliers d’écriture de
+                        Contactée par la compagnie <a href='https://www.actemo-theatre.fr/'  target="_blank">Actemo Théâtre</a>, j’ai animé des ateliers d’écriture de
                         novembre 2021 à mars 2022 auprès des résidents de l’EHPAD « les Colibris » au
                         Centre Hospitalier d’Erstein. Au travers d’objets anciens, nous avons pu raviver
                         la mémoire et faire émerger des souvenirs et des mots. Ces objets ont pris vie
@@ -264,7 +264,7 @@ function TexteAtelier() {
                         débats, les étudiants se sont essayés au "choix des mots" . Un travail
                         d'écriture a également été proposé en lien avec l'objet d'intervention. Quelques
                         textes issus de la consigne d'écriture "écrivez à la manière de Grand Corps
-                        malade" sont livrés ici.</p>
+                        malade" sont livrés  <a href='https://www.actemo-theatre.fr/'  target="_blank">ici</a>.</p>
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
@@ -361,8 +361,8 @@ function TexteAtelier() {
                     <p>
                         Les livres de Catherine Grive/Carole Bellaïche, "Ces choses qui font battre le
                         coeur" et "Notes de chevet" de Sei Shônagon nous ont accompagnés durant cet
-                        atelier. La production finale a été inspirée par l'opéra ballet de Jean-Philippe
-                        Rameau, "Les Indes Galantes", revisité par Clément Cogitore. Lecture des textes
+                        atelier. La production finale a été inspirée par <a href='https://www.google.com/search?client=firefox-b-d&q=les+indes+galantes+cogitore&tbm=vid&sa=X&ved=2ahUKEwjuxIGkotX_AhVNTKQEHZvqCtEQ0pQJegQIDRAB&biw=1184&bih=554&dpr=1.15#fpstate=ive&vld=cid:bffea9b5,vid:Q4jy2wrjESQ'  target="_blank">l'opéra ballet de Jean-Philippe
+                        Rameau, "Les Indes Galantes", revisité par Clément Cogitore</a>. Lecture des textes
                         en chœur, par les participants.</p>
                 </div>
                 <div className='texteatelierarticle'>
