@@ -2,8 +2,7 @@ import React from 'react';
 import '../../Styles/Creative.css';
 import Footer from '../Footer';
 
-
-function TexteAteliernum3() {
+function TexteAteliernum17() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
@@ -124,4 +123,4 @@ function TexteAteliernum3() {
     );
 }
 
-export default TexteAteliernum3;
+export default TexteAteliernum17;

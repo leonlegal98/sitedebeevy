@@ -201,6 +201,7 @@
     font-family: 'helene', sans-serif;
     font-size: 30px;
     margin-top: 15px;
+    font-weight: 200;
 
 }
 
@@ -208,12 +209,14 @@
     font-family: 'helene', sans-serif;
     font-size: 30px;
     margin-top: 15px;
+    font-weight: 200;
 
 }
 .pressbl3 h3 {
     font-family: 'helene', sans-serif;
     font-size: 30px;
     margin-top: 15px;
+    font-weight: 200;
 
 }
 @media screen and (max-width: 1698px) {

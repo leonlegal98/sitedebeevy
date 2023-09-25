@@ -3,7 +3,7 @@ import '../../Styles/Creative.css';
 import Footer from '../Footer';
 
 
-function TexteAteliernum3() {
+function TexteAteliernum14() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
@@ -124,4 +124,4 @@ function TexteAteliernum3() {
     );
 }
 
-export default TexteAteliernum3;
+export default TexteAteliernum14;

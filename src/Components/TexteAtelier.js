@@ -69,7 +69,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier "Femmes je vous aime"
+                        Atelier <a href='/texteatelier02'>"Femmes je vous aime"</a>
                     </h3>
                     <p>
                         mars 2023</p>
@@ -92,7 +92,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Journée d'écriture "Je m'aime donc je suis"
+                        Journée d'écriture <a href='/texteatelier03'>"Je m'aime donc je suis"</a>
                     </h3>
                     <p>
                         février 2023</p>
@@ -109,7 +109,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Journée d'écriture "Portrait(s) de famille"
+                        Journée d'écriture <a href='/texteatelier04'>"Portrait(s) de famille"</a>
                     </h3>
                     <p>
                         Décembre 2022</p>
@@ -122,7 +122,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Journée d'écriture « Être heureux, tout simplement… ? »
+                        Journée d'écriture <a href='/texteatelier05'>« Être heureux, tout simplement… ? »</a>
                     </h3>
                     <p>
                         octobre 2022</p>
@@ -139,7 +139,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Semaine artistique à l’ESEIS, École Supérieure Européenne d’Intervention Sociale
+                        <a href='/texteatelier06'>Semaine artistique à l’ESEIS</a>, École Supérieure Européenne d’Intervention Sociale
                     </h3>
                     <p>
                         septembre 2022.</p>
@@ -153,7 +153,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier "En pleine nature"
+                        Atelier <a href='/texteatelier07'>"En pleine nature"</a>
                     </h3>
                     <p>
                         juin 2022</p>
@@ -171,7 +171,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier "Sur un banc"
+                        Atelier <a href='/texteatelier08'>"Sur un banc"</a>
                     </h3>
                     <p>
                         mai 2022</p>
@@ -189,7 +189,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier "Dites-le avec des fleurs"
+                        Atelier <a href='/texteatelier09'>"Dites-le avec des fleurs"</a>
                     </h3>
                     <p>
                         avril 2022 (en visioconférence et en présentiel)</p>
@@ -204,7 +204,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier "Printemps des poètes"
+                        Atelier <a href='/texteatelier10'>"Printemps des poètes"</a>
                     </h3>
                     <p>
                         mars 2022</p>
@@ -222,7 +222,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Ateliers d’écriture à l’EHPAD "les Colibris"
+                        <a href='/texteatelier11'>Ateliers d’écriture à l’EHPAD "les Colibris"</a>
                     </h3>
                     <p>
                         novembre 2021 à mars 2022</p>
@@ -237,7 +237,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier "Parlez-moi d’amour", en présentiel et en visioconférence
+                        Atelier <a href='/texteatelier12'>"Parlez-moi d’amour"</a>, en présentiel et en visioconférence
                     </h3>
                     <p>
                         février 2022</p>
@@ -252,7 +252,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Semaine optionnelle "Le Choix des mots", ESEIS
+                        Semaine optionnelle <a href='/texteatelier12'>"Le Choix des mots"</a>, ESEIS
                     </h3>
                     <p>
                         janvier 2022</p>
@@ -268,7 +268,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Blanc »
+                        Atelier <a href='/texteatelier13'>« Blanc »</a>
                     </h3>
                     <p>janvier 2022</p>
                     <p>-</p>
@@ -283,7 +283,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Vivre avec nos morts »
+                        Atelier <a href='/texteatelier14'>« Vivre avec nos morts »</a>
                     </h3>
                     <p>
                         novembre 2021</p>
@@ -300,7 +300,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Un café s’il vous plaît »
+                        Atelier <a href='/texteatelier15'>« Un café s’il vous plaît »</a>
                     </h3>
                     <p>
                         octobre 2021</p>
@@ -314,7 +314,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Au nom du père »
+                        Atelier <a href='/texteatelier16'>« Au nom du père »</a>
                     </h3>
                     <p>
                         septembre 2021</p>
@@ -328,7 +328,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Sur les chemins »
+                        Atelier <a href='/texteatelier17'>« Sur les chemins »</a>
                     </h3>
                     <p>
                         mai 2021</p>
@@ -341,7 +341,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Dans mon jardin »
+                        Atelier <a href='/texteatelier18'> « Dans mon jardin »</a>
                     </h3>
                     <p>
                         mars 2021</p>
@@ -353,7 +353,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « A cœur ouvert »
+                        Atelier <a href='/texteatelier19'>« A cœur ouvert »</a>
                     </h3>
                     <p>
                         février 2021</p>
@@ -367,7 +367,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Un texte de l'atelier « J’écris pour... »
+                        Un texte de l'atelier <a href='/texteatelier20'>« J’écris pour... »</a>
                     </h3>
                     <p>
                         février 2021</p>
@@ -377,7 +377,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « Silence, ça parle »
+                        Atelier <a href='/texteatelier21'>« Silence, ça parle »</a>
                     </h3>
                     <p>
                         janvier 2021</p>
@@ -390,7 +390,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        "Oxygène en Bulles pour Traversée Virale"
+                        <a href='/texteatelier22'>"Oxygène en Bulles pour Traversée Virale"</a>
                     </h3>
                     <p>
                         mars 2020</p>
@@ -409,7 +409,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier« Les mots me manquent »
+                        Atelier <a href='/texteatelier23'>« Les mots me manquent »</a>
                     </h3>
                     <p>
                         décembre 2020 et janvier 2021</p>
@@ -423,7 +423,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier « l’essentiel »
+                        Atelier <a href='/texteatelier24'>« l’essentiel »</a>
                     </h3>
                     <p>
                         novembre 2020</p>
@@ -435,7 +435,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Ateliers d’écriture
+                        <a href='/texteatelier25'>Ateliers d’écriture</a>
                     </h3>
                     <p>
                         2019/2020</p>
