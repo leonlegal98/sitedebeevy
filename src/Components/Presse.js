@@ -6,29 +6,52 @@ import Footer from './Footer';
 import React, {useRef, useState, useEffect} from 'react';
 
 function Presse() {
-    const [modalOpen,
-        setModalOpen] = useState(false);
-    const [selectedImage,
-        setSelectedImage] = useState(null);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedImages, setSelectedImages] = useState([]);
 
+    const handleImageClick = (image) => {
+    const imagesToShow = imageAssociations[image];
+    setSelectedImages(imagesToShow);
+    setModalOpen(true);
+    };
+
+    const closeModal = () => {
+    setSelectedImages([]);
+    setModalOpen(false);
+    };
     const imageAssociations = {
         '/images/1.png': '/images/ArticlelAlsace_1.jpg',
-        '/images/2.png': '/images/EhpadErstein_1.jpg',
+        '/images/2.png': [
+            '/images/EhpadErstein_1.jpg',
+            '/images/DNA_1_1.jpg', // Ajoutez ici le chemin de la deuxième image
+        ],
         '/images/3.png': '/images/Eurometropole_1.jpg',
         '/images/4.png': '/images/BulletinHoenheim_1.jpg',
-        '/images/5.png': '/images/page01_1.jpg',
+        '/images/5.png': [
+            '/images/page01_1.jpg',
+            '/images/page02_1.jpg',
+            '/images/page03_1.jpg',
+            '/images/page04_1.jpg',
+            '/images/page05_1.jpg',
+            '/images/page06_1.jpg',
+            '/images/page07_1.jpg',
+            '/images/page08_1.jpg',
+            '/images/page09_1.jpg',
+            '/images/page10_1.jpg',
+            '/images/page11_1.jpg',
+            '/images/page12_1.jpg',
+            '/images/page13_1.jpg',
+            '/images/page14_1.jpg',
+            '/images/page15_1.jpg',
+            '/images/page16_1.jpg',
+            '/images/page17_1.jpg',
+
+        ],
         '/images/6.png': '/images/article_1.jpg',
         // Ajoutez ici les associations pour vos images
     };
 
-    const handleImageClick = (image) => {
-        setSelectedImage(imageAssociations[image]);
-        setModalOpen(true);
-    };
-    const closeModal = () => {
-        setSelectedImage(null);
-        setModalOpen(false);
-    };
+    
     return (
 
         <div className="pressebody">
@@ -46,15 +69,23 @@ function Presse() {
                         onClick={() => handleImageClick(image)}/>))}
             </div>
             {modalOpen && (
-                <div className="modal-overlay" onClick={closeModal}>
-                    <div className="modal">
-                        <div className="modal-header">
-                            <button className="close-button" onClick={closeModal}>X</button>
-                        </div>
-                        {selectedImage && <img src={selectedImage} alt="Image en grand"/>}
-                    </div>
-                </div>
-            )}
+  <div className="modal-overlay" onClick={closeModal}>
+    <div className="modal">
+      <div className="modal-header">
+        <button className="close-button" onClick={closeModal}>X</button>
+      </div>
+      <div className="modal-images">
+        {Array.isArray(selectedImages) ? (
+          selectedImages.map((image, index) => (
+            <img key={index} src={image} alt={`Image en grand`} />
+          ))
+        ) : (
+          <img src={selectedImages} alt={`Image en grand`} />
+        )}
+      </div>
+    </div>
+  </div>
+)}
 
             <div className='titrepressedeux'>
                 <h1>Télévision</h1>
