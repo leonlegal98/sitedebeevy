@@ -70,30 +70,7 @@
     margin-top: 30px;
 
 }
-.article1 {
-    grid-row-end: span 1;
-}
-.article2 {
-    grid-row-end: span 2;
-}
-.article3 {
-    grid-row-end: span 1;
-}
-.article4 {
-    grid-row-end: span 1;
-}
-.article5 {
-    grid-row-end: span 2;
-}
-.article6 {
-    grid-row-end: span 1;
-}
-.article7 {
-    grid-row-end: span 2;
-}
-.article8 {
-    grid-row-end: span 2;
-}
+
 @media screen and (max-width: 868px) {
     .creativebody {
         padding-top: 50px;

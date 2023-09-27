@@ -35,14 +35,17 @@ import TexteAteliernum20 from './Components/TextATelier/texteAtelier-20';
 import TexteAteliernum21 from './Components/TextATelier/texteAtelier-21';
 import TexteAteliernum22 from './Components/TextATelier/texteAtelier-22';
 import TexteAteliernum23 from './Components/TextATelier/texteAtelier-23';
-import TexteAteliernum24 from './Components/TextATelier/texteAtelier-24';
-import TexteAteliernum25 from './Components/TextATelier/texteAtelier-25';
+
 
 
 function App() {
+  document.title = "Site de Beevy";
+  
+  
   return (
     <Router>
     <div>
+      
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -78,8 +81,6 @@ function App() {
         <Route path="/texteatelier21" element={<TexteAteliernum21 />} />
         <Route path="/texteatelier22" element={<TexteAteliernum22 />} />
         <Route path="/texteatelier23" element={<TexteAteliernum23 />} />
-        <Route path="/texteatelier24" element={<TexteAteliernum24 />} />
-        <Route path="/texteatelier25" element={<TexteAteliernum25 />} />
 
         {/* Ajoutez des routes similaires pour les autres pages */}
       </Routes>

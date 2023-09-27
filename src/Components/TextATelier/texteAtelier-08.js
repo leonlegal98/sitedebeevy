@@ -6,115 +6,250 @@ function TexteAteliernum8() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Atelier "Sur un banc",</h1>
 
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>Regarde <br></br><br></br>
+
+
+
+Je ne sais pas depuis combien de temps j’habite ces coordonnées. Celles de ce banc : 48°58 N, 7°75 E.  Et celles indéfinies de mon esprit.
+
+Assise sur ce banc. Pièce de théâtre inattendue. Il aurait pu être acteur. Il est clochard. Grands coups de toux. Éclats de voix. Ça va ça vient, ça tient à rien.
+
+Je ne sais pas depuis combien de temps je ne regarde pas, je ne suis pas en mesure de voir. Mais à chaque fois que je suis assise sur un banc j’entends. Juste des sons, je ne comprends rien. Si seulement on pouvait faire l’effort de se relier au monde…
+
+« Ah oui ! Tu gardes tout. C’est de l’alimentation. » L’effort vaut la chandelle ? « Ça va ? –Ça va. Et vous ? – Ça va ! » Super ! On a tout dit, on n’a rien dit.
+
+Je suis assise au milieu d’un banc de poissons. Les poissons envahissent la place. Il y a même le bruit de l’eau. Une fontaine au bout. Une statue la domine. Statue de pierre. Statue de sel.  « Ne te retourne jamais ou tu deviendras une statue de sel ». C’est beaucoup dire sur la nostalgie et les larmes figées.
+
+Caprice d’enfant. « Viens là parce qu’il y a des voitures ! »
+
+L’« acteur » parti, tout est bruit de fond : je fais une pause, je reste assise, j’écoute miettes d’autrui, brisures d’humanité.
+
+Mais je crois, assise comme on ne peut pas plus, que je fais la seule chose que je sais faire sur un banc : être assise et laisser couler.
+
+</p>
+                    <p>Casta Diva</p>
 
                 </div>
                 <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
-                    <p>Marie-Christine</p>
+                    <p>L’Instant</p>
+                    <p>Je ne sais pas depuis combien de temps <br></br>
+
+Je suis assise sur ce banc <br></br>
+
+À écrire des poèmes inspirés <br></br>
+
+De passants en nage <br></br>
+
+Et d’oiseaux de passages <br></br>
+
+
+
+Me reposer <br></br>
+
+
+
+Être assise sur un banc c’est aussi <br></br>
+
+
+
+Respirer</p>
+                    <p>En écoutant leur chant</p>
 
                 </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>Être assise sur un banc c’est aussi <br></br>
+
+Respirer le vert <br></br>
+
+Avec les yeux et le cœur grands ouverts <br></br>
+
+Sur le monde qui m’entoure <br></br>
+
+Observer les contours <br></br>
+
+Des arbres et des façades environnantes <br></br>
+
+Lâcher ces pensées qui me hantent <br></br>
+
+Être assise sur un banc <br></br>
+
+C’est tout simplement prendre le temps <br></br>
+
+
+
+De s’arrêter <br></br>
+
+
+
+Pour savourer enfin <br></br>
+
+
+
+L’instant présent <br></br>
+
+
+
+Écouter le chant des oiseaux <br></br>
+
+Voir d’un peu plus haut <br></br>
+
+Les humains promener leurs chiens <br></br>
+
+Ou les chiens sortir leurs humains <br></br>
+
+
+
+Banc de bois, banc de béton <br></br>
+
+Passants en jupe ou en veston <br></br>
+
+Sont observés et contemplés
+<br></br>
+Discrètement, c’est ce qui me plaît</p>
 
                 </div>
                 <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>À chaque fois que je suis assise sur un banc <br></br>
+
+Pourtant je perds toute notion de temps<br></br>
+
+Entre rêveries et contemplation<br></br>
+
+Le silence m’emporte entre introspection <br></br>
+
+Et dégustation des mouvements<br></br>
+
+Des passants, certains pressés<br></br>
+
+D’autres paraissant fatigués<br></br>
+
+Sans savoir si aujourd’hui <br></br>
+
+Ou demain ils deviendront trépassant<br></br>
+
+
+
+Regards curieux et étonnés me caressent<br></br>
+
+Quel courage d’assumer cette paresse !<br></br>
+
+
+
+Je ne sais pas si je suis mise au ban <br></br>
+
+Quand je passe du temps seule sur un banc<br></br>
+
+J’aimerais que ce soit accepté<br></br>
+
+Socialement et sans jugement<br></br>
+
+En conscience qu’il s’agit <br></br>
+
+En fait de ressourcement<br></br>
+
+
+
+Mais je crois aussi que, sciemment<br></br>
+
+Le banc me soutient<br></br>
+
+Quand j’ai du tourment</p>
+                    <p>Julie</p>
 
                 </div>
 
                 <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
+                    <p>
+
+Conciliabule<br></br>
+
+
+
+Je ne sais pas depuis combien de temps je suis assise sur ce banc.<br></br>
+
+Au bord de l’eau, elle passe comme les passants.<br></br>
+
+Sur mon banc de poissons, moi, j’admire les bulles.<br></br>
+
+Être assise sur un banc, c’est arrêter le cours du temps.<br></br>
+
+
+
+Au loin, une chanson.<br></br>
+
+Je ne sais pas depuis combien de temps j’attends.<br></br>
+
+Dans ma bulle.<br></br>
+
+
+
+Assise sur mon banc, j’attends.<br></br>
+
+Depuis les bancs de mon école, j’attends.<br></br>
+
+Patiemment.<br></br>
+
+Et j’y écris doucement :
+<br></br>
+
+
+Arrête-toi.
+<br></br>
+Assieds-toi dans ma bulle.
+<br></br>
+Chuchote dans mon conciliabule.
+<br></br>
+
+
+Je ne sais pas ce que l’on s’y racontera.
+<br></br>
+Nos secrets, je crois.</p>
+                    <p>Audrey</p>
 
                 </div>
                 <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
+                    <p>Le dessous
+
+
+
+Je ne sais pas depuis combien de temps je suis assise sur ce banc.<br></br>
+
+
+
+La toute petite fille passe sur son vélo. « Quand j’étais petite, j’adorais les loukoums ».
+<br></br>
+J’entends le délicieux bruissement des plumes du moineau, qui passe juste au-dessus de moi.
+<br></br>
+Le vent léger est presque froid, sur l’arrière de mon bras gauche. C’est de là que le vent souffle. De mon bras gauche.
+<br></br>
+
+
+Être assise sur un banc, c’est regarder le dessous des feuilles.
+<br></br>
+Juste un petit signe de la main. « - Alors ça va ? - Oui et vous. »
+<br></br>
+Juste un petit signe de la main.
+<br></br>
+Je ne sais pas depuis de temps la fontaine coule. Le petit son liquide m’apaise.
+<br></br>
+Sur son banc de pierre, il contemple ce qui l’entoure. Il a vingt ans et la petite fille est partie.
+<br></br>
+
+
+A chaque fois que je suis assise sur ce banc, je rêve. L’ombre de l’oiseau passe sur moi, dans une longue et fugace diagonale. C’est sur les pierres pavées que mon œil voit passer l’oiseau.
+<br></br>
+Je ne sais pas s’il m’a souri, il est si maigre. Son petit canotier est trop grand pour lui.
+<br></br>
+Je crois que l’oblique du rayon de soleil tombe sur moi.</p>
+                    <p>Béatriz Beaucaire</p>
 
                 </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
-                    <p>Gilles</p>
-
-                </div>
+                
 
             </div>
             <Footer/>

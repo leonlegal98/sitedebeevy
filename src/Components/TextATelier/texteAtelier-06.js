@@ -6,116 +6,217 @@ function TexteAteliernum6() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Semaine artistique à l’ESEIS, École Supérieure Européenne d’Intervention Sociale</h1>
 
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>A la manière de Grand Corps malade, « J’ai mis des mots » <br></br>
+
+
+
+« j’ai mis des mots sur un papier <br></br>
+
+j’ai mis des mots que j’ai copié <br></br>
+
+j'espérais bien vous les montrer <br></br>
+
+j’ai mis des mots que j’ai porté <br></br>
+
+j’ai mis des mots dans vos mémoires<br></br>
+
+j’ai mis des messages pour émouvoir <br></br>
+
+dans votre théâtres et vos contraintes<br></br>
+
+j’ai mis des mots comme un empreinte <br></br>
+
+j’ai mis des mots un peu partout <br></br>
+
+redistribués au coup par coup<br></br>
+
+je sais même plus où je les ai mis<br></br>
+
+j’ai mis des mots j’ai pas menti<br></br>
+
+j’ai mis des mots mais jamais trop<br></br>
+
+dans un tramway sur un vélo<br></br>
+
+j’ai mis des mots nouveaux des mots en trop<br></br>
+
+j’ai mis des mots pour dénoncer <br></br>
+
+j’ai pas l’destin qu’vous voudriez <br></br>
+
+mais en passant sur le passé <br></br>
+
+on peut toujours le dépasser<br></br>
+
+j’ai mis des mots j’ai pas rougi<br></br>
+
+j’ai mis des do j’émets des mi<br></br>
+des mots entiers pas des demi<br></br>
+
+j’ai mes des mots d’étourderie<br></br>
+
+j’ai mis des mots que j’ai confié <br></br>
+
+j’ai tenté de les faire rimer <br></br>
+
+sans ancrage et rien à prouver <br></br>
+
+sans courage tout à trouver<br></br>
+
+les mots vont vite faut qu’on avance <br></br>
+
+j’ai pris la route à contre sens<br></br>
+
+c’est pas pour me faire apprécier<br></br>
+
+car tous ces mots c’est pour accompagner <br></br>
+
+et quand la musique accompagne <br></br>
+
+les mots pétillent comme du champagne <br></br>
+
+et le meilleur ne le nie pas<br></br>
+
+c’est d’y arriver pas à pas<br></br>
+
+j’ai mis des mots est ce que t’y crois<br></br>
+
+la première fois c’est maladroit 
+<br></br>
+j’ai oublié des remerciements <br></br>
+
+j’ai mis des mots plutôt touchants. »
+</p>
+                    <p>Lu par Héloïse</p>
 
                 </div>
                 <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
-                    <p>Marie-Christine</p>
+                 
+                    <p>A la manière du discours de Martin Luther King « I Have a dream » (1963)<br></br>
+                    « Je rêve qu’un jour il n’y ait plus de différences sociales.<br></br>
+
+Je rêve qu’il n’y ait plus d’esprit fermé.<br></br>
+
+Telle est notre espérance. C’est la foi avec laquelle je souhaiterais vivre et évoluer dans le monde.<br></br>
+
+Avec cette foi, nous serons capables de ne pas perdre pied.<br></br>
+
+Ce sera le jour où toutes les barrières et les tabous seront tombés et où tout le monde s'aimera.<br></br>
+
+Et si cela n’est qu'une utopie, que cela devienne vrai. »
+                    </p>
+                    <p>Lu par Vincent</p>
 
                 </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>« Je rêve qu’un jour, les enfants d' hier et de demain aient les mêmes chances. <br></br>
+
+Je rêve d'un monde de paix, dans lequel vivre ensemble est plus facile que de vivre seul. Un monde où le soutien est universel, indépendant de la couleur de peau, l’orientation sexuelle ou religieuse.<br></br>
+
+Je rêve d’une éducation pour chacun, autant que d’une aide pour tous les adultes qui ont perdu l’enfant qui se cachait en eux.<br></br>
+
+J’espère que tous pourront voir la beauté qui réside dans le regard des autres, dans leurs histoires, afin de poursuivre un chemin ensemble. <br></br>
+
+Ce sera le jour de partage où l’on se donnera les moyens d’apprendre et de grandir ensemble. <br></br>
+
+Et si nous voulons dire des êtres humains qu’ils sont humains, que cela devienne vrai. » </p>
+                    <p>Lu par Mattéo</p>
 
                 </div>
                 <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>« Je rêve qu’un jour la tolérance dicte nos vies ! <br></br>
+
+Je rêve que les conditions de travail facilitent nos vocations ! <br></br>
+
+Telle est notre espérance. <br></br>
+
+C’est la foi avec laquelle j’engage ma vie. <br></br>
+
+Avec cette fois nous serons capables de trouver des solutions, <br></br>
+
+Solutions qui découlent d’un long travail de compréhension. <br></br>
+
+Ce sera le jour où la confiance et la bonne humeur rythmeront nos actions ! <br></br>
+
+Et si nous mettons de côtés nos préjugés, ce monde deviendrait bon! »</p>
+                    <p>Lu par Sofiane</p>
 
                 </div>
 
                 <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
+                    <p>« Je rêve qu’un jour les travailleurs sociaux soient tous unis face aux inégalités sociales <br></br>
+
+Je rêve que chaque individu soit accompagné dans l’écoute, la tolérance et la compréhension <br></br>
+
+Telle est notre espérance. C’est la foi avec laquelle je me suis dirigé(e) vers cette formation <br></br>
+
+Avec cette foi, nous serons capable de soutenir les différents publics ainsi que nos futurs partenaires <br></br>
+
+Ce sera le jour où nous rendrons service aux bénéficiaires <br></br>
+
+Et si nous obtenons notre diplôme que cela devienne vrai. »</p>
+                    <p>Lu par Laurie</p>
 
                 </div>
                 <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
+                    <p>Texte final clôturant la courte pièce présentée lors de la restitution des ateliers
+
+
+
+« C’est vrai que quand j’ai commencé l’atelier, je ne m’attendais pas à une chose pareille.
+
+Moi, je m’étais inscrit dans l’idée d’écrire des histoires, faire de l’écriture alors que je me retrouve ici sur scène à faire du théâtre.
+
+Au début j’avais l’impression d’être dans une simple cour habituelle d’un lundi matin en amphi alors que physiquement je me trouvais dans un atelier créatif. Toujours tout devoirs liés à nos études et futur métier alors qu'à côté ça chantait « dans la vallée de Dana », jouer du kazoo, ou faire de la poterie.
+
+Mais finalement, au fur et à mesure que les heures, les jours, les exercices passaient, ce qui ressemblait à un cours se transformait à mes yeux en, une richesse de dialogue et d’échange. Une vraie cohésion de groupe, une écoute que j’ai eue envers les autres et que les autres ont eu envers moi. J’ai été réellement étonné par l’aspect que prenaient les écrits et les discussions, les dires et les lettres était personnelle et par ce personnel, un collectif se crée dans la salle. Avec une telle communion je ne saurais énumérer ni compter les barrières tombées durant cette semaine.
+
+J’en connaissais certains, d'autres étaient mes amis et d'autres étaient de parfaits inconnus à mes yeux. Mais nous sommes tous habités par nos passions et nos volontés qui, malgré nos diversités, sont très proches et nous sommes là tous pour les bonnes raisons. J’ai finalement aimé toutes ces personnes d’un amour particulier qui nous lie tous et qui fait que cette semaine est pour nous et à nous.
+
+Ces échanges par les mots m’ont permis de mettre des mots sur mes maux et finalement les maux de chacun on était vue de manière bienveillante sachant que nos mots ont était bien entouré mais je suis surement entrain de me perdre et de vous perdre avec mes mots.
+
+En réalité je suis <br></br>
+
+Héloïse <br></br>
+
+Romane <br></br>
+
+Matteo <br></br>
+
+Angela
+<br></br>
+Vincent
+<br></br>
+Clara <br></br>
+
+Nesrine <br></br>
+
+Émilienne <br></br>
+
+Sofiane <br></br>
+
+Émeline <br></br>
+
+Samiha <br></br>
+
+Lila <br></br>
+
+Laurie <br></br>
+
+Étienne <br></br>
+
+Beevy <br></br>
+
+Et voici nos mots, nos passions et notre utopie. »</p>
+                    <p>Lu par Angela</p>
 
                 </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
-                    <p>Gilles</p>
-
-                </div>
-
+                
             </div>
             <Footer/>
 

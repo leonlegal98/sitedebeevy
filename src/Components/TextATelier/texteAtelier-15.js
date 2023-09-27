@@ -7,115 +7,118 @@ function TexteAteliernum15() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Atelier «  Vivre avec nos morts »</h1>
 
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>« De quoi que soient faites nos âmes, la sienne et la mienne sont pareilles ». 
+<br></br>
+Aujourd’hui est un jour un peu particulier pour moi car, tu me connais, je n’ai jamais écrit une seule lettre à qui que ce soit, pas même une lettre de résiliation à l’attention d’SFR qui me facture 50 euros pour mon abonnement téléphonique. Personne n’a eu droit à une lettre par mes soins, sauf toi, aujourd’hui, Cassandra, en des circonstances bien particulières. 
+<br></br>
+Je sais que là où tu te trouves, dans le ciel, n’importe où, tu es heureuse. 
+<br></br>
+Tu es heureuse, enfin, et c’est tout à ton honneur. 
+<br></br>
+Je t’imagine sourire, chose que je n’ai plus réussi à te transmettre depuis des mois. 
+<br></br>
+Je t’imagine rire, chose qui m’était impossible à faire durant notre relation. 
+<br></br>
+Tu étais ma confidente, mon amour, celle que j’avais besoin dans ma vie, celle qui me comprenait, me soutenait, m’aidait… Hélas, je ne m’en suis rendu compte bien trop tard, lorsque je t’ai réellement perdu. 
+<br></br>
+Comment faire pour te demander pardon alors que tu n’es aujourd’hui plus de ce monde ? 
+<br></br>
+Je n’ai pas su profiter de toi, de tes idées, de tes qualités ainsi que tes défauts, de l’amour que tu me portais ou encore du nombre incalculable de fois où tu me pardonnais. 
+<br></br>
+Je savais que je ne te rendais heureuse, que tu n’étais guère épanouie, mais contre toute attente, tu restais. Tes textes en étaient la preuve : 
+<br></br>
+Idôlatrer un faux personnage, s’accrocher à un masque. Mais lorsque celui-ci tombe, nous nous retrouvons coincé dans une cage. 
+<br></br>
+La cage. 
+<br></br>
+Horvilleur
+<br></br>
+Cette fameuse prison qui te pousse à aller de l’avant mais à reculons. 
+<br></br>
+Mitigé entre sentiments et mal-être, que pouvons-nous faire de plus qu’attendre qu’un miracle se produise ? 
+<br></br>
+« Tu mérites mieux que ça » me dit au loin une petite voix dans la cellule. 
+<br></br>
+Écrire est devenue une solution. 
+<br></br>
+Pleurer en est une autre. 
+<br></br>
+Laquelle des deux vous semble la plus judicieuse ? 
+<br></br>
+J’aimerais aujourd’hui, pas seulement te dire que je t’aime, mais te remercier. 
+<br></br>
+Je te remercie pour tout l’amour que tu me donnais sans rien recevoir en retour, pour tous tes mots doux, ta bonté et ta gentillesse. 
+<br></br>
+Merci d’avoir été toi-même, de m’avoir repris plus d’une fois par rapport à mon comportement, mon immaturité et toutes ces choses dont je ne me rendais pas forcément compte. 
+<br></br>
+Je ne sais si je rencontrerai à l’avenir une femme comme toi, mais je te promets une chose : Cassandra, tu resteras toujours et à jamais dans mon cœur. </p>
+                    <p>Cassandra</p>
 
                 </div>
                 <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
-                    <p>Marie-Christine</p>
+                    <p>Alors ça y est! Maintenant tu sais! Tu as tant cherché ce qu'il y pouvait y avoir de l'autre côté. 
 
-                </div>
-                <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+Tu disais sans cesse: Les mauvais jours ont une fin et les bons jours un début. Je sais que de toute cette vie tu ne retiendras que le meilleur. Tu as toujours eu le goût de vivre et d'écraser les difficultés.
 
-                </div>
-                <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+Tu aimais les petits moments délicieux comme ceux où tu t'enfonçais dans les fauteuils moelleux de la salle de cinéma. En général les gens étaient discrets et essayaient d'étouffer le bruit de leur papier de bonbon, de leur pop-corn, de leurs petites conversations. Tu attendais cet instant magique lorsque la lumière s'éteint et que les annonces sur l'écran commencent à emmener les spectateurs dans d'autres mondes. Tu profitais de la pénombre pour te déchausser et poser tes pieds sur la moquette. L'ambiance y était feutrée comme le décor. Nous y venions environ une fois par mois.
 
-                </div>
+Je n'oublie pas non plus Israël où nous nous sommes mariés à notre façon devant la pierre de l'onction.
 
-                <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
-
-                </div>
-                <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
+Je vais pleurer bien sûr, tu me connais mais je ne te retiendrai pas. Tu resteras l'homme de ma vie. Je sais que tu es parti mais que tu ne m'as pas fui.</p>
                     <p>Gilles</p>
 
                 </div>
+                <div className='creativearticle article3'>
+                    <p>Ma chère Isabelle, ma chère et belle élève,
+
+<br></br>
+
+Aujourd’hui, je n’ai plus peur de l’avouer. Je t’ai tenu la main, amoureusement. Je n’aurais peut-être pas dû, et pourtant si, je suis comme ça. Tu m’as inspiré ça. Je suis revenu te revoir, l’air de rien, je t’ai présenté comme « ma grande amie ».
+
+Il a arraché la robe, il la jette, il a arraché le petit slip de coton blanc et il la porte ainsi nue jusqu’au lit. Et alors il se tourne de l’autre côté du lit et il pleure.
+
+Tu disais toujours qu’il ne faut rien regretter, que chaque choix a été fait parce qu’il le fallait, absolument, à cet instant-là.
+
+J’ai essayé de t’apprendre à donner. Si on va sur scène, c’est pour donner. Et tu le fais, je t’ai vue. Et ton sourire est la métaphore de la vie. Une vie que tu as donnée, par deux fois, avec ton amour, ton courage et ta générosité.
+
+Tu as élevé tes enfants toute seule, contre vents et marées. Tu leur as dit les mots « je t’aime » plus que de raisonnable, plus que d’imaginable. Tu voulais tout pour eux et parfois tu pleurais, tu pestais de ne pas y arriver. Tu t’es parfois sacrifiée, allant jusqu’à l’épuisement, renonçant à ta petite cabane dans les montagnes pour eux, renonçant à tes autres amours. Mais très égoïstement, je suis heureux que tu n’aies pas renoncé à moi.
+
+Merci à toi d’avoir été là. Tu resteras pour nous tous qui t’avons connue, toujours présente. Comme cette présence que je suis aussi pour toi, et que tu sens parfois.
+<br></br>
+Ton S.</p>
+                    <p>Béatriz Beaucaire</p>
+
+                </div>
+                <div className='creativearticle article4'>
+                    <p>"Jusqu'à la mort mon amour."
+
+<br></br>
+
+Tu te rappelles cette phrase d'une des chansons qu'on écoutait si souvent? Quand je pense à toi, j'ai un million de souvenirs qui me viennent en tête, tous en même temps. C'est toute une vie qu'on a passé ensemble. Toute une vie d'amitié. C'est les moments de fou-rires, de danse, de chorale, les après-midis quand on était à l'école. 
+
+Ton caractère à la fois sensible, touché par tant de choses de la vie de tous les jours. Ta susceptibilité aussi qui des fois nous faisaient nous engueuler pour un rien. Mais surtout je pense à la bonne vivante que tu es, notre amour commun pour la bonne bouffe et la cuisine. Les pots de Hägen Dazs qu'on mangeait à la grande cuillère, les restos qu'on se faisaient, les discussions sans fin sur les recettes qu'on avait testées.
+
+On a grandi ensemble, on s'est consolées de nos premiers chagrins d'amour. Tu es comme moi, une amoureuse de l'amour. Même après avoir eu le coeur brisé, tu repartais à la conquête d'un nouvel amour. Devant toi, la vie et le désir d'aimer à nouveau.
+
+Tu me parlais parfois de ce philosophe grec, Héraclite, qui a écrit sur l'impermanence des choses et le mouvement perpétuel de la vie. Il a dit "On ne se baigne jamais deux fois dans le même fleuve". Tu voulais toujours te repencher sur ce fleuve, s'il est d'accord, pour qu'il te rend le temps perdu. 
+
+Rien ne t'empêche d'aimer et de donner, et ça c'est ce qu'on partage profondément. La construction de ce que nous sommes toi et moi s'est faite en parallèle, et chez toi il y a un peu de moi.
+
+J'ai envie que tu continues à me raconter la dernière chanson qui t'a bouleversée, le dernier bon restaurant que tu as testé, et qu'on puisse toujours se souvenir ensemble des petites filles que nous avons été.
+
+Je garde en mémoire ta joie de vivre et ton insatiable envie d'aimer.
+
+Je sais que là où tu es, tu es bien entourée, et que tu continues à chercher ce qui te fait rire, et ce qui te fait vibrer.</p>
+                    <p>Lio</p>
+
+                </div>
+
+                
 
             </div>
             <Footer/>

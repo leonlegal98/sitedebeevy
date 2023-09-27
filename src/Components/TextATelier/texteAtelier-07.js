@@ -7,116 +7,116 @@ function TexteAteliernum7() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Atelier "En pleine nature",</h1>
 
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>"J’ ai eu une vie m’apprenant qu’ "il est dans la nature de l’ homme de piétiner ce qui est à terre "" (Eschyle)
+
+
+
+En cette fin de printemps, portée, soulevée, retombée sous les souffles multiples du zéphyr, je me suis laissée transporter de gestes naturels, de place en place 
+
+Pour me retrouver là, sur la souche d’ un érable qui y avait pris naissance il y a un siècle
+
+Aujourd’hui c’ est le trèfle et le lierre qui y règnent 
+
+Au commencement c’était cet érable, fier et droit qui apportait son ombre et son amour</p>
+                    <p>Claire</p>
 
                 </div>
                 <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
-                    <p>Marie-Christine</p>
+                    
+                    <p>J’ai eu une vie superbe, j’ai eu mille vies <br></br>
+
+Hivers et été, automnes et printemps, sur notre tronc nous traversions <br></br>
+
+J’ai aspergé un lychen solitaire <br></br>
+
+Dénaturé de mon lot, j’ai d’un geste fondu  Pris à part. <br></br>
+
+La puissance solaire  Nous laissions passer à travers vous <br></br>
+
+Unanimement, nous autres cristaux. <br></br>
+
+Obéissant « Qu’en lui »  la nature vaincre on ne peut <br></br>
+
+Parfaite unité de ton, comme neige <br></br>
+
+J’ai eu une vie blanche</p>
+                    <p>Au commencement</p>
 
                 </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>J’ai eu une vie heureuse. J’ai découvert la douceur de vivre et la beauté d’êtres merveilleux.
+
+
+
+Zut, j’ai volé loin de mes amis, emporté par le vent. Un blaireau s’en allait au loin, j’ai débaroulé jusqu’à me poser, à terre, dans son empreinte.
+
+Le grenier d’une grange, après avoir senti une élévation. J’ai vu les jeux des enfants sur moi. J’ai vu la nudité de deux jeunes amants.
+
+Agglutiné contre mes amis, je me suis retrouvé un matin très en hauteur. Je suis devenu moins souple, à mesure que l’eau s’échappait de moi. Mon voisin a été emporté par un geai. Sur d’autres voisins disposés les uns sur les autres, en rond, il l’a posé dans un arbre. Cet amoncellement dont je ne connais ni le mot, ni l’utilité. « Si quelque chose est dit sur la nature, alors ce n’est déjà plus la nature ».
+
+Au commencement, j’ai grandi, sorti du néant. Ou d’une graine ? Dans un champ, je frémissais, vert. Mes semblables transpercés de lumière.
+
+De mon ami le grain, du métal m’a séparé.
+
+Moi, brin de paille	</p>
+                    <p>Nadia F.</p>
 
                 </div>
                 <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>
+                    J’ai eu une Vie <br></br>
+
+J’en ai accueilli…des petits, des grands, des drôles, des timides,<br></br> des espiègles, des roux, des petits gros, des filous, des chefs de bandes <br></br>
+
+Avec leur cœur débordant de générosité, je les ai vus architectes et bâtisseurs de Joie et de Jeux<br></br>
+
+Ils ont ramassé branches, feuilles, brindilles, pommes de pins, terre, brins d’herbe et ils ont construit<br></br>
+
+Souvent ils ont chapardé les outils<br></br>
+
+Ils m’ont donné naissance<br></br>
+
+Je suis devenu Espace secret, Refuge onirique, Gardien de leurs découvertes et Ailleurs étoilé de cette parcelle de Vie à choyer<br></br>
+
+Ils y ont mis leur enthousiasme, leurs rêves, leurs espérances sous le regard bienveillant des grands arbres<br></br>
+
+Ne dit-on pas que le plus grand ouvrier de la Nature est le temps ?<br></br>
+
+Au commencement, j’étais un espace vide
+<br></br>
+Ils étaient une bande de copains et copines<br></br>
+
+Ils m’ont donné Mouvement, Corps et Âme d’enfants
+<br></br>
+Moi…leur Cabane.
+                    </p>
+                    <p>Myriam</p>
 
                 </div>
 
                 <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
+                    <p>J'ai eu une vie de fleur de trèfle, ce n'est pas donné à tout le monde.
 
-                </div>
-                <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
+Je suis princesse des prairies avec mes sœurs pâquerettes et nous savons que nous avons été créées pour être mangées par les moutons comme qui finit dans la gueule du loup.
 
-                </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
+  Edgar  Morin dit " qu'il y a moins de désordre dans la nature que dans l'humanité ". Moi je pense que l'humanité fait justement partie de la nature.
 
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
+ La  nature c'est notre origine, notre source, notre histoire. 
+
+ Moi, comme toutes les fleurs de trèfle, je me dresse et je fais la belle au milieu de mes pétales, trois feuilles, quatre feuilles. Je sens le vent qui me renverse ou qui me berce, la pluie qui me rafraîchit et le soleil qui me sèche.
+
+ Au  commencement, une brume magique baignait les sols. Puis la glace fit son œuvre et le soleil réchauffa enfin la vie cachée dans chaque grain de terre. Tout ça pour moi, pour que je sois là, petite fleur de trèfle avec toi.</p>
                     <p>Gilles</p>
 
                 </div>
+                
 
+                
             </div>
             <Footer/>
 

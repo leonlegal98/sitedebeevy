@@ -7,115 +7,143 @@ function TexteAteliernum22() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Atelier « Silence, ça parle »</h1>
 
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>Le silence de celui qui lit, seul, 
+<br></br>
+Elancé sur son séant, 
+<br></br>
+Hissé à toute aise, vers l'Ile de Ceylan. 
+<br></br>
+Encensé par ceux qui, si lents, 
+<br></br>
+Ne savent, sans élan ni sens, 
+<br></br>
+Ni s'enlacer ni se prélasser. 
+<br></br>
+
+
+Le silence de ceux qui, sans mot, s'entendent. 
+<br></br>
+Le silence de ce qui s'entend sans plus attendre. 
+<br></br>
+Le silence de l'entre-deux introuvable, 
+<br></br>
+lorsque chacun se réduit à un. 
+<br></br>
+Le silence enfin, de l'apaisement retrouvé, 
+<br></br>
+lorsqu'une fois la flèche décochée, 
+<br></br>
+la corde se détend. </p>
+                    <p>EvaNaissance</p>
 
                 </div>
                 <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
-                    <p>Marie-Christine</p>
+                    <p>Le silence du temps qui passe, qui nous laisse témoin muet et inconscient de ses transformations quotidiennes.
+<br></br>
+Le silence de la fleur qui s’élance vers le soleil au printemps, de toutes ses merveilleuses couleurs et de tous ses divins parfums.
+<br></br>
+Le silence d’un havre de paix, lit dans lequel je m’étends, que je retrouve en moi quand je médite.
+<br></br>
+Le silence de la tristesse, quand la douleur endolorit mon cœur, me révélant que je n’ai pas fait le deuil de mes anciennes rancœurs.
+<br></br>
+Le silence de mes doigts et de mes lèvres qui effleurent ta douce peau pour te réveiller tendrement le matin.
+<br></br>
+Le silence de nos regards qui croise celui de nos sourires, révélant toute la joie de nous retrouver après une longue attente.
+<br></br>
+Le silence d’un lever de lune qui éclaire doucement la campagne, et l’illumine avec bienveillance d’un laiteux halo de lumière argentée.
+<br></br>
+Le silence d’un jardin couvert d’un épais manteau de neige, un matin de janvier où la nature est au repos.
+<br></br>
+Le silence de la paix que je ressens en contemplant ce paysage d’un blanc immaculé de la terre au ciel.
+<br></br>
+Le silence de la nature, d’une beauté étincelante et tranquille, qui me met dans un état de pure béatitude, tant sa perfection est simple et complète.
+<br></br>
+Le silence de la neige qui fige tout en douceur la nature, flocons cristallins qui recouvrent d’une couverture immaculée nos défauts et nos qualités.
+<br></br>
+
+
+Le silence du Ciel et de la Terre qui nous apportent tant d’amour et de nourritures quotidiennes qu’ils passent le plus souvent inaperçus.
+<br></br>
+Le silence de mon âme qui me guide, à travers la lumière de mon cœur, à arrêter toute activité, simplement pour Être et m’offrir à un présent immaculé et éternel.
+<br></br>
+Le silence de nos cœurs, dans un amour qui se passe de mots, tranquilles, car unis et sereins, enlacés dans une flamme grandissante, à l’Uni-Son du Grand Vivant et au rythme de l’Uni-Vers.</p>
+                    <p>Julie</p>
 
                 </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>Le silence comme…
+<br></br>
+Le silence du plateau sur lequel on va bientôt tourner.
+<br></br>
+Scène II, le silence, agité, frustré, intenable des visiteurs qui découvriront la toile inédite.
+<br></br>
+En flash-back, le silence profond et sec du psy. De celui qui écoute les sons, les ça d’un autre petit a-longé sur le divan du monde et n’ayant plus les pieds sur terre.
+<br></br>
+Plan final, les six lances perçantes qui attendent médisantes le tigre endormi repu de chaire céleste et de gouttes d’océan.
+<br></br>
+Et puis de nouveau le silence du plateau.
+<br></br>
+intérieur, début de jour, porte, fenêtre, ouvertures.
+<br></br>
+Nuances de gris, projection lumineuse, étalage beige.
+<br></br>
+Réverbérations, éclats de lambris, parquet, plaintes, double vitrage.
+<br></br>
+Forme (carreaux, carré, rectangle) et matière (bois, verre, tissu).
+<br></br>
+Point de bruis mais un silence indocile tout compte fait.
+<br></br>
+Un silence bruyant et bavard, indomptable et carnassier prêt à tout dévorer.
+<br></br>
+Il est grand temps de couper. </p>
+                    <p>Alain B.</p>
 
                 </div>
                 <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>Un  enfant
+<br></br>
+Ce matin-là la mère était morte dans la maison silencieuse. On avait appelé l’enfant. Il avait dû donner la main à la vieille qui l’avait amené devant le lit de la morte. L’enfant voit sa mère morte. Elle dort, elle ne bouge pas. Elle est blanche et calme. Il veut toucher sa main mais la vieille le tire en arrière, l’empêche de toucher la main de sa mère. On l’a fait sortir de la chambre, le petit est assis dans une autre pièce, sur une chaise trop haute, il ne dit rien.
+
+La porte est fermée. Dans une flaque de lumière sur le plancher avance une petite araignée. La poussière danse dans un rayon de lumière. Derrière la porte fermée l’enfant entend des voix sans comprendre les mots. Il est seul, il attend. La mère est partie sans lui. Il regarde ses jambes maigres qui pendent de la chaise trop haute. Ses jambes pendouillent au-dessus du sol comme des cloches qu’on aurait oublié de faire sonner.
+
+Il y aura toujours cette porte entre l’enfant et la mère. </p>
+                    <p>Tonio K</p>
 
                 </div>
 
                 <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
+                    <p>Le silence de l'île au large des mers.
+<br></br>
+Le silence lancinant de l'âme quand elle sombre.
+<br></br>
+Le silence de mon élan vers l'Univers.
+<br></br>
+Le silence gracieux d'un battement de paupière quand je dis oui à ta peau.
+<br></br>
+Le silence de notre Amour vibrant bien au-delà des temps.
+<br></br>
+Le silence de la lumière qui t'accompagnait la première fois que je t'ai vu.
+<br></br>
+Le silence ouvert sur ton éternité, sur ton infinitude, malgré ton absence.
+<br></br>
+Le silence du rayon de soleil sur ma peau qui me rappelle le Vie, alors que Toi tu n'y es plus.
+<br></br>
+Le silence du cocon douillet, cadre rassurant qui m'autorise à tourner mon regard à l'intérieur de moi même.
+<br></br>
+Le silence clair et immense de me retrouver Moi, enfin, de me voir à nouveau.
+<br></br>
+J'ai plongé dans les profondeurs de mon être. J'y ai touché la souffrance avant de me retrouver.
+<br></br>
+J'existe, je suis... en silence. </p>
+                    <p>Sam</p>
 
                 </div>
-                <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
-                    <p>Gilles</p>
-
-                </div>
+                
 
             </div>
             <Footer/>

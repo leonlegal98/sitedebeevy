@@ -252,7 +252,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Semaine optionnelle <a href='/texteatelier12'>"Le Choix des mots"</a>, ESEIS
+                        Semaine optionnelle <a href='/texteatelier13'>"Le Choix des mots"</a>, ESEIS
                     </h3>
                     <p>
                         janvier 2022</p>
@@ -268,7 +268,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier13'>« Blanc »</a>
+                        Atelier <a href='/texteatelier14'>« Blanc »</a>
                     </h3>
                     <p>janvier 2022</p>
                     <p>-</p>
@@ -283,7 +283,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier14'>« Vivre avec nos morts »</a>
+                        Atelier <a href='/texteatelier15'>« Vivre avec nos morts »</a>
                     </h3>
                     <p>
                         novembre 2021</p>
@@ -300,7 +300,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier15'>« Un café s’il vous plaît »</a>
+                        Atelier <a href='/texteatelier16'>« Un café s’il vous plaît »</a>
                     </h3>
                     <p>
                         octobre 2021</p>
@@ -314,7 +314,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier16'>« Au nom du père »</a>
+                        Atelier <a href='/texteatelier17'>« Au nom du père »</a>
                     </h3>
                     <p>
                         septembre 2021</p>
@@ -328,7 +328,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier17'>« Sur les chemins »</a>
+                        Atelier <a href='/texteatelier18'>« Sur les chemins »</a>
                     </h3>
                     <p>
                         mai 2021</p>
@@ -341,7 +341,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier18'> « Dans mon jardin »</a>
+                        Atelier <a href='/texteatelier19'> « Dans mon jardin »</a>
                     </h3>
                     <p>
                         mars 2021</p>
@@ -353,7 +353,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier19'>« A cœur ouvert »</a>
+                        Atelier <a href='/texteatelier20'>« A cœur ouvert »</a>
                     </h3>
                     <p>
                         février 2021</p>
@@ -367,7 +367,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Un texte de l'atelier <a href='/texteatelier20'>« J’écris pour... »</a>
+                        Un texte de l'atelier <a href='/texteatelier21'>« J’écris pour... »</a>
                     </h3>
                     <p>
                         février 2021</p>
@@ -377,7 +377,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        Atelier <a href='/texteatelier21'>« Silence, ça parle »</a>
+                        Atelier <a href='/texteatelier22'>« Silence, ça parle »</a>
                     </h3>
                     <p>
                         janvier 2021</p>
@@ -390,7 +390,7 @@ function TexteAtelier() {
                 </div>
                 <div className='texteatelierarticle'>
                     <h3>
-                        <a href='/texteatelier22'>"Oxygène en Bulles pour Traversée Virale"</a>
+                        <a href='/texteatelier23'>"Oxygène en Bulles pour Traversée Virale"</a>
                     </h3>
                     <p>
                         mars 2020</p>
@@ -407,46 +407,7 @@ function TexteAtelier() {
                         qui a remporté l'adhésion des soignantes et un prix décerné par la maison
                         d'auto-édition Librinova.</p>
                 </div>
-                <div className='texteatelierarticle'>
-                    <h3>
-                        Atelier <a href='/texteatelier23'>« Les mots me manquent »</a>
-                    </h3>
-                    <p>
-                        décembre 2020 et janvier 2021</p>
-                    <p>-</p>
-                    <p>
-                        Acrostiche, réservoir de mots, mots empruntés, dans cet atelier nous avons
-                        accueilli les mots d’ici et d’ailleurs pour un embarquement immédiat vers de
-                        nouveaux territoires . Bibliographie : « Les mots qui nous manquent » Yolande
-                        Zaubermann et Paulina Mikol Spiechowichz « Il nous faudrait des mots nouveaux »
-                        Laurent Nunez</p>
-                </div>
-                <div className='texteatelierarticle'>
-                    <h3>
-                        Atelier <a href='/texteatelier24'>« l’essentiel »</a>
-                    </h3>
-                    <p>
-                        novembre 2020</p>
-                    <p>-</p>
-                    <p>
-                        « Au creux de nos vies, la soif de l’essentiel désigne une sorte d’exigence
-                        subtile qui nous travaille et qui nous pousse à chercher à être plus vrai, plus
-                        sincère, plus authentique. » Reza Moghaddassi « La soif de l’essentiel »</p>
-                </div>
-                <div className='texteatelierarticle'>
-                    <h3>
-                        <a href='/texteatelier25'>Ateliers d’écriture</a>
-                    </h3>
-                    <p>
-                        2019/2020</p>
-                    <p>-</p>
-                    <p>
-                        La proposition faite au groupe était de construire un personnage à partir de
-                        différents livres qui les avaient marqués puis de les faire vivre au gré de leur
-                        imaginaire, en s’appuyant sur les pistes d’écriture proposées à chaque séance.
-                        Temps d’écriture par texte : 15 à 25 minutes</p>
-                </div>
-
+                
             </div>
             <Footer/>
 

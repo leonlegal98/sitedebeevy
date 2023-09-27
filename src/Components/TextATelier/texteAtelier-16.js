@@ -7,115 +7,114 @@ function TexteAteliernum16() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Atelier « Un café s’il vous plaît »</h1>
 
             </div>
             <div className='containercreative'>
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>Elle est là, dans ce petit restaurant chic près des quais…Sa première gorgée de café est trompeuse. Chaude, sucrée, à goût de cuir légèrement grillé…
 
-                </div>
-                <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
+Ils ont mis leurs coudes sur le marbre frais, sur les motifs d’écorces lisses…
+
+La gorgée suivante est comme un bruit de pluie sur la vitre, un agacement des dents et des papilles de la langue qui se hérissent…
+
+Ils prennent toute la place. L’air est empli de leur odeur, de la tempête de leurs gestes, du son de leurs voix. Sans lui parler, sans la regarder, ils semblent lui dire : « Qu’est-ce que tu veux, toi ? T’as rien à faire ici ! ».
+
+Précurseur de l’amer et de maux d’estomac, l’acide du café s’impose ensuite dans sa bouche…Elle les entend…
+
+Ils disent haut et fort : « Nous qui bossons toute la semaine…Tas de feignants ! L’année dernière à New York…Tu as vu ma nouvelle bagnole ? Patrick était vert !… Regarde la nana qui passe… Jamais rien vu d’aussi moche ! ». Ils rient, s’étalent, indifférents et lourds…
+
+Elle la retiendrait bien dans sa bouche sa gorgée de café, pour la cracher…Mais ça ne se fait pas. N’est-ce-pas ? Elle boit, par correction, pour ne pas se faire remarquer et le regrettera longtemps….
+
+</p>
                     <p>Marie-Christine</p>
 
                 </div>
+                <div className='creativearticle article2'>
+                    <p>Café soleil bleu
+<br></br>
+La première gorgée de café-au-soleil
+<br></br>
+Elle a mis sa chemise dans sa jupe
+<br></br>
+Je pause la rondeur de la tasse au creux de mes deux paumes jointes un peu fraîches
+<br></br>
+Avec lenteur elle l’a regardé
+<br></br>
+Ne rien faire
+<br></br>
+Elle a rougi
+<br></br>
+Feuilles vertes frémissantes dans le bleu vif du ciel
+<br></br>
+S’arrêter- ne plus courir - penser - rêver
+<br></br>
+Elle a savouré une gorgée seule
+<br></br>
+Elle a lu pour lui
+<br></br>
+Elle a mis la main à la poitrine
+<br></br>
+Sans le regarder
+<br></br>
+Sans frémir
+<br></br>
+Elle s’est levée
+<br></br>
+Elle a mis son bras sur son épaule
+<br></br>
+Bleu éclatant
+<br></br>
+Elle a mis son amour sur son épaule
+<br></br>
+Parce que c’était lui
+<br></br>
+Il est parti
+<br></br>
+Sans la regarder
+<br></br>
+Sans frémir
+<br></br>
+Beauté de la lumière vive d’automne.
+<br></br>
+Et moi j’ai pleuré
+<br></br>
+Et j’ai bu jusqu’à la lie</p>
+                    <p>Béatriz Beaucaire, octobre 2021</p>
+
+                </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>La première gorgée de café le matin, pour elle, c’est vital.
+
+Dès lors qu’elle va ouvrir les yeux, toutes ses pensées, tous ses gestes auront pour seul but d’accomplir un rituel dont la première gorgée est l’accomplissement.
+
+Lever embrumé, contact de la plante de pieds avec le parquet grinçant de la chambre puis vient le carrelage glacé de la cuisine.
+
+Allumage de la machine à café, contrôle du niveau d’eau dans le réservoir, bruit des grains torréfiés qui tombent dans la caissette. Elle place sa tasse sous les buses. La céramique tinte un peu sur la plateforme en inox.
+
+Vacarme du broyeur, le liquide coule enfin dans la tasse. Le marc qui tombe dans son récipient lui autorise à saisir son précieux breuvage. Ça lui réchauffe les mains.
+
+Elle prend encore son temps, hume la vapeur blanche, approche ses lèvres du récipient et prend sa première gorgée. La trouve-t-elle amer ? ou acide ? Je ne le saurai pas mais ses yeux s’illuminent alors et j’ai enfin le droit à son regard enamouré.</p>
+                    <p>Thiên-Nga</p>
 
                 </div>
                 <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>La première gorgée de café est en devenir dans cette éruption mousseuse du geyser expulsé. Ça commence avec ce bruit de bouillonnement globuleux qui crache ses derniers embruns.
+
+Elle était assise avant moi, elle avec son café. 
+
+Déjà là. Déjà bien, là où elle était, elle avec son café. Dans ce lieu qu’elle aimait déjà, ce lieu avec ce café. 
+
+Elle avait mis son chignon, son écharpe marbrée, son manteau sablé. Elle a mis tout son sourire dans le rouge de ses lèvres. Avec sa bienveillance, elle m’a accueillie comme si elle était chez elle. 
+
+Elle a repensé au dessin. Elle a mis son élan dans sa main. Sans crainte. Sans hésitation. Sans carapace. 
+
+Et moi j’ai aimé la voir rentrée dans la boutique. Et j’ai aimé ce lieu où elle était.</p>
+                    <p>EvaNaissance</p>
 
                 </div>
 
-                <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
 
-                </div>
-                <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
-                    <p>Gilles</p>
-
-                </div>
 
             </div>
             <Footer/>

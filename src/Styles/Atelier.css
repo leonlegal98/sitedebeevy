@@ -107,7 +107,7 @@
 .liensect1 a {
     color: #871116;
     font-size: 18px;
-    font-family: "textbase",sans-serif;
+    font-family: "textebase",sans-serif;
     font-weight: 200;
 
 }
@@ -305,6 +305,7 @@
     .ateliersect2 img {
         margin-left: 0;
         width: 100%;
+        height: 100%;
 
     }
     .ateliersect2b2 {
@@ -426,7 +427,7 @@
         margin-right: 0;
     }
     .textfooteratelier{
-        font-size: 30px;
+        font-size: 25px;
         padding-right: 10px;
     }
 }

@@ -7,115 +7,329 @@ function TexteAteliernum3() {
     return (
         <div className='creativebody'>
             <div className='titrecreative'>
-                <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
+                <h1>Journée d'écriture "Je m'aime donc je suis",</h1>
 
             </div>
             <div className='containercreative'>
+                
                 <div className='creativearticle article1'>
-                    <p>Les sentiers chantent <br></br> Un oiseau dessine un chemin <br></br> Je le suis</p>
-                    <p>Annick</p>
+                    <p>Sans l’ombre d’un doute, je suis <br></br>
 
-                </div>
-                <div className='creativearticle article2'>
-                    <p>« Vacances »</p>
-                    <p>« Le monde est plein d’endroits mais celui-là est à toi… » <br></br> Voici ce que tu as
-                        devant les yeux : <br></br> Un village perché, griffant le ciel bleu, accordant la valse <br></br>
-                        des nuages. Une église ceinte de vitraux noirs, havre d’une <br></br> fraîcheur calmant la
-                        fièvre. Au-dedans coulent des arc-<br></br>en-ciel, le miracle Soulages… <br></br> Voici ce que tes
-                        narines respirent :<br></br> La poussière des vieux bois de l’appartement familial…<br></br> Cuite
-                        par le soleil, la vapeur puissante des touffes de thym,<br></br> d’ail et de serpolet. «
-                        Les odeurs, tu le sais, sont capables<br></br> de souvenirs ».<br></br> Voici ce que tes oreilles
-                        entendent :<br></br> Le bruissement des feuilles dans les hautes frondaisons.<br></br> Le
-                        délicieux clapotis de la rivière glissant sur les galets<br></br> moussus met l’eau à la
-                        bouche.<br></br> Les cris de joie des enfants comme des pépiements <br></br>d’oiseaux.<br></br> Les calmes
-                        battements de ton cœur qui te murmurent que c’est cela qu’il te faut, à cet
-                        instant…<br></br> Oui, ce village, ces moments, mettent sous ta peau ces <br></br> sensations, dans
-                        ton âme ce chant, ces images sous tes<br></br> paupières…</p>
+Les formes changeantes des nuages <br></br>
+
+Le bruissement des feuilles d’automne écrasées sous les pas <br></br>
+
+L’eau fraîche sur un front fiévreux <br></br>
+
+La montagne poudrée de neige <br></br>
+
+L’effort pour la gravir<br></br>
+<br></br>
+
+
+Sans l’ombre d’un doute, je suis<br></br>
+
+Les flaques d’eau-miroirs <br></br>
+
+Le rythme de la marche, sa mécanique <br></br>
+
+Le nez en l’air <br></br>
+
+Le regard levé vers les loupiotes du ciel <br></br>
+
+Mais où est l’étoile du Berger ? <br></br>
+<br></br>
+
+
+Sans l’ombre d’un doute, je suis <br></br>
+
+Le jardin-fouillis où poussent mêlés carottes et pissenlits <br></br>
+
+Le chemin que je perds et qui m’éloigne de la mer <br></br>
+
+L’idée noyée dans la tasse de thé <br></br>
+
+La recette ratée, trop sucrée, trop pimentée <br></br>
+<br></br>
+
+
+Sans l’ombre d’un doute, je suis <br></br>
+
+Une respiration, une suffocation <br></br>
+
+Un clin d’œil <br></br>
+
+Un sourire en coin, un rire fou <br></br>
+
+Les mains dans des poches crevées <br></br>
+<br></br>
+
+
+Sans l’ombre d’un doute, je suis <br></br>
+
+L’intranquillité <br></br>
+
+Une parole peu audible  <br></br>
+
+Un écrit confus <br></br>
+
+Le rouge aux joues <br></br>
+
+La tentation de la fuite <br></br>
+
+L’âpreté du pardon <br></br>
+
+Une hésitation <br></br>
+<br></br>
+
+
+Sans l’ombre d’un doute, je suis <br></br>
+
+Des pleurs sans raison <br></br>
+
+Une colère sans objet <br></br>
+
+La joie des petits riens <br></br>
+
+Un cœur sensible et enfantin <br></br>
+
+La bienveillance et la constance <br></br>
+
+
+
+Méli-mélo, je suis, sans repos, je suis mais sans l’ombre d’un doute, je suis…	</p>
                     <p>Marie-Christine</p>
 
                 </div>
+                <div className='creativearticle article2'>
+                    <p>Je suis <br></br>
+
+Celui qui suivait son chemin <br></br>
+
+Dans les yeux bleus de sa mère <br></br>
+
+Parfois ouverts souvent éteints <br></br>
+
+Dans l’ombre et la lumière <br></br>
+
+Je suis Gilles <br></br>
+
+
+
+Je suis <br></br>
+
+Celui qui a quatre fois dix-sept ans <br></br>
+
+N’est toujours pas sérieux <br></br>
+
+S’en va récitant les poètes de sept ans <br></br>
+
+Avant de n’être plus que l’ombre de soi-même <br></br>
+
+Je suis Gilles <br></br>
+<br></br>
+
+
+
+Je suis <br></br>
+
+Celui qui aima Ferré et Rezvani pour elle <br></br>
+
+Du temps où elle était ma vie <br></br>
+
+Je me dois encore d’être en vie <br></br>
+
+Sans l’ombre d’un doute, sans elle <br></br>
+
+Je suis Gilles <br></br>
+<br></br>
+
+
+Je suis <br></br>
+
+Celui qui montera le Fuji et l’Himalaya <br></br>
+
+Je marcherai toujours <br></br>
+
+J’avancerai tant que tu m’aimeras <br></br>
+
+Toujours à l’ombre de ton amour <br></br>
+
+Je suis Gilles <br></br>
+<br></br>
+
+
+Je suis <br></br>
+
+Le monde ouvrier oublié <br></br>
+
+Héritier de la misère sociale <br></br>
+
+De vies meurtries infernales <br></br>
+
+Je suis l’ombre de la révolte <br></br>
+
+Je suis Gilles <br></br>
+<br></br>
+
+
+Je suis le vol des corbeaux de mon aïeul <br></br>
+
+La misère niée la colère à fleur de peau <br></br>
+
+Et tes baisers au goût de miel <br></br>
+
+Ma haine n’est plus qu’une ombre dans tes yeux <br></br>
+
+Je suis Gilles <br></br>
+<br></br>
+
+
+Je suis <br></br>
+
+Je suis la paix retrouvée <br></br>
+
+La paix des chiens <br></br>
+
+Quand les colliers tombés enfin <br></br>
+
+Je m’endors à tes côtés <br></br>
+
+</p>
+                    <p>Je suis Gilles</p>
+
+                </div>
                 <div className='creativearticle article3'>
-                    <p>Une fragrance,<br></br> La chaleur des rayons du soleil sur le visage <br></br> Un maillot de
-                        bain pour se jeter dans les vagues <br></br> J’accepte de me perdre sur des sentiers et
-                        des chemins <br></br> de traverse…<br></br> Ah, une trouée, une clairière…<br></br> Mouvance inquiète du
-                        pont improbable<br></br> Saint-Tropez.</p>
-                    <p>Poésie collective/ cadavre exquis</p>
+                    <p>Je suis la femme <br></br>
+
+Libérée, enlacée et aimée <br></br>
+
+Chaque jour je respire l’air pur des hautes cimes <br></br>
+
+Au cœur de la vallée l’eau poursuit son ouvrage <br></br>
+
+En devenant un fleuve, là,  au bout de mon âge <br></br>
+<br></br>
+
+
+Je suis la mère <br></br>
+
+Attentive, bienveillante, la  louve protectrice.<br></br>
+
+J’aime à te découvrir, j’aime à me reconnaître :<br></br>
+
+Dans tes gestes ma fille,  résonne un peu de moi,<br></br>
+
+Dans tes mots mon fils, j’entends aussi ma voix.<br></br>
+<br></br>
+
+
+Je suis l’épouse <br></br>
+
+Je me dois d’entendre tes silences et tes plaintes <br></br>
+
+Et de les accueillir en toute humilité <br></br>
+
+De veiller sur ton corps, ton cœur et ton esprit <br></br>
+
+Prendre soin de tes rêves de tes cauchemars aussi.<br></br>
+
+
+
+Je suis une ombre <br></br>
+
+Tu m’as  laissée devenir l’ombre de ta main même l’ombre de ton chien <br></br>
+
+Dans l’ombre et la lumière nous nous sommes aimés <br></br>
+
+Depuis, je trace à tes côtés nos ombres colorées, <br></br>
+
+Nos ombres embrassées sur la terre exposées <br></br>
+<br></br>
+
+
+Je suis une idée <br></br>
+
+Aux rives de l’instinct je ferme un peu les yeux <br></br>
+
+J’écoute et je ressens en moi  battre le monde <br></br>
+
+Je transforme et je créé changeant de point de mire <br></br>
+
+Je vire vers un pays où les rêves respirent <br></br>
+<br></br>
+
+
+Je suis un chemin <br></br>
+
+Ton pas contre mon pas, rythme la marche de nos cœurs <br></br>
+
+Je pars, je vole, je t’aime, mon âme déambule <br></br>
+
+Je crois donc je chante, gravissant  les montagnes, <br></br>
+
+J’explore les sentiers où mon cœur ivre flâne <br></br>
+<br></br>
+
+
+Je suis : Musique <br></br>
+
+Je m’aime donc je suis, il faut un temps pour tout <br></br>
+
+Il est 22h30,  les notes se fréquentent et finissent par s’unir <br></br>
+
+Elles rencontrent mes mots et s’accouplent encore <br></br>
+
+Aux plus belles  chansons, elles donnent naissance alors. <br></br>
+<br></br>
+
+
+Je suis : Vent <br></br>
+
+J’ai déjoué les écueils en glissant sur les vagues <br></br>
+
+M’abandonnant souvent  aux rives de ton corps <br></br>
+
+J’ai flirté dans les feuilles des chênes centenaires <br></br>
+
+M’assoupissant parfois au cœur d’une clairière <br></br>
+<br></br>
+
+
+Je suis : Poésie <br></br>
+
+J’ai pris le temps de vivre, d’être libre mon amour…<br></br>
+
+Toujours je chérirai la mer, la mer est mon miroir <br></br>
+
+Je vis avec la rime,  je rime avec la vie, <br></br>
+
+J’ai puisé à l’encre de tes yeux tous mes récits.<br></br>
+<br></br>
+
+
+Je suis comme je suis <br></br>
+
+Je ne m’échappe pas, je reste à mes côtés. <br></br>
+
+Je m’arrête et m’écoute, J’ai mille fois changé, <br></br>
+
+J’ai mille fois perdu et mille fois gagné,<br></br>
+
+J’ai mille fois souri et mille fois pleuré. <br></br>
+
+
+
+Je suis : femme, mère, épouse, ombre, idée, chemin, musique, vent, poésie
+<br></br>
+Je suis moi toute entière et enfin réunie
+
+</p>
+                    <p>Je suis Brigitte</p>
 
                 </div>
-                <div className='creativearticle article4'>
-                    <p>L’errance crépusculaire <br></br> Flâner au gré de ses envies <br></br> S’enfoncer dans le sol,
-                        dans le sable chaud,<br></br> Profiter du moment sous le soleil couchant,<br></br> Sous le vent du
-                        soir, sous une moustiquaire…<br></br> Une revivance d’étonnements<br></br> L’enfance</p>
-                    <p>Poésie collective/ cadavre exquis</p>
 
-                </div>
-
-                <div className='creativearticle article5'>
-                    <p>Voici ce que tu as devant les yeux. Une scène de liesse enveloppée de la
-                        touffeur de l’été. Été 97. J’ai 18 ans. La musique est entêtante. Mes pieds nus
-                        dansent dans l’herbe moite. Les rayons du soleil filtrent à travers les branches
-                        encore lourdes des arbres fruitiers. J’ai chaud, j’ai soif, mais je ne m’arrête
-                        pas de danser, emportée par mes propres mouvements et mes éclats de rire. Un peu
-                        plus loin sur la terrasse, le maillot de bain encore mouillé balance dans la
-                        brise salvatrice. Les odeurs du barbecue des voisins et les rires gras
-                        clairement imbibés remplissent l’atmosphère. J’ai chaud, j’ai soif, mais je ne
-                        m’arrête pas. Le soleil commence à décliner. Des reflets orangés caressent la
-                        table blanche en plastique du jardin. Quelqu’un me parle. Je fais semblant
-                        d’avoir compris. Je lui souris. Au loin, j’entends la voisine qui râle : « Mais
-                        fermez-la bande de sauvages ! » Ça me fait rire ! Alors je danse encore plus
-                        fort. Je crois que la nuit est tombée. A la campagne, on a la chance de voir les
-                        étoiles. Je lève la tête et contemple tous ces petits points qui scintillent,
-                        comme des clins d'œil. J’ai 18 ans. Tout est parfait. Je danse et je glisse
-                        quantité d’images sous mes paupières.</p>
-                    <p>Annabelle</p>
-
-                </div>
-                <div className='creativearticle article6'>
-                    <p>Étonnement bondissants <br></br> Sur les chemins de traverse<br></br> L'inconnu attend</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle article7'>
-                    <p>Voici ce que tu as sous les yeux .Voici ce qui insiste sans cesse où que tu
-                        sois . Tu as eu beau parcourir le monde , découvrir d'autres paysages ,
-                        rencontrer d'autres cultures , c'est là sous tes yeux ce que tu cherchais . Tu
-                        es du pays de ton enfance ! Combien tu l'as haïe cette phrase toute faite ,
-                        facile , enfermante , un prêt à penser ! Tu as tout fait pour le quitter ce
-                        pays-là, pour tracer de nouvelles frontières, pour effacer toutes traces du
-                        passé . Tu as cru pouvoir l'oublier Ouvre les yeux , écoute enfin ce qu'il a à
-                        te dire. Écoute et suit les sentes de l'enfance où tu aimais flâner au gré des
-                        fragrances , emportée par d'improbables mouvances Vois les prés piquetés d'or ,
-                        entend la rivière chuchoter , observe entre tes mains la pierre de schiste
-                        s'effriter . Écoute , là le chant des cigales , sens sous tes pieds nus le
-                        chatouillement de l'herbe . Respire le parfum de bruyère et de serpolet . Laisse
-                        le jus des cerises couler dans ta gorge . Écoute la vie palpite ... Étonnements
-                        bondissants sur les chemins de traverse où l'inconnu attend à chaque instant .
-                        Ce pays-là est celui qui est en toi . Regarde la liberté danse sous tes
-                        paupières</p>
-                    <p>Annick</p>
-
-                </div>
-                <div className='creativearticle'>
-                    <p>Voici ce que tu as devant les yeux; les horizons vagues du parc des volcans
-                        d'Auvergne à l'herbe arasée sous la dent des Salers aux cornes démesurées. La
-                        survivance des familles éparses aux accents roulants comme roulent les vieilles
-                        pierres de lave. Vieux pays, vieux peuple clairsemé. Je suis là dans ce
-                        minuscule village. En vacances chez ma tante, sa soeur. En exil, immigré du Nord
-                        de la France. J'ai dix ans. Je ne connais personne. Je suis là, dans les pas de
-                        son absence, il y a si longtemps qu'elle est partie. Dans ce désert écrasé par
-                        un lourd manteau caniculaire où le vent frais tente parfois des caresses
-                        illusoires, j'étais là. En vacances. Là où ma mère avait grandi, au milieu et
-                        dans le souvenir de ses aïeux d'ici. Mes inconnus. De grands buissons fleuris
-                        libéraient des insectes enfin maîtres de leur court destin. Des fougères géantes
-                        caressaient mes chevilles. C'était donc de ces fougères là dont elle parlait de
-                        temps en temps quand rêveuse et languissante, elle s'abandonnait à la nostalgie.
-                        Entre deux jeux d'été, de courses, de bagarres avec ce cousin, nouveau, je me
-                        plantai devant les deux rochers de ma mère, attendant qu'ils me parlent d'elle.
-                        De ce qu'avait été sa vie ici. Des images qu'elle emportait sous les paupières
-                        le soir.</p>
-                    <p>Gilles</p>
-
-                </div>
+                
 
             </div>
             <Footer/>

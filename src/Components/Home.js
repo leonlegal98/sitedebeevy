@@ -14,30 +14,53 @@ import soundFile2 from '../sonAccueil/crayon.mp3';
 import soundFile3 from '../sonAccueil/chapeau.mp3';
 
 function Home() {
-    const [modalOpen,
-        setModalOpen] = useState(false);
-    const [selectedImage,
-        setSelectedImage] = useState(null);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedImages, setSelectedImages] = useState([]);
+
+    const handleImageClick = (image) => {
+    const imagesToShow = imageAssociations[image];
+    setSelectedImages(imagesToShow);
+    setModalOpen(true);
+    };
+
+    const closeModal = () => {
+    setSelectedImages([]);
+    setModalOpen(false);
+    };
 
     const imageAssociations = {
         '/images/bl4-01.png': '/images/ArticlelAlsace_1.jpg',
-        '/images/bl4-02.png': '/images/EhpadErstein_1.jpg',
+        '/images/bl4-02.png': [
+            '/images/EhpadErstein_1.jpg',
+            '/images/DNA_1_1.jpg', // Ajoutez ici le chemin de la deuxième image
+        ],
         '/images/bl4-03.png': '/images/Eurometropole_1.jpg',
         '/images/bl4-04.png': '/images/BulletinHoenheim_1.jpg',
-        '/images/bl4-05.png': '/images/page01_1.jpg',
+        '/images/bl4-05.png': [
+            '/images/page01_1.jpg',
+            '/images/page02_1.jpg',
+            '/images/page03_1.jpg',
+            '/images/page04_1.jpg',
+            '/images/page05_1.jpg',
+            '/images/page06_1.jpg',
+            '/images/page07_1.jpg',
+            '/images/page08_1.jpg',
+            '/images/page09_1.jpg',
+            '/images/page10_1.jpg',
+            '/images/page11_1.jpg',
+            '/images/page12_1.jpg',
+            '/images/page13_1.jpg',
+            '/images/page14_1.jpg',
+            '/images/page15_1.jpg',
+            '/images/page16_1.jpg',
+            '/images/page17_1.jpg',
+
+        ],
         '/images/bl4-06.png': '/images/article_1.jpg',
         // Ajoutez ici les associations pour vos images
     };
 
-    const handleImageClick = (image) => {
-        setSelectedImage(imageAssociations[image]);
-        setModalOpen(true);
-    };
-    const closeModal = () => {
-        setSelectedImage(null);
-        setModalOpen(false);
-    };
-
+   
     const [audio] = useState(new Audio(soundFile));
     const playSound = () => {
         audio.play();
@@ -101,7 +124,7 @@ function Home() {
                             <Link to="https://www.facebook.com/latelierdebeevy" target="_blank">
                                 <img src='/images/facebook.png'/>
                             </Link>
-                            <Link to="https://www.instagram.com/ecriturecreative_beevy/" target="_blank">
+                            <Link to="https://www.instagram.com/latelierdebeevy/" target="_blank">
                                 <img src='/images/instagram.png'/>
                             </Link>
                             <Link to="https://www.youtube.com/@LatelierdeBeevy" target="_blank">
@@ -238,8 +261,8 @@ function Home() {
                         <SwiperSlide>
                             <div className='car1slide2'>
                                 <img className='car2imgsize' src='/images/car2im2.png'/>
-                                <p>“L'atelier de Beevy, c'est le moment 
-                                    du lâcher prise" Anne Lamothe, -professionnelle du Relais Petite Enfance d'Ingwiller</p>
+                                <p>"L'atelier de Beevy, c'est le moment du lâcher prise" Anne Lamothe, 
+                                    professionnelle du Relais Petite Enfance d'Ingwiller</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
@@ -291,15 +314,24 @@ function Home() {
                         onClick={() => handleImageClick(image)}/>))}
             </div>
             {modalOpen && (
-                <div className="modal-overlay" onClick={closeModal}>
-                    <div className="modal">
-                        <div className="modal-header">
-                            <button className="close-button" onClick={closeModal}>X</button>
-                        </div>
-                        {selectedImage && <img src={selectedImage} alt="Image en grand"/>}
-                    </div>
-                </div>
-            )}
+  <div className="modal-overlay" onClick={closeModal}>
+    <div className="modal">
+      <div className="modal-header">
+        <button className="close-button" onClick={closeModal}>X</button>
+      </div>
+      <div className="modal-images">
+        {Array.isArray(selectedImages) ? (
+          selectedImages.map((image, index) => (
+            <img key={index} src={image} alt={`Image en grand`} />
+          ))
+        ) : (
+          <img src={selectedImages} alt={`Image en grand`} />
+        )}
+      </div>
+    </div>
+  </div>
+)}
+
             <div className='block5'>
                 <h1 className='titrebl5'>Suivez-moi sur les réseaux</h1>
                 <p className='textbl5'>Pour être au courant de toute mon actu et des ateliers d’écriture à venir</p>
@@ -321,7 +353,7 @@ function Home() {
                         /* Styles réactifs pour une largeur d'écran maximale de 868 pixels */
                         .mySwiper2 .swiper-button-next,
                         .mySwiper2 .swiper-button-prev {
-                            top: 20% !important;
+                            top: 30% !important;
                             /* Ajustez la valeur pour les écrans plus petits */
                         }
                     }
