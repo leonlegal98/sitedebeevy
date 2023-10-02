@@ -1,13 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.583aa1cf.css",
-    "main.js": "/static/js/main.8f158a44.js",
+    "main.css": "/static/css/main.06830ef1.css",
+    "main.js": "/static/js/main.f022ffc1.js",
+    "static/media/citationcioran.mp3": "/static/media/citationcioran.0514560f67427868ab6c.mp3",
+    "static/media/chapeau.mp3": "/static/media/chapeau.f52b21f338dfb71e1027.mp3",
+    "static/media/cartonvert.mp3": "/static/media/cartonvert.b17685f1fda5d55e05e1.mp3",
+    "static/media/crayon.mp3": "/static/media/crayon.1134f4a62726362ee5d5.mp3",
+    "static/media/mainquiecrit.mp3": "/static/media/mainquiecrit.96da8d3b43e3dc9985db.mp3",
+    "static/media/sonrobin.mp3": "/static/media/sonrobin.9f0f5a3e757c07b60de3.mp3",
+    "static/media/graindecafe.mp3": "/static/media/graindecafe.405a666c7fb49b2cea1d.mp3",
+    "static/media/pagecontact.mp3": "/static/media/pagecontact.c5dd1c3f317135ec7d3b.mp3",
+    "static/media/coeur.mp3": "/static/media/coeur.e006da151e3a10154b2f.mp3",
+    "static/media/Literata_60pt-ExtraLightItalic.woff": "/static/media/Literata_60pt-ExtraLightItalic.63f24cad7272f2187d0e.woff",
+    "static/media/Literata_60pt-Light.woff": "/static/media/Literata_60pt-Light.0e87fec1f47470dc7090.woff",
+    "static/media/Literata_60pt-ExtraLight.woff": "/static/media/Literata_60pt-ExtraLight.7ef7cebd14e87cd2d1c2.woff",
+    "static/media/HindSiliguri-Light.woff": "/static/media/HindSiliguri-Light.4d50425e7e8680fab2a1.woff",
+    "static/media/CrimsonPro-ExtraLightItalic.woff": "/static/media/CrimsonPro-ExtraLightItalic.ab149d0894058f18b3b9.woff",
+    "static/media/Apercu Light Italic.woff": "/static/media/Apercu Light Italic.a46064dc1f14df518dfd.woff",
+    "static/media/MADE Mirage Thin PERSONAL USE.woff": "/static/media/MADE Mirage Thin PERSONAL USE.07b54dd06ce3364bdc6d.woff",
+    "static/media/Apercu Regular.woff": "/static/media/Apercu Regular.60f7252455ebe2ef0f39.woff",
+    "static/media/Apercu Light.woff": "/static/media/Apercu Light.986acd240bd519a130aa.woff",
+    "static/media/MADE Mirage Regular PERSONAL USE.woff2": "/static/media/MADE Mirage Regular PERSONAL USE.4d85587bb5d513b50a56.woff2",
     "index.html": "/index.html",
-    "main.583aa1cf.css.map": "/static/css/main.583aa1cf.css.map",
-    "main.8f158a44.js.map": "/static/js/main.8f158a44.js.map"
+    "main.06830ef1.css.map": "/static/css/main.06830ef1.css.map",
+    "main.f022ffc1.js.map": "/static/js/main.f022ffc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.583aa1cf.css",
-    "static/js/main.8f158a44.js"
+    "static/css/main.06830ef1.css",
+    "static/js/main.f022ffc1.js"
   ]
 }

@@ -108,8 +108,8 @@ function Atelier() {
                     <h1>Un atelier d’écriture c’est quoi ?</h1>
                     <p>Un atelier d’écriture est un lieu regroupant des personnes qui écrivent. Pour
                         reprendre les mots d’Odile Neumayer, « en atelier, il n’y a pas de hors-sujet »
-                        car « c’est vous le sujet. » Ouvert.es à toustes, sans aucune restriction , mes
-                        ateliers se déroulent en « présentiel » ou en « visio ».
+                        car «c’est vous le sujet.» Ouvert.es à toustes, sans aucune restriction , mes
+                        ateliers se déroulent en «présentiel» ou en « visio ».
                     </p>
                     <div className='liensect1'>
                         <a href='/texteatelier'>Textes d’ateliers</a>
@@ -233,7 +233,7 @@ function Atelier() {
                     className="mySwiper">
                     <SwiperSlide>
                         <div className='car3slide2'>
-                            <img className='car2imgsize' src='/images/car2im1.png'/>
+                            <img className='car2imgsize' alt='img carrouselle' src='/images/car2im1.png'/>
                             <p>Dans le cadre du dispositif national “La classe, l'œuvre”, le Labo des
                                 <br></br>
                                 Histoires- Grand Est a organisé le cycle d’ateliers d’écriture “Sur les
@@ -245,7 +245,7 @@ function Atelier() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car3slide2'>
-                            <img className='car2imgsize' src='/images/car2im2.png'/>
+                            <img className='car2imgsize' alt='img carrouselle' src='/images/car2im2.png'/>
                             <p>Depuis juin 2022, j’interviens sur le territoire de La petite Pierre
                                 <br></br>
                                 auprès d’assistantes maternelles. L’occasion pour ces
@@ -259,7 +259,7 @@ function Atelier() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car3slide2'>
-                            <img className='car2imgsize' src='/images/car2im3.png'/>
+                            <img className='car2imgsize' alt='img carrouselle' src='/images/car2im3.png'/>
                             <p>En collaboration avec Actemo Théâtre et Le Centre Hospitalier
                                 <br></br>
                                 d’Erstein. « Une série d'ateliers d'écriture tout en émotions, poésie
@@ -270,7 +270,7 @@ function Atelier() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car3slide2'>
-                            <img className='car2imgsize' src='/images/car2im4.png'/>
+                            <img className='car2imgsize' alt='img carrouselle' src='/images/car2im4.png'/>
                             <p>Depuis mars 2020, un atelier d'écriture créative par mois est
                                 <br></br>
                                 proposé aux soignantes de l'EHPAD ABRAPA.</p>
@@ -278,7 +278,7 @@ function Atelier() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car3slide2'>
-                            <img className='car2imgsize' src='/images/car2im5.png'/>
+                            <img className='car2imgsize' alt='img carrouselle' src='/images/car2im5.png'/>
                             <p>« Cet atelier à permis aux participants de renouer avec les autres,<br></br>
                                 de retrouver confiance » Sabrina Helbling, co-administratice
                             </p>
@@ -286,7 +286,7 @@ function Atelier() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='car3slide2'>
-                            <img className='car2imgsize' src='/images/car2im6.png'/>
+                            <img className='car2imgsize' alt='img carrouselle' src='/images/car2im6.png'/>
                             <p>Des ateliers d'écriture proposés à un public de migrants du centre
                                 <br></br>
                                 de Ferrette. L’occasion d’aborder les thèmes de l'égalité, de la

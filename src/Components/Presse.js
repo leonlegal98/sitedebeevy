@@ -4,6 +4,7 @@ import Bio from './Bio.js';
 import Home from './Home.js';
 import Footer from './Footer';
 import React, {useRef, useState, useEffect} from 'react';
+import { Helmet } from 'react-helmet';
 
 function Presse() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -14,7 +15,7 @@ function Presse() {
     setSelectedImages(imagesToShow);
     setModalOpen(true);
     };
-
+    
     const closeModal = () => {
     setSelectedImages([]);
     setModalOpen(false);
@@ -25,8 +26,8 @@ function Presse() {
             '/images/EhpadErstein_1.jpg',
             '/images/DNA_1_1.jpg', // Ajoutez ici le chemin de la deuxième image
         ],
-        '/images/3.png': '/images/Eurometropole_1.jpg',
-        '/images/4.png': '/images/BulletinHoenheim_1.jpg',
+        '/images/3.png': '/images/BulletinHoenheim_1.jpg',
+        '/images/4.png': '/images/Eurometropole_1.jpg',
         '/images/5.png': [
             '/images/page01_1.jpg',
             '/images/page02_1.jpg',
@@ -55,6 +56,9 @@ function Presse() {
     return (
 
         <div className="pressebody">
+            <Helmet>
+                <meta name="description" content="Page Presse site de Beevy" />
+        </Helmet>
 
             <div className='titrepresse'>
                 <h1>Presse écrite</h1>
@@ -94,7 +98,7 @@ function Presse() {
                 <div>
                     
                 <a href='https://www.youtube.com/watch?v=ehSTKBNhjj0' target="_blank">
-                <img src='/images/pressbl1.png'/>
+                <img src='/images/pressbl1.png'alt='press image1' />
                 </a>
                 </div>
                 
@@ -115,7 +119,7 @@ function Presse() {
             <div className='pressbl2'>
                 <div>
                 <a href='https://www.youtube.com/watch?v=5XiJvngx5Ew' target="_blank">
-                <img src='/images/press-02.png'/>
+                <img src='/images/press-02.png' alt='press image2' />
                 </a>
                 </div>
                
@@ -139,7 +143,7 @@ function Presse() {
             <div className='pressbl3'>
                 <div>
                     <a href='https://www.youtube.com/watch?v=PKGzcsYY7Ys' target="_blank">
-                <img src='/images/press-03.png'/>
+                <img src='/images/press-03.png'alt='press image3' />
                 </a>
                 </div>
                 

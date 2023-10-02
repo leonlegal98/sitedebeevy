@@ -1,7 +1,8 @@
 import React, {useRef, useState} from 'react';
 import '../Styles/Tarif.css'
 import Footer from './Footer';
-import soundtarif from '../sonTarif/cartonvert.mp3'
+import soundtarif from '../sonTarif/cartonvert.mp3';
+import { Helmet } from 'react-helmet';
 
 function Tarifs() {
     const [audio] = useState(new Audio(soundtarif));
@@ -10,6 +11,9 @@ function Tarifs() {
     };
     return (
         <div className='tarifbody'>
+            <Helmet>
+                <meta name="description" content="Page Tarif site de Beevy" />
+        </Helmet>
             <div className='tarifbl1'>
 
                 <div className='tarifblocleft'>

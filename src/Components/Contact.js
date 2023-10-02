@@ -4,6 +4,7 @@ import validator from 'validator';
 import Footer from './Footer'
 import '../Styles/Contact.css';
 import soundFile1 from '../sonContact/pagecontact.mp3';
+import { Helmet } from 'react-helmet';
 
 function ContactForm() {
     const [formData,
@@ -30,13 +31,12 @@ function ContactForm() {
     const handleSubmit = async(e) => {
         e.preventDefault();
 
-        // Vérifiez que tous les champs sont remplis
+     
         if (!formData.firstName || !formData.lastName || !formData.email || !formData.subject || !formData.message) {
             setErrorMessage('Veuillez remplir tous les champs.');
             return;
         }
 
-        // Vérifiez que l'e-mail est valide
         if (!validator.isEmail(formData.email)) {
             setErrorMessage('Veuillez entrer une adresse e-mail valide.');
             return;
@@ -63,7 +63,9 @@ function ContactForm() {
 
     return (
         <div className='contactbio'>
-
+                <Helmet>
+                <meta name="description" content="Page Contact site de Beevy" />
+                </Helmet>
             <div className='homecontact'>
                 <div className='contactimage'>
                     <img

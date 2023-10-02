@@ -2,10 +2,14 @@ import React from 'react';
 
 import '../Styles/Creative.css';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 function Creative() {
     return (
         <div className='creativebody'>
+             <Helmet>
+                <meta name="description" content="Page Contact site de Beevy" />
+                </Helmet>
             <div className='titrecreative'>
                 <h1>Journée d'écriture créative :<br></br> "Un air de vacances"</h1>
 

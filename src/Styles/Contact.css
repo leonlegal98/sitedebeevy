@@ -96,7 +96,7 @@ textarea {
 .prenomcontact{
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    
 }
 .nomcontactpos{
     display: flex;
@@ -157,6 +157,9 @@ form label{
     }
     .nomcontact{
         display: block;
+    }
+    .nomcontactpos{
+        margin-left: 0px;
     }
     .buttoncontact{
        margin-left: 80%;

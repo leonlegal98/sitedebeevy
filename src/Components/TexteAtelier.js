@@ -2,10 +2,14 @@ import React from 'react';
 
 import '../Styles/TexteAtelier.css';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 function TexteAtelier() {
     return (
         <div className='texteatelierbody'>
+            <Helmet>
+                <meta name="description" content="Page texte atelier site de Beevy" />
+        </Helmet>
             <div className='titretexteatelier'>
                 <h1>Textes d’ateliers</h1>
                 <p className='decouvreatelier'>Découvrez une sélection de textes publiés avec

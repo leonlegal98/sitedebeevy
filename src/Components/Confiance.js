@@ -2,10 +2,14 @@ import React from 'react';
 
 import '../Styles/Confiance.css';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 function Confiance() {
     return (
         <div className='confiancehome'>
+            <Helmet>
+                <meta name="description" content="Page Confiance site de Beevy" />
+        </Helmet>
             <div className='titreconfiance'>
                 <h1>Ils me font confiance</h1>
 

@@ -1,6 +1,7 @@
 import Footer from './Footer';
 import React, {useState, useRef} from 'react';
 import '../Styles/Podcast.css';
+import { Helmet } from 'react-helmet';
 
 function Podcast() {
     const [currentlyPlaying,
@@ -71,6 +72,9 @@ function Podcast() {
 
     return (
         <div className='podcastbody'>
+            <Helmet>
+                <meta name="description" content="Page Podcast site de Beevy" />
+        </Helmet>
             <div className='titrepodcast'>
                 <h1>Podcasts</h1>
             </div>
